@@ -143,7 +143,7 @@ def main():
     # download specific file types?
     if args.type:
         if not set(args.type) & set(FILETYPES):
-            print('ERROR: Invalid file type: ' + file_type)
+            print('ERROR: Invalid file type: ' + args.type)
             return
         file_types = args.type
 

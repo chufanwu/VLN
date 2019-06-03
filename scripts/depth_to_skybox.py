@@ -245,7 +245,7 @@ def depth_to_skybox(scan, visualize=VISUALIZE_OUTPUT, fill_holes=FILL_HOLES):
 
 if __name__ == '__main__':
 
-  with open('connectivity/scans.txt') as f:
+  with open('connectivity/scan1.txt') as f:
     scans = [scan.strip() for scan in f.readlines()]
     p = Pool(NUM_WORKER_PROCESSES)
     p.map(depth_to_skybox, scans)

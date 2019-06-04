@@ -28,6 +28,9 @@ cmake -DPYTHON_EXECUTABLE:FILEPATH=$(which python) ..
 make
 cd ../
 ```
+
+### things to keep in mind
+1. axis defination: 
 ### Dataset Download
 
 ### Dataset Preprocessing

@@ -11,7 +11,10 @@ import cv2
 import numpy as np
 from multiprocessing import Pool
 from numpy.linalg import inv,norm
-from StringIO import StringIO
+try:
+    from StringIO import StringIO
+except ImportError:
+    from io import StringIO
 
 
 # Parameters
@@ -138,7 +141,7 @@ def depth_to_skybox(scan, visualize=VISUALIZE_OUTPUT, fill_holes=FILL_HOLES):
   K_skybox = instrinsic_matrix(SKYBOX_WIDTH, SKYBOX_HEIGHT)
 
   pano_ids = list(set([item.split('_')[0] for item in intrinsics.keys()]))
-  print 'Processing scan %s with %d panoramas' % (scan, len(pano_ids))
+  print ('Processing scan %s with %d panoramas' % (scan, len(pano_ids)))
 
   if visualize:
     cv2.namedWindow('RGB')
@@ -239,7 +242,7 @@ def depth_to_skybox(scan, visualize=VISUALIZE_OUTPUT, fill_holes=FILL_HOLES):
 
   if visualize:
     cv2.destroyAllWindows()
-  print 'Completed scan %s' % (scan)
+  print ('Completed scan %s' % (scan))
 
 
 

@@ -26,7 +26,6 @@ if __name__ == '__main__':
                    if phrase[1] in ['NN','NNS'] and phrase[0] not in ignore_list:
                         nouns.append(phrase[0].lower())
     ans = Counter(nouns).most_common(10)
-    print 
 
     
 

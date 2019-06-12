@@ -26,13 +26,20 @@ sim.setDiscretizedViewingAngles(True)
 sim.initialize()
 #sim.newEpisode(['2t7WUuJeko7'], ['1e6b606b44df4a6086c0f97e826d4d15'], [0], [0])
 #sim.newEpisode(['1LXtFkjw3qL'], ['0b22fa63d0f54a529c525afbf2e8bb25'], [0], [0])
-sim.newRandomEpisode(['1LXtFkjw3qL'])
+#sim.newRandomEpisode(['1LXtFkjw3qL'])
+sim.newEpisode(['1LXtFkjw3qL'], ['9092fc23426942e1a94b66181a3d0fc7'], [5.957], [0])
 
 heading = 0
 elevation = 0
 location = 0
 ANGLEDELTA = 5 * math.pi / 180
-
+'''
+"9092fc23426942e1a94b66181a3d0fc7",
+"8072791758d146aba5ff98920a81fa0c",
+"24df7bedfc814d7e9bd610171c862f7a",
+"707a59ada1bc4b4f90638ddfa809ebd5",
+"1e649cc84c9043b69e2367b7d5aeecf2"
+'''
 print ('\nPython Demo')
 print ('Use arrow keys to move the camera.')
 print ('Use number keys (not numpad) to move to nearby viewpoints indicated in the RGB view.\n')
@@ -47,6 +54,7 @@ while True:
     # get the state detail of the current view
     scanId = state.scanId
     viewpointId = state.location.viewpointId
+    print viewpointId
     viewIndex = state.viewIndex
 
     locations = state.navigableLocations

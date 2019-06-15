@@ -1,0 +1,128 @@
+[
+    {
+        "scan_id": "2n8kARJN3HM", 
+        "instruction": " Make a left out of the doorway", 
+        "type": "title", 
+        "instructionID": 90
+    }, 
+    {
+        "neibors": [
+            {
+                "rel_elevation": 0.0, 
+                "rel_heading": 0.0, 
+                "viewpointId": "add134cc07e64d9d8524d0d9f96c4180", 
+                "rel_distance": 0.0, 
+                "point": [
+                    11.850899696350098, 
+                    -3.9974799156188965, 
+                    1.543720006942749
+                ]
+            }, 
+            {
+                "rel_elevation": -0.011839122180051913, 
+                "rel_heading": 0.20420282095607623, 
+                "viewpointId": "ce5df3235866447d95c4667d72528984", 
+                "rel_distance": 2.81193208694458, 
+                "point": [
+                    9.980449676513672, 
+                    -6.096829891204834, 
+                    1.5104299783706665
+                ]
+            }
+        ], 
+        "elevation": 0.0, 
+        "point": [
+            11.850899696350098, 
+            -3.9974799156188965, 
+            1.543720006942749
+        ], 
+        "imageId": "add134cc07e64d9d8524d0d9f96c4180_18", 
+        "location": "add134cc07e64d9d8524d0d9f96c4180", 
+        "type": "state", 
+        "heading": 3.665191429188092
+    }, 
+    {
+        "elevation": 0, 
+        "type": "action", 
+        "location": 1, 
+        "heading": 0
+    }, 
+    {
+        "neibors": [
+            {
+                "rel_elevation": 0.0, 
+                "rel_heading": 0.0, 
+                "viewpointId": "ce5df3235866447d95c4667d72528984", 
+                "rel_distance": 0.0, 
+                "point": [
+                    9.980449676513672, 
+                    -6.096829891204834, 
+                    1.5104299783706665
+                ]
+            }, 
+            {
+                "rel_elevation": 0.0007902171455069524, 
+                "rel_heading": -0.5174807876662083, 
+                "viewpointId": "21dd8e71dae64f378401cb0eba702b7d", 
+                "rel_distance": 2.6069493293762207, 
+                "point": [
+                    9.964500427246094, 
+                    -8.703729629516602, 
+                    1.5124900341033936
+                ]
+            }
+        ], 
+        "elevation": 0.0, 
+        "point": [
+            9.980449676513672, 
+            -6.096829891204834, 
+            1.5104299783706665
+        ], 
+        "imageId": "ce5df3235866447d95c4667d72528984_18", 
+        "location": "ce5df3235866447d95c4667d72528984", 
+        "type": "state", 
+        "heading": 3.665191429188092
+    }, 
+    {
+        "elevation": 0, 
+        "type": "action", 
+        "location": 0, 
+        "heading": -0.5235987755982988
+    }, 
+    {
+        "neibors": [
+            {
+                "rel_elevation": 0.0, 
+                "rel_heading": 0.0, 
+                "viewpointId": "ce5df3235866447d95c4667d72528984", 
+                "rel_distance": 0.0, 
+                "point": [
+                    9.980449676513672, 
+                    -6.096829891204834, 
+                    1.5104299783706665
+                ]
+            }, 
+            {
+                "rel_elevation": 0.0007902171455069524, 
+                "rel_heading": 0.006118014451682534, 
+                "viewpointId": "21dd8e71dae64f378401cb0eba702b7d", 
+                "rel_distance": 2.6069493293762207, 
+                "point": [
+                    9.964500427246094, 
+                    -8.703729629516602, 
+                    1.5124900341033936
+                ]
+            }
+        ], 
+        "elevation": 0.0, 
+        "point": [
+            9.980449676513672, 
+            -6.096829891204834, 
+            1.5104299783706665
+        ], 
+        "imageId": "ce5df3235866447d95c4667d72528984_18", 
+        "location": "ce5df3235866447d95c4667d72528984", 
+        "type": "state", 
+        "heading": 3.141592653589793
+    }
+]

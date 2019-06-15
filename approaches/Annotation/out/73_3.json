@@ -1,0 +1,129 @@
+[
+    {
+        "scan_id": "5q7pvUzZiYa", 
+        "instruction": " Walk through the bathroom until you reach the bedroom. ", 
+        "type": "title", 
+        "instructionID": 73, 
+        "nouns": []
+    }, 
+    {
+        "neibors": [
+            {
+                "rel_elevation": 0.0, 
+                "rel_heading": 0.0, 
+                "viewpointId": "26a18163fdae4d27901005b3cc3f721c", 
+                "rel_distance": 0.0, 
+                "point": [
+                    12.556599617004395, 
+                    -1.4114700555801392, 
+                    1.590000033378601
+                ]
+            }, 
+            {
+                "rel_elevation": 0.0003238741471748284, 
+                "rel_heading": -0.21406640300955812, 
+                "viewpointId": "ca600b5f8cad447a989cf39548327712", 
+                "rel_distance": 1.6364519596099854, 
+                "point": [
+                    14.155699729919434, 
+                    -1.063830018043518, 
+                    1.5905300378799438
+                ]
+            }
+        ], 
+        "elevation": 0.0, 
+        "point": [
+            12.556599617004395, 
+            -1.4114700555801392, 
+            1.590000033378601
+        ], 
+        "imageId": "26a18163fdae4d27901005b3cc3f721c_15", 
+        "location": "26a18163fdae4d27901005b3cc3f721c", 
+        "type": "state", 
+        "heading": 1.5707963267948966
+    }, 
+    {
+        "type": "action", 
+        "elevation": 0, 
+        "location": 1, 
+        "heading": 0
+    }, 
+    {
+        "neibors": [
+            {
+                "rel_elevation": 0.0, 
+                "rel_heading": 0.0, 
+                "viewpointId": "ca600b5f8cad447a989cf39548327712", 
+                "rel_distance": 0.0, 
+                "point": [
+                    14.155699729919434, 
+                    -1.063830018043518, 
+                    1.5905300378799438
+                ]
+            }, 
+            {
+                "rel_elevation": 0.004293287486369591, 
+                "rel_heading": -0.28959988987088725, 
+                "viewpointId": "48197e3233eb443e8f25733e323b8ea4", 
+                "rel_distance": 1.4184805154800415, 
+                "point": [
+                    15.51509952545166, 
+                    -0.6587600111961365, 
+                    1.596619963645935
+                ]
+            }
+        ], 
+        "elevation": 0.0, 
+        "point": [
+            14.155699729919434, 
+            -1.063830018043518, 
+            1.5905300378799438
+        ], 
+        "imageId": "ca600b5f8cad447a989cf39548327712_15", 
+        "location": "ca600b5f8cad447a989cf39548327712", 
+        "type": "state", 
+        "heading": 1.5707963267948966
+    }, 
+    {
+        "type": "action", 
+        "elevation": 0, 
+        "location": 0, 
+        "heading": -0.5235987755982988
+    }, 
+    {
+        "neibors": [
+            {
+                "rel_elevation": 0.0, 
+                "rel_heading": 0.0, 
+                "viewpointId": "ca600b5f8cad447a989cf39548327712", 
+                "rel_distance": 0.0, 
+                "point": [
+                    14.155699729919434, 
+                    -1.063830018043518, 
+                    1.5905300378799438
+                ]
+            }, 
+            {
+                "rel_elevation": 0.004293287486369591, 
+                "rel_heading": 0.2339988995001696, 
+                "viewpointId": "48197e3233eb443e8f25733e323b8ea4", 
+                "rel_distance": 1.4184805154800415, 
+                "point": [
+                    15.51509952545166, 
+                    -0.6587600111961365, 
+                    1.596619963645935
+                ]
+            }
+        ], 
+        "elevation": 0.0, 
+        "point": [
+            14.155699729919434, 
+            -1.063830018043518, 
+            1.5905300378799438
+        ], 
+        "imageId": "ca600b5f8cad447a989cf39548327712_14", 
+        "location": "ca600b5f8cad447a989cf39548327712", 
+        "type": "state", 
+        "heading": 1.0471975511965976
+    }
+]

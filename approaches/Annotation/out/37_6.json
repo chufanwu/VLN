@@ -1,0 +1,100 @@
+[
+    {
+        "scan_id": "2n8kARJN3HM", 
+        "instruction": "Walk up the concrete steps ", 
+        "type": "title", 
+        "instructionID": 37, 
+        "nouns": [
+            "step"
+        ]
+    }, 
+    {
+        "neibors": [
+            {
+                "rel_elevation": 0.0, 
+                "rel_heading": 0.0, 
+                "viewpointId": "f8aed080cca34f1cae4c902c6824975e", 
+                "rel_distance": 0.0, 
+                "point": [
+                    5.460000038146973, 
+                    -10.221199989318848, 
+                    -2.131730079650879
+                ]
+            }, 
+            {
+                "rel_elevation": 0.016204191485635462, 
+                "rel_heading": -0.03955157990928473, 
+                "viewpointId": "50e0db1cdcee40949b8402761bebf8cf", 
+                "rel_distance": 1.0738449096679688, 
+                "point": [
+                    6.033199787139893, 
+                    -11.12909984588623, 
+                    -2.1143300533294678
+                ]
+            }, 
+            {
+                "rel_elevation": 0.0713727995974431, 
+                "rel_heading": -0.6429725667389431, 
+                "viewpointId": "d8eb4eab2d3442e1a3a7a74fc810be22", 
+                "rel_distance": 4.895935535430908, 
+                "point": [
+                    9.949899673461914, 
+                    -12.141900062561035, 
+                    -1.7825900316238403
+                ]
+            }
+        ], 
+        "elevation": 0.0, 
+        "point": [
+            5.460000038146973, 
+            -10.221199989318848, 
+            -2.131730079650879
+        ], 
+        "imageId": "f8aed080cca34f1cae4c902c6824975e_17", 
+        "location": "f8aed080cca34f1cae4c902c6824975e", 
+        "type": "state", 
+        "heading": 2.617993877991494
+    }, 
+    {
+        "type": "action", 
+        "elevation": 0, 
+        "location": 1, 
+        "heading": 0
+    }, 
+    {
+        "neibors": [
+            {
+                "rel_elevation": 0.0, 
+                "rel_heading": 0.0, 
+                "viewpointId": "50e0db1cdcee40949b8402761bebf8cf", 
+                "rel_distance": 0.0, 
+                "point": [
+                    6.033199787139893, 
+                    -11.12909984588623, 
+                    -2.1143300533294678
+                ]
+            }, 
+            {
+                "rel_elevation": 0.29434165520382505, 
+                "rel_heading": 0.2798807650452135, 
+                "viewpointId": "8139a0f57cf042879b8c6a08a680d225", 
+                "rel_distance": 1.2099556922912598, 
+                "point": [
+                    6.312620162963867, 
+                    -12.252799987792969, 
+                    -1.7633099555969238
+                ]
+            }
+        ], 
+        "elevation": 0.0, 
+        "point": [
+            6.033199787139893, 
+            -11.12909984588623, 
+            -2.1143300533294678
+        ], 
+        "imageId": "50e0db1cdcee40949b8402761bebf8cf_17", 
+        "location": "50e0db1cdcee40949b8402761bebf8cf", 
+        "type": "state", 
+        "heading": 2.617993877991494
+    }
+]

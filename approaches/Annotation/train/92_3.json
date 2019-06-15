@@ -1,0 +1,119 @@
+[
+    {
+        "scan_id": "D7N2EKCX4Sj", 
+        "instruction": "walk past the fireplace.", 
+        "type": "title", 
+        "instructionID": 92
+    }, 
+    {
+        "neibors": [
+            {
+                "rel_elevation": 0.0, 
+                "rel_heading": 0.0, 
+                "viewpointId": "0e8e2c9d09974dab977c1d3868286f12", 
+                "rel_distance": 0.0, 
+                "point": [
+                    0.11593099683523178, 
+                    4.075200080871582, 
+                    1.524209976196289
+                ]
+            }, 
+            {
+                "rel_elevation": 0.0019512048167917725, 
+                "rel_heading": 0.03935580304792675, 
+                "viewpointId": "9766d89c21094c5b872be3a378d4cbad", 
+                "rel_distance": 4.197427272796631, 
+                "point": [
+                    4.310100078582764, 
+                    3.9100499153137207, 
+                    1.5324000120162964
+                ]
+            }, 
+            {
+                "rel_elevation": -0.0020020498271515635, 
+                "rel_heading": -0.5231794135962461, 
+                "viewpointId": "7f03669f1daf499491770eb857dbe25d", 
+                "rel_distance": 2.2377102375030518, 
+                "point": [
+                    2.0543100833892822, 
+                    5.193240165710449, 
+                    1.5197299718856812
+                ]
+            }
+        ], 
+        "elevation": 0.0, 
+        "point": [
+            0.11593099683523178, 
+            4.075200080871582, 
+            1.524209976196289
+        ], 
+        "imageId": "0e8e2c9d09974dab977c1d3868286f12_15", 
+        "location": "0e8e2c9d09974dab977c1d3868286f12", 
+        "type": "state", 
+        "heading": 1.5707963267948966
+    }, 
+    {
+        "elevation": 0, 
+        "type": "action", 
+        "location": 1, 
+        "heading": 0
+    }, 
+    {
+        "neibors": [
+            {
+                "rel_elevation": 0.0, 
+                "rel_heading": 0.0, 
+                "viewpointId": "9766d89c21094c5b872be3a378d4cbad", 
+                "rel_distance": 0.0, 
+                "point": [
+                    4.310100078582764, 
+                    3.9100499153137207, 
+                    1.5324000120162964
+                ]
+            }, 
+            {
+                "rel_elevation": 0.007291261681846059, 
+                "rel_heading": 0.1406469647174083, 
+                "viewpointId": "12e9fa5962de43698cf9cec57105d287", 
+                "rel_distance": 1.7061623334884644, 
+                "point": [
+                    5.999370098114014, 
+                    3.670880079269409, 
+                    1.5448399782180786
+                ]
+            }, 
+            {
+                "rel_elevation": -0.0020742139158018455, 
+                "rel_heading": 0.5094442113605838, 
+                "viewpointId": "7f39d79ddfec4b6e9c98e51576d59ab1", 
+                "rel_distance": 3.635108709335327, 
+                "point": [
+                    7.48360013961792, 
+                    2.137239933013916, 
+                    1.5248600244522095
+                ]
+            }, 
+            {
+                "rel_elevation": -0.0035982883091027354, 
+                "rel_heading": 0.5788413472788275, 
+                "viewpointId": "ae97478ce1c84d5588244906fe089558", 
+                "rel_distance": 3.326601028442383, 
+                "point": [
+                    7.0947699546813965, 
+                    2.0902299880981445, 
+                    1.5204299688339233
+                ]
+            }
+        ], 
+        "elevation": 0.0, 
+        "point": [
+            4.310100078582764, 
+            3.9100499153137207, 
+            1.5324000120162964
+        ], 
+        "imageId": "9766d89c21094c5b872be3a378d4cbad_15", 
+        "location": "9766d89c21094c5b872be3a378d4cbad", 
+        "type": "state", 
+        "heading": 1.5707963267948966
+    }
+]

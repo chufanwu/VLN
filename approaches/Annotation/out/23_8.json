@@ -1,0 +1,131 @@
+[
+    {
+        "scan_id": "1pXnuDYAj8r", 
+        "instruction": "Stop in front of the fireplace. ", 
+        "type": "title", 
+        "instructionID": 23, 
+        "nouns": [
+            "fireplace"
+        ]
+    }, 
+    {
+        "neibors": [
+            {
+                "rel_elevation": 0.0, 
+                "rel_heading": 0.0, 
+                "viewpointId": "1407cf2da95e4f73951798295db82ab6", 
+                "rel_distance": 0.0, 
+                "point": [
+                    9.313190460205078, 
+                    -7.766359806060791, 
+                    1.3250900506973267
+                ]
+            }, 
+            {
+                "rel_elevation": -0.004883381586819898, 
+                "rel_heading": 0.018205111565905298, 
+                "viewpointId": "a6c8016b0fa94ebaa51c2808c6fec8ba", 
+                "rel_distance": 3.3091976642608643, 
+                "point": [
+                    12.621800422668457, 
+                    -7.826600074768066, 
+                    1.3089300394058228
+                ]
+            }
+        ], 
+        "elevation": 0.0, 
+        "point": [
+            9.313190460205078, 
+            -7.766359806060791, 
+            1.3250900506973267
+        ], 
+        "imageId": "1407cf2da95e4f73951798295db82ab6_15", 
+        "location": "1407cf2da95e4f73951798295db82ab6", 
+        "type": "state", 
+        "heading": 1.5707963267948966
+    }, 
+    {
+        "type": "action", 
+        "elevation": 0, 
+        "location": 1, 
+        "heading": 0
+    }, 
+    {
+        "neibors": [
+            {
+                "rel_elevation": 0.0, 
+                "rel_heading": 0.0, 
+                "viewpointId": "a6c8016b0fa94ebaa51c2808c6fec8ba", 
+                "rel_distance": 0.0, 
+                "point": [
+                    12.621800422668457, 
+                    -7.826600074768066, 
+                    1.3089300394058228
+                ]
+            }, 
+            {
+                "rel_elevation": 0.0012154655729324944, 
+                "rel_heading": 0.0931869937276289, 
+                "viewpointId": "1eae38cbbaf744f99de90c99d8c013f1", 
+                "rel_distance": 2.7479236125946045, 
+                "point": [
+                    15.357799530029297, 
+                    -8.082300186157227, 
+                    1.3122700452804565
+                ]
+            }
+        ], 
+        "elevation": 0.0, 
+        "point": [
+            12.621800422668457, 
+            -7.826600074768066, 
+            1.3089300394058228
+        ], 
+        "imageId": "a6c8016b0fa94ebaa51c2808c6fec8ba_15", 
+        "location": "a6c8016b0fa94ebaa51c2808c6fec8ba", 
+        "type": "state", 
+        "heading": 1.5707963267948966
+    }, 
+    {
+        "type": "action", 
+        "elevation": 0, 
+        "location": 0, 
+        "heading": 0
+    }, 
+    {
+        "neibors": [
+            {
+                "rel_elevation": 0.0, 
+                "rel_heading": 0.0, 
+                "viewpointId": "a6c8016b0fa94ebaa51c2808c6fec8ba", 
+                "rel_distance": 0.0, 
+                "point": [
+                    12.621800422668457, 
+                    -7.826600074768066, 
+                    1.3089300394058228
+                ]
+            }, 
+            {
+                "rel_elevation": 0.0012154655729324944, 
+                "rel_heading": 0.0931869937276289, 
+                "viewpointId": "1eae38cbbaf744f99de90c99d8c013f1", 
+                "rel_distance": 2.7479236125946045, 
+                "point": [
+                    15.357799530029297, 
+                    -8.082300186157227, 
+                    1.3122700452804565
+                ]
+            }
+        ], 
+        "elevation": 0.0, 
+        "point": [
+            12.621800422668457, 
+            -7.826600074768066, 
+            1.3089300394058228
+        ], 
+        "imageId": "a6c8016b0fa94ebaa51c2808c6fec8ba_15", 
+        "location": "a6c8016b0fa94ebaa51c2808c6fec8ba", 
+        "type": "state", 
+        "heading": 1.5707963267948966
+    }
+]

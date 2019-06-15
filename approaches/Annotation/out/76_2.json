@@ -1,0 +1,132 @@
+[
+    {
+        "scan_id": "B6ByNegPMKs", 
+        "instruction": "Walk forwards past the copy machine.", 
+        "type": "title", 
+        "instructionID": 76, 
+        "nouns": [
+            "machine", 
+            "copy"
+        ]
+    }, 
+    {
+        "neibors": [
+            {
+                "rel_elevation": 0.0, 
+                "rel_heading": 0.0, 
+                "viewpointId": "e26e2cb761894264a4a34b1046701f6b", 
+                "rel_distance": 0.0, 
+                "point": [
+                    55.25120162963867, 
+                    -2.9543800354003906, 
+                    1.4549599885940552
+                ]
+            }, 
+            {
+                "rel_elevation": -0.005436919243951251, 
+                "rel_heading": 0.04154117046567163, 
+                "viewpointId": "6bd5f24b732f481b84cd0fdd60f92c2e", 
+                "rel_distance": 2.313828468322754, 
+                "point": [
+                    57.5629997253418, 
+                    -3.0504701137542725, 
+                    1.4423799514770508
+                ]
+            }
+        ], 
+        "elevation": 0.0, 
+        "point": [
+            55.25120162963867, 
+            -2.9543800354003906, 
+            1.4549599885940552
+        ], 
+        "imageId": "e26e2cb761894264a4a34b1046701f6b_15", 
+        "location": "e26e2cb761894264a4a34b1046701f6b", 
+        "type": "state", 
+        "heading": 1.5707963267948966
+    }, 
+    {
+        "type": "action", 
+        "elevation": 0, 
+        "location": 1, 
+        "heading": 0
+    }, 
+    {
+        "neibors": [
+            {
+                "rel_elevation": 0.0, 
+                "rel_heading": 0.0, 
+                "viewpointId": "6bd5f24b732f481b84cd0fdd60f92c2e", 
+                "rel_distance": 0.0, 
+                "point": [
+                    57.5629997253418, 
+                    -3.0504701137542725, 
+                    1.4423799514770508
+                ]
+            }, 
+            {
+                "rel_elevation": 0.004858290005328469, 
+                "rel_heading": 0.06211155215772398, 
+                "viewpointId": "68d32d5b7c78410f9f3331391e178a22", 
+                "rel_distance": 1.7866655588150024, 
+                "point": [
+                    59.34619903564453, 
+                    -3.161370038986206, 
+                    1.4510600566864014
+                ]
+            }
+        ], 
+        "elevation": 0.0, 
+        "point": [
+            57.5629997253418, 
+            -3.0504701137542725, 
+            1.4423799514770508
+        ], 
+        "imageId": "6bd5f24b732f481b84cd0fdd60f92c2e_15", 
+        "location": "6bd5f24b732f481b84cd0fdd60f92c2e", 
+        "type": "state", 
+        "heading": 1.5707963267948966
+    }, 
+    {
+        "type": "action", 
+        "elevation": 0, 
+        "location": 1, 
+        "heading": 0
+    }, 
+    {
+        "neibors": [
+            {
+                "rel_elevation": 0.0, 
+                "rel_heading": 0.0, 
+                "viewpointId": "68d32d5b7c78410f9f3331391e178a22", 
+                "rel_distance": 0.0, 
+                "point": [
+                    59.34619903564453, 
+                    -3.161370038986206, 
+                    1.4510600566864014
+                ]
+            }, 
+            {
+                "rel_elevation": 0.005860524969373324, 
+                "rel_heading": -0.11133202394864289, 
+                "viewpointId": "ea1e95c127bd4fc2aa6dee5e5911869a", 
+                "rel_distance": 1.5220489501953125, 
+                "point": [
+                    60.85879898071289, 
+                    -2.992269992828369, 
+                    1.4599800109863281
+                ]
+            }
+        ], 
+        "elevation": 0.0, 
+        "point": [
+            59.34619903564453, 
+            -3.161370038986206, 
+            1.4510600566864014
+        ], 
+        "imageId": "68d32d5b7c78410f9f3331391e178a22_15", 
+        "location": "68d32d5b7c78410f9f3331391e178a22", 
+        "type": "state", 
+        "heading": 1.5707963267948966
+    }
+]

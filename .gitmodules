@@ -1,6 +1,6 @@
 [submodule "pybind11"]
 	path = pybind11
 	url = https://github.com/pybind/pybind11.git
-[submodule "fasterrcnn"]
-	path = fasterrcnn
-	url = https://github.com/jwyang/faster-rcnn.pytorch.git
+[submodule "maskrcnn"]
+	path = maskrcnn
+	url = https://github.com/matterport/Mask_RCNN.git

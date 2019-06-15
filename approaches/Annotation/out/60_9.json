@@ -1,0 +1,78 @@
+[
+    {
+        "scan_id": "cV4RVeZvu5T", 
+        "instruction": "Walk INTO A SMALL ROOM WITH A WORK TABLE.", 
+        "type": "title", 
+        "instructionID": 60, 
+        "nouns": [
+            "table"
+        ]
+    }, 
+    {
+        "neibors": [
+            {
+                "rel_elevation": 0.0, 
+                "rel_heading": 0.0, 
+                "viewpointId": "fc6a063f71534f2ba7595fdaac55854c", 
+                "rel_distance": 0.0, 
+                "point": [
+                    -5.992080211639404, 
+                    -1.3068599700927734, 
+                    2.1716599464416504
+                ]
+            }, 
+            {
+                "rel_elevation": -0.0031128964471120787, 
+                "rel_heading": 0.022945555345918755, 
+                "viewpointId": "cfa52adccaae4c59879a267d3c8d44e9", 
+                "rel_distance": 0.45939111709594727, 
+                "point": [
+                    -5.981540203094482, 
+                    -0.8475919961929321, 
+                    2.170229911804199
+                ]
+            }
+        ], 
+        "elevation": 0.0, 
+        "point": [
+            -5.992080211639404, 
+            -1.3068599700927734, 
+            2.1716599464416504
+        ], 
+        "imageId": "fc6a063f71534f2ba7595fdaac55854c_12", 
+        "location": "fc6a063f71534f2ba7595fdaac55854c", 
+        "type": "state", 
+        "heading": 0.0
+    }, 
+    {
+        "type": "action", 
+        "elevation": 0, 
+        "location": 1, 
+        "heading": 0
+    }, 
+    {
+        "neibors": [
+            {
+                "rel_elevation": 0.0, 
+                "rel_heading": 0.0, 
+                "viewpointId": "cfa52adccaae4c59879a267d3c8d44e9", 
+                "rel_distance": 0.0, 
+                "point": [
+                    -5.981540203094482, 
+                    -0.8475919961929321, 
+                    2.170229911804199
+                ]
+            }
+        ], 
+        "elevation": 0.0, 
+        "point": [
+            -5.981540203094482, 
+            -0.8475919961929321, 
+            2.170229911804199
+        ], 
+        "imageId": "cfa52adccaae4c59879a267d3c8d44e9_12", 
+        "location": "cfa52adccaae4c59879a267d3c8d44e9", 
+        "type": "state", 
+        "heading": 0.0
+    }
+]

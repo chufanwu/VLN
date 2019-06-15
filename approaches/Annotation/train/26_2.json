@@ -1,0 +1,192 @@
+[
+    {
+        "scan_id": "759xd9YjKW5", 
+        "instruction": "Exit the room", 
+        "type": "title", 
+        "instructionID": 26
+    }, 
+    {
+        "neibors": [
+            {
+                "rel_elevation": 0.0, 
+                "rel_heading": 0.0, 
+                "viewpointId": "ba9af4d3f96d4b47bd45d828f2d61d2c", 
+                "rel_distance": 0.0, 
+                "point": [
+                    -2.3354101181030273, 
+                    0.6596760153770447, 
+                    4.729859828948975
+                ]
+            }, 
+            {
+                "rel_elevation": 0.004172567447769149, 
+                "rel_heading": 0.5216565166245865, 
+                "viewpointId": "3ed7021b489144e9931aa86d6ed282c1", 
+                "rel_distance": 2.3942677974700928, 
+                "point": [
+                    -4.411210060119629, 
+                    1.8527699708938599, 
+                    4.739850044250488
+                ]
+            }
+        ], 
+        "elevation": 0.0, 
+        "point": [
+            -2.3354101181030273, 
+            0.6596760153770447, 
+            4.729859828948975
+        ], 
+        "imageId": "ba9af4d3f96d4b47bd45d828f2d61d2c_21", 
+        "location": "ba9af4d3f96d4b47bd45d828f2d61d2c", 
+        "type": "state", 
+        "heading": 4.71238898038469
+    }, 
+    {
+        "elevation": 0, 
+        "type": "action", 
+        "location": 0, 
+        "heading": 0.5235987755982988
+    }, 
+    {
+        "neibors": [
+            {
+                "rel_elevation": 0.0, 
+                "rel_heading": 0.0, 
+                "viewpointId": "ba9af4d3f96d4b47bd45d828f2d61d2c", 
+                "rel_distance": 0.0, 
+                "point": [
+                    -2.3354101181030273, 
+                    0.6596760153770447, 
+                    4.729859828948975
+                ]
+            }, 
+            {
+                "rel_elevation": 0.004172567447769149, 
+                "rel_heading": -0.0019422551153263769, 
+                "viewpointId": "3ed7021b489144e9931aa86d6ed282c1", 
+                "rel_distance": 2.3942677974700928, 
+                "point": [
+                    -4.411210060119629, 
+                    1.8527699708938599, 
+                    4.739850044250488
+                ]
+            }
+        ], 
+        "elevation": 0.0, 
+        "point": [
+            -2.3354101181030273, 
+            0.6596760153770447, 
+            4.729859828948975
+        ], 
+        "imageId": "ba9af4d3f96d4b47bd45d828f2d61d2c_22", 
+        "location": "ba9af4d3f96d4b47bd45d828f2d61d2c", 
+        "type": "state", 
+        "heading": 5.235987755982988
+    }, 
+    {
+        "elevation": 0, 
+        "type": "action", 
+        "location": 1, 
+        "heading": 0
+    }, 
+    {
+        "neibors": [
+            {
+                "rel_elevation": 0.0, 
+                "rel_heading": 0.0, 
+                "viewpointId": "3ed7021b489144e9931aa86d6ed282c1", 
+                "rel_distance": 0.0, 
+                "point": [
+                    -4.411210060119629, 
+                    1.8527699708938599, 
+                    4.739850044250488
+                ]
+            }, 
+            {
+                "rel_elevation": 0.0028068372813985416, 
+                "rel_heading": -0.020564260499783535, 
+                "viewpointId": "1015e20d2dca4a01b6cca0ca0d71c29a", 
+                "rel_distance": 2.14835786819458, 
+                "point": [
+                    -6.293429851531982, 
+                    2.8884599208831787, 
+                    4.745880126953125
+                ]
+            }, 
+            {
+                "rel_elevation": 0.0062202918357519114, 
+                "rel_heading": -0.2945007035498945, 
+                "viewpointId": "3789920326234f7a91bde25661a0a3fc", 
+                "rel_distance": 3.3294460773468018, 
+                "point": [
+                    -7.653600215911865, 
+                    2.608870029449463, 
+                    4.760560035705566
+                ]
+            }
+        ], 
+        "elevation": 0.0, 
+        "point": [
+            -4.411210060119629, 
+            1.8527699708938599, 
+            4.739850044250488
+        ], 
+        "imageId": "3ed7021b489144e9931aa86d6ed282c1_22", 
+        "location": "3ed7021b489144e9931aa86d6ed282c1", 
+        "type": "state", 
+        "heading": 5.235987755982988
+    }, 
+    {
+        "elevation": 0, 
+        "type": "action", 
+        "location": 1, 
+        "heading": 0
+    }, 
+    {
+        "neibors": [
+            {
+                "rel_elevation": 0.0, 
+                "rel_heading": 0.0, 
+                "viewpointId": "1015e20d2dca4a01b6cca0ca0d71c29a", 
+                "rel_distance": 0.0, 
+                "point": [
+                    -6.293429851531982, 
+                    2.8884599208831787, 
+                    4.745880126953125
+                ]
+            }, 
+            {
+                "rel_elevation": -0.005305767104979054, 
+                "rel_heading": 0.5961818978459684, 
+                "viewpointId": "f0bf7f3b529548a5a2c36fcc9b05b714", 
+                "rel_distance": 4.27089262008667, 
+                "point": [
+                    -8.154999732971191, 
+                    6.732230186462402, 
+                    4.723219871520996
+                ]
+            }, 
+            {
+                "rel_elevation": 0.010571273228729186, 
+                "rel_heading": -0.7263300065035685, 
+                "viewpointId": "3789920326234f7a91bde25661a0a3fc", 
+                "rel_distance": 1.3886862993240356, 
+                "point": [
+                    -7.653600215911865, 
+                    2.608870029449463, 
+                    4.760560035705566
+                ]
+            }
+        ], 
+        "elevation": 0.0, 
+        "point": [
+            -6.293429851531982, 
+            2.8884599208831787, 
+            4.745880126953125
+        ], 
+        "imageId": "1015e20d2dca4a01b6cca0ca0d71c29a_22", 
+        "location": "1015e20d2dca4a01b6cca0ca0d71c29a", 
+        "type": "state", 
+        "heading": 5.235987755982988
+    }
+]

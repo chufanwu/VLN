@@ -1,0 +1,76 @@
+[
+    {
+        "scan_id": "E9uDoFAP3SH", 
+        "instruction": "the empty room behind you walk into the open area", 
+        "type": "title", 
+        "instructionID": 24, 
+        "nouns": []
+    }, 
+    {
+        "neibors": [
+            {
+                "rel_elevation": 0.0, 
+                "rel_heading": 0.0, 
+                "viewpointId": "3d11e46400a14c6cbc0ae42a5057ae97", 
+                "rel_distance": 0.0, 
+                "point": [
+                    -6.533450126647949, 
+                    -4.197720050811768, 
+                    1.7158000469207764
+                ]
+            }, 
+            {
+                "rel_elevation": 0.004810087504736242, 
+                "rel_heading": -0.004908047508887107, 
+                "viewpointId": "36ba7aeeb72e40d69e3e1c775e4bf541", 
+                "rel_distance": 3.7795493602752686, 
+                "point": [
+                    -2.7539899349212646, 
+                    -4.17917013168335, 
+                    1.7339799404144287
+                ]
+            }
+        ], 
+        "elevation": 0.0, 
+        "point": [
+            -6.533450126647949, 
+            -4.197720050811768, 
+            1.7158000469207764
+        ], 
+        "imageId": "3d11e46400a14c6cbc0ae42a5057ae97_15", 
+        "location": "3d11e46400a14c6cbc0ae42a5057ae97", 
+        "type": "state", 
+        "heading": 1.5707963267948966
+    }, 
+    {
+        "type": "action", 
+        "elevation": 0, 
+        "location": 1, 
+        "heading": 0
+    }, 
+    {
+        "neibors": [
+            {
+                "rel_elevation": 0.0, 
+                "rel_heading": 0.0, 
+                "viewpointId": "36ba7aeeb72e40d69e3e1c775e4bf541", 
+                "rel_distance": 0.0, 
+                "point": [
+                    -2.7539899349212646, 
+                    -4.17917013168335, 
+                    1.7339799404144287
+                ]
+            }
+        ], 
+        "elevation": 0.0, 
+        "point": [
+            -2.7539899349212646, 
+            -4.17917013168335, 
+            1.7339799404144287
+        ], 
+        "imageId": "36ba7aeeb72e40d69e3e1c775e4bf541_15", 
+        "location": "36ba7aeeb72e40d69e3e1c775e4bf541", 
+        "type": "state", 
+        "heading": 1.5707963267948966
+    }
+]

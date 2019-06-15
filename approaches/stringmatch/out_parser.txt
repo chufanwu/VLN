@@ -1,0 +1,8631 @@
+(ROOT
+  (S
+    (VP
+      (VP (VB walk)
+        (PRT (RP down))
+        (NP
+          (NP (CD one) (NN flight))
+          (PP (IN of)
+            (NP (NNS stairs)))))
+      (CC and)
+      (VP (VB stop)
+        (PP (IN on)
+          (NP (DT the) (NN landing)))))
+    (. .)))
+
+root(ROOT-0, walk-1)
+compound:prt(walk-1, down-2)
+nummod(flight-4, one-3)
+dobj(walk-1, flight-4)
+case(stairs-6, of-5)
+nmod:of(flight-4, stairs-6)
+cc(walk-1, and-7)
+conj:and(walk-1, stop-8)
+case(landing-11, on-9)
+det(landing-11, the-10)
+nmod:on(stop-8, landing-11)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB walk)
+        (PP (IN between)
+          (NP (DT the) (NNS columns))))
+      (CC and)
+      (VP (VB make)
+        (NP (DT a) (JJ sharp) (NN turn) (NN right))))
+    (. .)))
+
+root(ROOT-0, walk-1)
+case(columns-4, between-2)
+det(columns-4, the-3)
+nmod:between(walk-1, columns-4)
+cc(walk-1, and-5)
+conj:and(walk-1, make-6)
+det(right-10, a-7)
+amod(right-10, sharp-8)
+compound(right-10, turn-9)
+dobj(make-6, right-10)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB walk)
+        (PRT (RP down))
+        (NP (DT the) (NNS steps)))
+      (CC and)
+      (VP (VB stop)
+        (PP (IN on)
+          (NP (DT the) (NN landing)))))
+    (. .)))
+
+root(ROOT-0, walk-1)
+compound:prt(walk-1, down-2)
+det(steps-4, the-3)
+dobj(walk-1, steps-4)
+cc(walk-1, and-5)
+conj:and(walk-1, stop-6)
+case(landing-9, on-7)
+det(landing-9, the-8)
+nmod:on(stop-6, landing-9)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (NP (NN walk))
+    (ADVP (RB forward))
+    (RB then)
+    (VP (VB turn)
+      (NP
+        (NP (NN right))
+        (PP (IN at)
+          (NP (DT the) (NNS stairs))))
+      (ADVP (RB then))
+      (VP (VB go)
+        (PRT (RP down))
+        (NP (DT the) (NNS stairs))))
+    (. .)))
+
+nsubj(turn-4, walk-1)
+advmod(turn-4, forward-2)
+advmod(turn-4, then-3)
+root(ROOT-0, turn-4)
+dobj(turn-4, right-5)
+case(stairs-8, at-6)
+det(stairs-8, the-7)
+nmod:at(right-5, stairs-8)
+advmod(turn-4, then-9)
+dep(turn-4, go-10)
+compound:prt(go-10, down-11)
+det(stairs-13, the-12)
+dobj(go-10, stairs-13)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB turn)
+        (PRT (RP around)))
+      (CC and)
+      (VP (VB go)
+        (ADVP (RB straight))))
+    (. .)))
+
+root(ROOT-0, turn-1)
+compound:prt(turn-1, around-2)
+cc(turn-1, and-3)
+conj:and(turn-1, go-4)
+advmod(go-4, straight-5)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB take)
+        (NP (DT a) (NN left))
+        (PP (IN at)
+          (NP (DT the) (NN wall))))
+      (CC and)
+      (VP (VB go)
+        (ADVP (RB straight))))
+    (. .)))
+
+root(ROOT-0, take-1)
+det(left-3, a-2)
+dobj(take-1, left-3)
+case(wall-6, at-4)
+det(wall-6, the-5)
+nmod:at(take-1, wall-6)
+cc(take-1, and-7)
+conj:and(take-1, go-8)
+advmod(go-8, straight-9)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB head)
+        (ADVP (RB straight))
+        (SBAR (IN until)
+          (S
+            (NP (PRP you))
+            (VP (VBP pass)
+              (NP (DT the) (NN wall))
+              (PP (IN with)
+                (NP
+                  (NP (NNS holes))
+                  (SBAR
+                    (WHPP (IN in)
+                      (WHNP (PRP it)))
+                    (S
+                      (NP (DT the) (NN turn))
+                      (VP (VBD left))))))))))
+      (CC and)
+      (VP (VB wait)
+        (PP (IN by)
+          (NP (DT the) (NN glass) (NN table)))
+        (PP (IN with)
+          (NP (DT the) (JJ white) (NNS chairs)))))
+    (. .)))
+
+root(ROOT-0, head-1)
+advmod(head-1, straight-2)
+mark(pass-5, until-3)
+nsubj(pass-5, you-4)
+advcl(head-1, pass-5)
+det(wall-7, the-6)
+dobj(pass-5, wall-7)
+case(holes-9, with-8)
+nmod:with(pass-5, holes-9)
+case(it-11, in-10)
+nmod:in(left-14, it-11)
+det(turn-13, the-12)
+nsubj(left-14, turn-13)
+acl:relcl(holes-9, left-14)
+cc(head-1, and-15)
+conj:and(head-1, wait-16)
+case(table-20, by-17)
+det(table-20, the-18)
+compound(table-20, glass-19)
+nmod:by(wait-16, table-20)
+case(chairs-24, with-21)
+det(chairs-24, the-22)
+amod(chairs-24, white-23)
+nmod:with(wait-16, chairs-24)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB go)
+        (PRT (RP down))
+        (PP (IN past)
+          (NP
+            (NP (DT some) (NN room) (NNS dividers))
+            (PP (IN toward)
+              (NP (DT a) (NN glasstop) (NN desk))))))
+      (, ,)
+      (CC and)
+      (VP (VB turn)
+        (PP (IN into)
+          (NP (DT the) (NN dining) (NN area)))))
+    (. .)))
+
+root(ROOT-0, go-1)
+compound:prt(go-1, down-2)
+case(dividers-6, past-3)
+det(dividers-6, some-4)
+compound(dividers-6, room-5)
+nmod:past(go-1, dividers-6)
+case(desk-10, toward-7)
+det(desk-10, a-8)
+compound(desk-10, glasstop-9)
+nmod:toward(dividers-6, desk-10)
+cc(go-1, and-12)
+conj:and(go-1, turn-13)
+case(area-17, into-14)
+det(area-17, the-15)
+compound(area-17, dining-16)
+nmod:into(turn-13, area-17)
+
+(ROOT
+  (S
+    (VP (VB wait)
+      (ADVP (JJ next)
+        (PP (TO to)
+          (NP (DT the) (JJ large) (NN glass) (NN dining) (NN table)))))
+    (. .)))
+
+root(ROOT-0, wait-1)
+case(table-8, next-2)
+mwe(next-2, to-3)
+det(table-8, the-4)
+amod(table-8, large-5)
+compound(table-8, glass-6)
+compound(table-8, dining-7)
+nmod:next_to(wait-1, table-8)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP (VB walk)
+      (PP
+        (PP (IN into)
+          (NP (DT the) (NN hallway)))
+        (CC and)
+        (PP (IN through)
+          (NP (DT the) (NN entrance))))
+      (PP (TO to)
+        (NP (DT the) (NN kitchen) (NN area))))
+    (. .)))
+
+root(ROOT-0, walk-1)
+conj:and(walk-1, walk-1')
+case(hallway-4, into-2)
+det(hallway-4, the-3)
+nmod:into(walk-1, hallway-4)
+cc(walk-1, and-5)
+case(entrance-8, through-6)
+det(entrance-8, the-7)
+nmod:through(walk-1', entrance-8)
+case(area-12, to-9)
+det(area-12, the-10)
+compound(area-12, kitchen-11)
+nmod:to(walk-1, area-12)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB walk)
+        (VP (VBN passed)
+          (NP (DT the) (NN sink)
+            (CC and)
+            (NN stove) (NN area))))
+      (CC and)
+      (VP (VB stop)
+        (PP (IN between)
+          (NP (DT the) (NN refrigerator)
+            (CC and)
+            (NN dining) (NN table)))))
+    (. .)))
+
+root(ROOT-0, walk-1)
+dep(walk-1, passed-2)
+det(area-7, the-3)
+compound(area-7, sink-4)
+cc(sink-4, and-5)
+conj:and(sink-4, stove-6)
+compound(area-7, stove-6)
+dobj(passed-2, area-7)
+cc(walk-1, and-8)
+conj:and(walk-1, stop-9)
+case(table-15, between-10)
+det(table-15, the-11)
+compound(table-15, refrigerator-12)
+cc(refrigerator-12, and-13)
+conj:and(refrigerator-12, dining-14)
+compound(table-15, dining-14)
+nmod:between(stop-9, table-15)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP (VB walk)
+      (PP (IN through)
+        (NP (DT the) (NN kitchen))))
+    (. .)))
+
+root(ROOT-0, walk-1)
+case(kitchen-4, through-2)
+det(kitchen-4, the-3)
+nmod:through(walk-1, kitchen-4)
+
+(ROOT
+  (S
+    (VP (VB go)
+      (PP (IN past)
+        (NP
+          (NP (DT the) (NN sink)
+            (CC and)
+            (NN stove) (NN stand))
+          (PP (IN in)
+            (NP
+              (NP (NN front))
+              (PP (IN of)
+                (NP (DT the) (NN dining) (NN table)))))))
+      (PP (IN on)
+        (NP (DT the) (NN bench) (NN side))))
+    (. .)))
+
+root(ROOT-0, go-1)
+case(stand-7, past-2)
+det(stand-7, the-3)
+compound(stand-7, sink-4)
+cc(sink-4, and-5)
+conj:and(sink-4, stove-6)
+compound(stand-7, stove-6)
+nmod:past(go-1, stand-7)
+case(table-13, in-8)
+mwe(in-8, front-9)
+mwe(in-8, of-10)
+det(table-13, the-11)
+compound(table-13, dining-12)
+nmod:in_front_of(stand-7, table-13)
+case(side-17, on-14)
+det(side-17, the-15)
+compound(side-17, bench-16)
+nmod:on(go-1, side-17)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP (VB walk)
+      (PP (IN into)
+        (NP (DT the) (NN kitchen))))
+    (. .)))
+
+root(ROOT-0, walk-1)
+case(kitchen-4, into-2)
+det(kitchen-4, the-3)
+nmod:into(walk-1, kitchen-4)
+
+(ROOT
+  (S
+    (VP (VB walk)
+      (PP (IN past)
+        (NP (DT the) (NN refrigerator))))
+    (. .)))
+
+root(ROOT-0, walk-1)
+case(refrigerator-4, past-2)
+det(refrigerator-4, the-3)
+nmod:past(walk-1, refrigerator-4)
+
+(ROOT
+  (S
+    (VP (VB stop)
+      (ADVP (RB directly))
+      (PP (IN in)
+        (NP
+          (NP (NN front))
+          (PP (IN of)
+            (NP (DT the) (JJ wooden) (NN table))))))
+    (. .)))
+
+root(ROOT-0, stop-1)
+advmod(stop-1, directly-2)
+case(table-8, in-3)
+mwe(in-3, front-4)
+mwe(in-3, of-5)
+det(table-8, the-6)
+amod(table-8, wooden-7)
+nmod:in_front_of(stop-1, table-8)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP (VB walk)
+      (PP
+        (PP (IN past)
+          (NP (DT the) (NNS chairs)))
+        (CC and)
+        (PP (TO to)
+          (NP (DT the) (NN left)))))
+    (. .)))
+
+root(ROOT-0, walk-1)
+conj:and(walk-1, walk-1')
+case(chairs-4, past-2)
+det(chairs-4, the-3)
+nmod:past(walk-1, chairs-4)
+cc(walk-1, and-5)
+case(left-8, to-6)
+det(left-8, the-7)
+nmod:to(walk-1', left-8)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB walk)
+        (PP (IN in)
+          (NP
+            (NP (NN front))
+            (PP (IN of)
+              (NP (DT the) (NN chair))))))
+      (CC and)
+      (VP (VB stop)))
+    (. .)))
+
+root(ROOT-0, walk-1)
+case(chair-6, in-2)
+mwe(in-2, front-3)
+mwe(in-2, of-4)
+det(chair-6, the-5)
+nmod:in_front_of(walk-1, chair-6)
+cc(walk-1, and-7)
+conj:and(walk-1, stop-8)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP (VB exit)
+      (NP
+        (NP (DT the) (NN bedroom))
+        (PP (IN via)
+          (NP (DT the) (JJS farthest) (NN left)))))
+    (. .)))
+
+root(ROOT-0, exit-1)
+det(bedroom-3, the-2)
+dobj(exit-1, bedroom-3)
+case(left-7, via-4)
+det(left-7, the-5)
+amod(left-7, farthest-6)
+nmod:via(bedroom-3, left-7)
+
+(ROOT
+  (S
+    (VP (VB walk)
+      (PP (IN toward)
+        (NP (DT the) (NN couch))))
+    (. .)))
+
+root(ROOT-0, walk-1)
+case(couch-4, toward-2)
+det(couch-4, the-3)
+nmod:toward(walk-1, couch-4)
+
+(ROOT
+  (S
+    (VP (VB stop)
+      (ADVP (RB there)))
+    (. .)))
+
+root(ROOT-0, stop-1)
+advmod(stop-1, there-2)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB go)
+        (PP (IN towards)
+          (NP (DT the) (JJ front) (NN door)))
+        (PRN (CC but)
+          (SBAR (IN before)
+            (S
+              (NP (DT the) (JJ front) (NN door))
+              (VP (VBP make)
+                (NP (DT a) (NN left))
+                (, ,)
+                (ADVP (RB then))
+                (PP (IN through)
+                  (NP (DT the) (NN archway))))))))
+      (, ,)
+      (VP (VB go)
+        (PP (TO to)
+          (NP
+            (NP (DT the) (NN middle))
+            (PP (IN of)
+              (NP (DT the) (JJ middle) (NN room))))))
+      (CC and)
+      (VP (VB stop)))
+    (. .)))
+
+root(ROOT-0, go-1)
+case(door-5, towards-2)
+det(door-5, the-3)
+amod(door-5, front-4)
+nmod:towards(go-1, door-5)
+cc(make-11, but-6)
+mark(make-11, before-7)
+det(door-10, the-8)
+amod(door-10, front-9)
+nsubj(make-11, door-10)
+parataxis(go-1, make-11)
+det(left-13, a-12)
+dobj(make-11, left-13)
+advmod(archway-18, then-15)
+case(archway-18, through-16)
+det(archway-18, the-17)
+nmod:through(make-11, archway-18)
+conj:and(go-1, go-20)
+case(middle-23, to-21)
+det(middle-23, the-22)
+nmod:to(go-20, middle-23)
+case(room-27, of-24)
+det(room-27, the-25)
+amod(room-27, middle-26)
+nmod:of(middle-23, room-27)
+cc(go-1, and-28)
+conj:and(go-1, stop-29)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP (VB walk)
+      (PP
+        (PP (IN beside)
+          (NP (DT the) (JJ outside) (NNS doors)))
+        (CC and)
+        (PP (IN behind)
+          (NP
+            (NP (DT the) (NNS chairs))
+            (PP (IN across)
+              (NP (DT the) (NN room)))))))
+    (. .)))
+
+root(ROOT-0, walk-1)
+conj:and(walk-1, walk-1')
+case(doors-5, beside-2)
+det(doors-5, the-3)
+amod(doors-5, outside-4)
+nmod:beside(walk-1, doors-5)
+cc(walk-1, and-6)
+case(chairs-9, behind-7)
+det(chairs-9, the-8)
+nmod:behind(walk-1', chairs-9)
+case(room-12, across-10)
+det(room-12, the-11)
+nmod:across(chairs-9, room-12)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB turn)
+        (ADVP (RB right)))
+      (CC and)
+      (VP (VB walk)
+        (PRT (RP up))
+        (NP (DT the) (NNS stairs))))
+    (. .)))
+
+root(ROOT-0, turn-1)
+advmod(turn-1, right-2)
+cc(turn-1, and-3)
+conj:and(turn-1, walk-4)
+compound:prt(walk-4, up-5)
+det(stairs-7, the-6)
+dobj(walk-4, stairs-7)
+
+(ROOT
+  (S
+    (VP (VB stop)
+      (PP (IN on)
+        (NP (DT the) (JJ seventh) (NN step))))
+    (. .)))
+
+root(ROOT-0, stop-1)
+case(step-5, on-2)
+det(step-5, the-3)
+amod(step-5, seventh-4)
+nmod:on(stop-1, step-5)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (NP (NN turn))
+    (VP
+      (VP (VBD left))
+      (CC and)
+      (VP (NN walk)
+        (PRT (RP through))
+        (NP (DT the) (VBG living) (NN room))))
+    (. .)))
+
+nsubj(left-2, turn-1)
+root(ROOT-0, left-2)
+cc(left-2, and-3)
+conj:and(left-2, walk-4)
+compound:prt(walk-4, through-5)
+det(room-8, the-6)
+amod(room-8, living-7)
+dobj(walk-4, room-8)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB exit)
+        (NP (DT the) (NN room)))
+      (, ,)
+      (VP (VB turn)
+        (ADVP (RB right)))
+      (CC and)
+      (VP (VB walk)
+        (PRT (RP up))
+        (NP (DT the) (NNS stairs))))
+    (. .)))
+
+root(ROOT-0, exit-1)
+det(room-3, the-2)
+dobj(exit-1, room-3)
+conj:and(exit-1, turn-5)
+advmod(turn-5, right-6)
+cc(exit-1, and-7)
+conj:and(exit-1, walk-8)
+compound:prt(walk-8, up-9)
+det(stairs-11, the-10)
+dobj(walk-8, stairs-11)
+
+(ROOT
+  (S
+    (VP (VB stop)
+      (PP (IN in)
+        (NP
+          (NP (NN th) (NN e) (NN middle))
+          (PP (IN of)
+            (NP (DT the) (NNS stairs))))))
+    (. .)))
+
+root(ROOT-0, stop-1)
+case(middle-5, in-2)
+compound(middle-5, th-3)
+compound(middle-5, e-4)
+nmod:in(stop-1, middle-5)
+case(stairs-8, of-6)
+det(stairs-8, the-7)
+nmod:of(middle-5, stairs-8)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (PP (IN with)
+      (NP
+        (NP (DT the) (NNS windows))
+        (PP (IN on)
+          (NP (PRP$ your) (NN left)))))
+    (, ,)
+    (VP (VB walk)
+      (PP (IN through)
+        (NP (DT the) (JJ large) (NN room)))
+      (PP (IN past)
+        (NP (DT the) (VBG sitting) (NNS areas))))
+    (. .)))
+
+case(windows-3, with-1)
+det(windows-3, the-2)
+nmod:with(walk-8, windows-3)
+case(left-6, on-4)
+nmod:poss(left-6, your-5)
+nmod:on(windows-3, left-6)
+root(ROOT-0, walk-8)
+case(room-12, through-9)
+det(room-12, the-10)
+amod(room-12, large-11)
+nmod:through(walk-8, room-12)
+case(areas-16, past-13)
+det(areas-16, the-14)
+amod(areas-16, sitting-15)
+nmod:past(walk-8, areas-16)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB go)
+        (PP (IN through)
+          (NP
+            (NP (DT the) (NN door))
+            (VP (VBN left)
+              (PP (IN of)
+                (NP (DT the) (NN tapestry)))))))
+      (CC and)
+      (VP (VB enter)
+        (NP (DT a) (NN wood) (NN paneled) (NN room))
+        (PP (IN with)
+          (NP
+            (NP (DT a) (NN circle) (NN table))
+            (PP (IN in)
+              (NP (DT the) (NN middle)))))))
+    (. .)))
+
+root(ROOT-0, go-1)
+case(door-4, through-2)
+det(door-4, the-3)
+nmod:through(go-1, door-4)
+acl(door-4, left-5)
+case(tapestry-8, of-6)
+det(tapestry-8, the-7)
+nmod:of(left-5, tapestry-8)
+cc(go-1, and-9)
+conj:and(go-1, enter-10)
+det(room-14, a-11)
+compound(room-14, wood-12)
+compound(room-14, paneled-13)
+dobj(enter-10, room-14)
+case(table-18, with-15)
+det(table-18, a-16)
+compound(table-18, circle-17)
+nmod:with(enter-10, table-18)
+case(middle-21, in-19)
+det(middle-21, the-20)
+nmod:in(table-18, middle-21)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB go)
+        (PRT (RP up))
+        (NP (DT the) (NNS stairs)))
+      (CC and)
+      (VP (VB stop)
+        (PP (IN on)
+          (NP
+            (NP (DT the) (JJ sixth) (NN step))
+            (PP (IN from)
+              (NP (DT the) (NN bottom)))))))
+    (. .)))
+
+root(ROOT-0, go-1)
+compound:prt(go-1, up-2)
+det(stairs-4, the-3)
+dobj(go-1, stairs-4)
+cc(go-1, and-5)
+conj:and(go-1, stop-6)
+case(step-10, on-7)
+det(step-10, the-8)
+amod(step-10, sixth-9)
+nmod:on(stop-6, step-10)
+case(bottom-13, from-11)
+det(bottom-13, the-12)
+nmod:from(step-10, bottom-13)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP (VB walk)
+      (PRT (RP out))
+      (PP (IN of)
+        (NP (DT the) (NN bathroom)
+          (CC and)
+          (NN turn) (NN left))))
+    (. .)))
+
+root(ROOT-0, walk-1)
+compound:prt(walk-1, out-2)
+case(left-8, of-3)
+det(left-8, the-4)
+compound(left-8, bathroom-5)
+cc(bathroom-5, and-6)
+conj:and(bathroom-5, turn-7)
+compound(left-8, turn-7)
+nmod:of(walk-1, left-8)
+
+(ROOT
+  (S
+    (VP (VB walk)
+      (PRT (RP along))
+      (NP
+        (NP (DT the) (NN hallway))
+        (VP (VBN passed)
+          (NP
+            (NP (DT the) (JJ white) (NN painting))
+            (CC and)
+            (NP (DT the) (JJ other) (NN bathroom))))))
+    (. .)))
+
+root(ROOT-0, walk-1)
+compound:prt(walk-1, along-2)
+det(hallway-4, the-3)
+dobj(walk-1, hallway-4)
+acl(hallway-4, passed-5)
+det(painting-8, the-6)
+amod(painting-8, white-7)
+dobj(passed-5, painting-8)
+cc(painting-8, and-9)
+det(bathroom-12, the-10)
+amod(bathroom-12, other-11)
+dobj(passed-5, bathroom-12)
+conj:and(painting-8, bathroom-12)
+
+(ROOT
+  (S
+    (NP (NN turn))
+    (VP (VBD left)
+      (PP (IN towards)
+        (NP (DT the) (NNS stairs))))
+    (. .)))
+
+nsubj(left-2, turn-1)
+root(ROOT-0, left-2)
+case(stairs-5, towards-3)
+det(stairs-5, the-4)
+nmod:towards(left-2, stairs-5)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB walk)
+        (PRT (RP down))
+        (NP
+          (NP (CD three))
+          (PP (IN of)
+            (NP (DT the) (NNS stairs)))))
+      (CC and)
+      (VP (VB wait)
+        (PP (IN on)
+          (NP (RB there)))))
+    (. .)))
+
+root(ROOT-0, walk-1)
+compound:prt(walk-1, down-2)
+dobj(walk-1, three-3)
+case(stairs-6, of-4)
+det(stairs-6, the-5)
+nmod:of(three-3, stairs-6)
+cc(walk-1, and-7)
+conj:and(walk-1, wait-8)
+case(there-10, on-9)
+nmod:on(wait-8, there-10)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP (VB exit)
+      (NP (DT the) (NN bathroom))
+      (PP (TO to)
+        (NP (DT the) (NN bedroom))))
+    (. .)))
+
+root(ROOT-0, exit-1)
+det(bathroom-3, the-2)
+dobj(exit-1, bathroom-3)
+case(bedroom-6, to-4)
+det(bedroom-6, the-5)
+nmod:to(exit-1, bedroom-6)
+
+(ROOT
+  (S
+    (VP (VB exit)
+      (S
+        (NP
+          (NP (DT the) (NN bedroom))
+          (VP (VBG using)
+            (NP
+              (NP (DT the) (NN door))
+              (PP (IN on)
+                (NP (DT the) (NN left))))))
+        (VP
+          (VP
+            (ADVP (RB then))
+            (VB go)
+            (ADVP (RB straight))
+            (SBAR (IN until)
+              (S
+                (NP (PRP you))
+                (VP (VBP get)
+                  (PP (TO to)
+                    (NP (DT the) (NNS stairs)))))))
+          (CC and)
+          (VP (VB wait)
+            (PP (IN on)
+              (NP (DT the) (JJ second) (NN step)))))))
+    (. .)))
+
+root(ROOT-0, exit-1)
+det(bedroom-3, the-2)
+nsubj(go-11, bedroom-3)
+nsubj(wait-20, bedroom-3)
+acl(bedroom-3, using-4)
+det(door-6, the-5)
+dobj(using-4, door-6)
+case(left-9, on-7)
+det(left-9, the-8)
+nmod:on(door-6, left-9)
+advmod(go-11, then-10)
+ccomp(exit-1, go-11)
+advmod(go-11, straight-12)
+mark(get-15, until-13)
+nsubj(get-15, you-14)
+advcl(go-11, get-15)
+case(stairs-18, to-16)
+det(stairs-18, the-17)
+nmod:to(get-15, stairs-18)
+cc(go-11, and-19)
+ccomp(exit-1, wait-20)
+conj:and(go-11, wait-20)
+case(step-24, on-21)
+det(step-24, the-22)
+amod(step-24, second-23)
+nmod:on(wait-20, step-24)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB walk)
+        (PRT (RP out))
+        (PP (IN of)
+          (NP (DT the) (NN bathroom)))
+        (PP (IN into)
+          (NP (DT the) (NN bedroom))))
+      (CC and)
+      (VP (VB turn)
+        (ADVP (RB left))))
+    (. .)))
+
+root(ROOT-0, walk-1)
+compound:prt(walk-1, out-2)
+case(bathroom-5, of-3)
+det(bathroom-5, the-4)
+nmod:of(walk-1, bathroom-5)
+case(bedroom-8, into-6)
+det(bedroom-8, the-7)
+nmod:into(walk-1, bedroom-8)
+cc(walk-1, and-9)
+conj:and(walk-1, turn-10)
+advmod(turn-10, left-11)
+
+(ROOT
+  (S
+    (S
+      (VP (VB continue)
+        (PRT (RP out))
+        (NP (DT the) (NN bedroom) (NN door))))
+    (, ,)
+    (NP (NN turning))
+    (VP (VBD left)
+      (S
+        (VP (TO to)
+          (VP (VB wait)
+            (PP (IN at)
+              (NP
+                (NP (DT the) (NN top))
+                (PP (IN of)
+                  (NP (DT the) (NNS stairs)))))))))
+    (. .)))
+
+ccomp(left-8, continue-1)
+compound:prt(continue-1, out-2)
+det(door-5, the-3)
+compound(door-5, bedroom-4)
+dobj(continue-1, door-5)
+nsubj(left-8, turning-7)
+nsubj:xsubj(wait-10, turning-7)
+root(ROOT-0, left-8)
+mark(wait-10, to-9)
+xcomp(left-8, wait-10)
+case(top-13, at-11)
+det(top-13, the-12)
+nmod:at(wait-10, top-13)
+case(stairs-16, of-14)
+det(stairs-16, the-15)
+nmod:of(top-13, stairs-16)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP (VB exit)
+      (NP (DT the) (NN room)))
+    (. .)))
+
+root(ROOT-0, exit-1)
+det(room-3, the-2)
+dobj(exit-1, room-3)
+
+(ROOT
+  (S
+    (NP (NN turn))
+    (VP
+      (VP (VBD left))
+      (CC and)
+      (VP (VBP go)
+        (PRT (RP down))
+        (NP (DT the) (NN hallway))))
+    (. .)))
+
+nsubj(left-2, turn-1)
+nsubj(go-4, turn-1)
+root(ROOT-0, left-2)
+cc(left-2, and-3)
+conj:and(left-2, go-4)
+compound:prt(go-4, down-5)
+det(hallway-7, the-6)
+dobj(go-4, hallway-7)
+
+(ROOT
+  (S
+    (VP (VB turn)
+      (ADJP (RB slightly) (JJ right)
+        (S
+          (VP (TO to)
+            (VP (VB continue)
+              (S
+                (VP (VBG going)
+                  (PRT (RP down))
+                  (NP (DT the) (NN hallway)))))))))
+    (. .)))
+
+root(ROOT-0, turn-1)
+advmod(right-3, slightly-2)
+xcomp(turn-1, right-3)
+mark(continue-5, to-4)
+xcomp(right-3, continue-5)
+xcomp(continue-5, going-6)
+compound:prt(going-6, down-7)
+det(hallway-9, the-8)
+dobj(going-6, hallway-9)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB turn)
+        (ADVP (RB right)))
+      (CC and)
+      (VP (VB go)
+        (PP (IN into)
+          (NP (DT the) (NN room)))))
+    (. .)))
+
+root(ROOT-0, turn-1)
+advmod(turn-1, right-2)
+cc(turn-1, and-3)
+conj:and(turn-1, go-4)
+case(room-7, into-5)
+det(room-7, the-6)
+nmod:into(go-4, room-7)
+
+(ROOT
+  (S
+    (VP (VB wait)
+      (PP (IN at)
+        (NP (DT the) (NN entrance))))
+    (. .)))
+
+root(ROOT-0, wait-1)
+case(entrance-4, at-2)
+det(entrance-4, the-3)
+nmod:at(wait-1, entrance-4)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP (VB make)
+      (NP (DT a) (NN left)))
+    (. .)))
+
+root(ROOT-0, make-1)
+det(left-3, a-2)
+dobj(make-1, left-3)
+
+(ROOT
+  (S
+    (VP (VB walk)
+      (S
+        (NP (JJ past) (DT the) (NN wall))
+        (VP (VB vent)
+          (PP (IN on)
+            (NP (DT the) (NN left))))))
+    (. .)))
+
+root(ROOT-0, walk-1)
+amod(wall-4, past-2)
+det(wall-4, the-3)
+nsubj(vent-5, wall-4)
+ccomp(walk-1, vent-5)
+case(left-8, on-6)
+det(left-8, the-7)
+nmod:on(vent-5, left-8)
+
+(ROOT
+  (S
+    (VP (VB make)
+      (NP (DT a) (NN right))
+      (ADVP (RB just))
+      (PP (IN after)
+        (NP (DT the) (NN bathroom))))
+    (. .)))
+
+root(ROOT-0, make-1)
+det(right-3, a-2)
+dobj(make-1, right-3)
+advmod(make-1, just-4)
+case(bathroom-7, after-5)
+det(bathroom-7, the-6)
+nmod:after(make-1, bathroom-7)
+
+(ROOT
+  (S
+    (VP (VB make)
+      (NP (DT a) (NN right))
+      (PP (IN opposite)
+        (NP
+          (NP (DT the) (JJ console) (NN table))
+          (PP (TO to)
+            (NP (DT the) (NN left))))))
+    (. .)))
+
+root(ROOT-0, make-1)
+det(right-3, a-2)
+dobj(make-1, right-3)
+case(table-7, opposite-4)
+det(table-7, the-5)
+amod(table-7, console-6)
+nmod:opposite(make-1, table-7)
+case(left-10, to-8)
+det(left-10, the-9)
+nmod:to(table-7, left-10)
+
+(ROOT
+  (S
+    (VP (VB wait)
+      (PP (IN at)
+        (NP
+          (NP (DT the) (NN threshold))
+          (PP (IN of)
+            (NP (DT the) (JJ open) (NN door))))))
+    (. .)))
+
+root(ROOT-0, wait-1)
+case(threshold-4, at-2)
+det(threshold-4, the-3)
+nmod:at(wait-1, threshold-4)
+case(door-8, of-5)
+det(door-8, the-6)
+amod(door-8, open-7)
+nmod:of(threshold-4, door-8)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB leave)
+        (NP (DT the) (NN room)))
+      (, ,)
+      (CC and)
+      (VP (VB take)
+        (NP (DT a) (NN left))))
+    (. .)))
+
+root(ROOT-0, leave-1)
+det(room-3, the-2)
+dobj(leave-1, room-3)
+cc(leave-1, and-5)
+conj:and(leave-1, take-6)
+det(left-8, a-7)
+dobj(take-6, left-8)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB take)
+        (NP (DT a) (NN right))
+        (PP (IN at)
+          (NP
+            (NP (DT the) (NN end))
+            (PP (IN of)
+              (NP (DT the) (NN hall))))))
+      (, ,)
+      (CC and)
+      (VP (VB take)
+        (NP (DT the) (JJ first) (NN right))))
+    (. .)))
+
+root(ROOT-0, take-1)
+det(right-3, a-2)
+dobj(take-1, right-3)
+case(end-6, at-4)
+det(end-6, the-5)
+nmod:at(take-1, end-6)
+case(hall-9, of-7)
+det(hall-9, the-8)
+nmod:of(end-6, hall-9)
+cc(take-1, and-11)
+conj:and(take-1, take-12)
+det(right-15, the-13)
+amod(right-15, first-14)
+dobj(take-12, right-15)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB enter)
+        (NP (DT the) (NN room)))
+      (, ,)
+      (CC and)
+      (VP (VB stop)
+        (PP (IN in)
+          (NP (DT the) (NN doorway)))))
+    (. .)))
+
+root(ROOT-0, enter-1)
+det(room-3, the-2)
+dobj(enter-1, room-3)
+cc(enter-1, and-5)
+conj:and(enter-1, stop-6)
+case(doorway-9, in-7)
+det(doorway-9, the-8)
+nmod:in(stop-6, doorway-9)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB turn)
+        (ADVP (RB right)))
+      (CC and)
+      (VP (VB walk)
+        (PP (IN across)
+          (NP (DT the) (NN hallway)))
+        (PP (IN through)
+          (NP (DT the) (NN doorway)))))
+    (. .)))
+
+root(ROOT-0, turn-1)
+advmod(turn-1, right-2)
+cc(turn-1, and-3)
+conj:and(turn-1, walk-4)
+case(hallway-7, across-5)
+det(hallway-7, the-6)
+nmod:across(walk-4, hallway-7)
+case(doorway-10, through-8)
+det(doorway-10, the-9)
+nmod:through(walk-4, doorway-10)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB turn)
+        (ADJP (RB slightly) (JJ left)))
+      (CC and)
+      (VP (VB enter)
+        (NP (DT the) (JJ middle) (NN hallway)))
+      (CC and)
+      (VP (VB walk)
+        (ADVP (RB though))
+        (NP (PRP it))))
+    (. .)))
+
+root(ROOT-0, turn-1)
+advmod(left-3, slightly-2)
+xcomp(turn-1, left-3)
+cc(turn-1, and-4)
+conj:and(turn-1, enter-5)
+det(hallway-8, the-6)
+amod(hallway-8, middle-7)
+dobj(enter-5, hallway-8)
+cc(turn-1, and-9)
+conj:and(turn-1, walk-10)
+advmod(walk-10, though-11)
+dobj(walk-10, it-12)
+
+(ROOT
+  (S
+    (VP (VB wait)
+      (PP (IN at)
+        (NP (DT the) (NN entrance))))
+    (. .)))
+
+root(ROOT-0, wait-1)
+case(entrance-4, at-2)
+det(entrance-4, the-3)
+nmod:at(wait-1, entrance-4)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB head)
+        (PRT (RP out))
+        (PP (IN of)
+          (NP (DT the) (NN room))))
+      (CC and)
+      (VP (VB go)
+        (PP (TO to)
+          (NP (PRP$ your) (NN left)))))
+    (. .)))
+
+root(ROOT-0, head-1)
+compound:prt(head-1, out-2)
+case(room-5, of-3)
+det(room-5, the-4)
+nmod:of(head-1, room-5)
+cc(head-1, and-6)
+conj:and(head-1, go-7)
+case(left-10, to-8)
+nmod:poss(left-10, your-9)
+nmod:to(go-7, left-10)
+
+(ROOT
+  (S
+    (VP (VB make)
+      (NP (DT the) (JJ first) (NN right))
+      (SBAR
+        (WHADVP (WRB where))
+        (S
+          (NP (DT the) (JJ little) (NN door))
+          (VP (VBZ is)))))
+    (. .)))
+
+root(ROOT-0, make-1)
+det(right-4, the-2)
+amod(right-4, first-3)
+dobj(make-1, right-4)
+advmod(is-9, where-5)
+det(door-8, the-6)
+amod(door-8, little-7)
+nsubj(is-9, door-8)
+advcl(make-1, is-9)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB go)
+        (ADVP (RB just))
+        (PP (IN past)
+          (NP (DT that) (NN door))))
+      (CC and)
+      (VP (VB wait)
+        (PP (IN in)
+          (NP (DT the) (NN doorway)))))
+    (. .)))
+
+root(ROOT-0, go-1)
+advmod(go-1, just-2)
+case(door-5, past-3)
+det(door-5, that-4)
+nmod:past(go-1, door-5)
+cc(go-1, and-6)
+conj:and(go-1, wait-7)
+case(doorway-10, in-8)
+det(doorway-10, the-9)
+nmod:in(wait-7, doorway-10)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (S
+      (VP (VB walk)
+        (PP (IN through)
+          (NP (DT the) (JJ double) (NNS doors)))))
+    (VP (VBP make)
+      (NP (DT a) (NN left))
+      (PP (RB then)
+        (NP
+          (NP (DT a) (JJ small) (NN right))
+          (PP (IN near)
+            (NP (DT the)
+              (ADJP (RB very) (JJ small))
+              (NN door))))))
+    (. .)))
+
+csubj(make-6, walk-1)
+case(doors-5, through-2)
+det(doors-5, the-3)
+amod(doors-5, double-4)
+nmod:through(walk-1, doors-5)
+root(ROOT-0, make-6)
+det(left-8, a-7)
+dobj(make-6, left-8)
+advmod(right-12, then-9)
+det(right-12, a-10)
+amod(right-12, small-11)
+nmod(make-6, right-12)
+case(door-17, near-13)
+det(door-17, the-14)
+advmod(small-16, very-15)
+amod(door-17, small-16)
+nmod:near(right-12, door-17)
+
+(ROOT
+  (S
+    (VP (VB walk)
+      (PP (IN into)
+        (NP (DT the) (NN doorway)))
+      (PP (IN past)
+        (NP (DT the) (JJ small) (NN door))))
+    (. .)))
+
+root(ROOT-0, walk-1)
+case(doorway-4, into-2)
+det(doorway-4, the-3)
+nmod:into(walk-1, doorway-4)
+case(door-8, past-5)
+det(door-8, the-6)
+amod(door-8, small-7)
+nmod:past(walk-1, door-8)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB enter)
+        (NP (DT the) (NN kitchen)))
+      (CC and)
+      (VP (VB turn)
+        (ADVP (RB right))
+        (PP (IN by)
+          (NP (DT the) (NNS sinks)))))
+    (. .)))
+
+root(ROOT-0, enter-1)
+det(kitchen-3, the-2)
+dobj(enter-1, kitchen-3)
+cc(enter-1, and-4)
+conj:and(enter-1, turn-5)
+advmod(turn-5, right-6)
+case(sinks-9, by-7)
+det(sinks-9, the-8)
+nmod:by(turn-5, sinks-9)
+
+(ROOT
+  (S
+    (VP (VB go)
+      (PP (IN between)
+        (NP
+          (NP (DT the) (NNS cabinets))
+          (PP (IN towards)
+            (NP (DT the) (NNS stairs))))))
+    (. .)))
+
+root(ROOT-0, go-1)
+case(cabinets-4, between-2)
+det(cabinets-4, the-3)
+nmod:between(go-1, cabinets-4)
+case(stairs-7, towards-5)
+det(stairs-7, the-6)
+nmod:towards(cabinets-4, stairs-7)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB turn)
+        (ADVP (RB left)))
+      (CC and)
+      (VP (VB wait)
+        (PP (IN by)
+          (NP
+            (NP (DT the) (NN stool))
+            (PP (IN at)
+              (NP
+                (NP (DT the) (NN end))
+                (PP (IN of)
+                  (NP (DT the) (NN counter)))))))))
+    (. .)))
+
+root(ROOT-0, turn-1)
+advmod(turn-1, left-2)
+cc(turn-1, and-3)
+conj:and(turn-1, wait-4)
+case(stool-7, by-5)
+det(stool-7, the-6)
+nmod:by(wait-4, stool-7)
+case(end-10, at-8)
+det(end-10, the-9)
+nmod:at(stool-7, end-10)
+case(counter-13, of-11)
+det(counter-13, the-12)
+nmod:of(end-10, counter-13)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP (VB walk)
+      (PP (IN towards)
+        (NP (JJ black) (NNS steps))))
+    (. .)))
+
+root(ROOT-0, walk-1)
+case(steps-4, towards-2)
+amod(steps-4, black-3)
+nmod:towards(walk-1, steps-4)
+
+(ROOT
+  (S
+    (VP (VB walk)
+      (S
+        (VP (TO to)
+          (VP (VB chalkboard)))))
+    (. .)))
+
+root(ROOT-0, walk-1)
+mark(chalkboard-3, to-2)
+xcomp(walk-1, chalkboard-3)
+
+(ROOT
+  (S
+    (VP (VB wait)
+      (ADVP (RB here)))
+    (. .)))
+
+root(ROOT-0, wait-1)
+advmod(wait-1, here-2)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB turn)
+        (PRT (RP around)))
+      (CC and)
+      (VP (VB walk)
+        (PP (TO to)
+          (NP
+            (NP (DT the) (NN right))
+            (PP (IN of)
+              (NP (DT the) (NN room)))))))
+    (. .)))
+
+root(ROOT-0, turn-1)
+compound:prt(turn-1, around-2)
+cc(turn-1, and-3)
+conj:and(turn-1, walk-4)
+case(right-7, to-5)
+det(right-7, the-6)
+nmod:to(walk-4, right-7)
+case(room-10, of-8)
+det(room-10, the-9)
+nmod:of(right-7, room-10)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB walk)
+        (PP (IN towards)
+          (NP (DT the) (NNS stairs))))
+      (CC and)
+      (VP
+        (ADVP (RB then))
+        (VB stop)
+        (PP (IN in)
+          (NP
+            (NP (DT the) (NN middle))
+            (PP (IN between)
+              (NP
+                (NP (DT the) (CD 2) (NNS sets))
+                (PP (IN of)
+                  (NP
+                    (NP (NNS stairs))
+                    (PP (IN at)
+                      (NP (DT the) (NN bottom)))))))))))
+    (. .)))
+
+root(ROOT-0, walk-1)
+case(stairs-4, towards-2)
+det(stairs-4, the-3)
+nmod:towards(walk-1, stairs-4)
+cc(walk-1, and-5)
+advmod(stop-7, then-6)
+conj:and(walk-1, stop-7)
+case(middle-10, in-8)
+det(middle-10, the-9)
+nmod:in(stop-7, middle-10)
+case(sets-14, between-11)
+det(sets-14, the-12)
+nummod(sets-14, 2-13)
+nmod:between(middle-10, sets-14)
+case(stairs-16, of-15)
+nmod:of(sets-14, stairs-16)
+case(bottom-19, at-17)
+det(bottom-19, the-18)
+nmod:at(stairs-16, bottom-19)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB go)
+        (VP (VBN passed)
+          (NP (DT the) (JJ red) (NN artwork))
+          (PP (IN on)
+            (NP (DT the) (NN left)))))
+      (, ,)
+      (VP (VB go)
+        (PP (IN into)
+          (NP (DT the) (NN doorway))))
+      (CC and)
+      (VP
+        (ADVP (RB then))
+        (VB make)
+        (NP (DT a) (NN right))
+        (PP (IN after)
+          (NP (DT the) (JJ first) (NN silver) (NN chair)))))
+    (. .)))
+
+root(ROOT-0, go-1)
+dep(go-1, passed-2)
+det(artwork-5, the-3)
+amod(artwork-5, red-4)
+dobj(passed-2, artwork-5)
+case(left-8, on-6)
+det(left-8, the-7)
+nmod:on(passed-2, left-8)
+conj:and(go-1, go-10)
+case(doorway-13, into-11)
+det(doorway-13, the-12)
+nmod:into(go-10, doorway-13)
+cc(go-1, and-14)
+advmod(make-16, then-15)
+conj:and(go-1, make-16)
+det(right-18, a-17)
+dobj(make-16, right-18)
+case(chair-23, after-19)
+det(chair-23, the-20)
+amod(chair-23, first-21)
+compound(chair-23, silver-22)
+nmod:after(make-16, chair-23)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB go)
+        (ADVP (RB straight))
+        (PP (IN through)
+          (NP (DT the) (NN glass) (NN door))))
+      (CC and)
+      (VP (VB step)
+        (PP (IN into)
+          (NP (DT the) (NN bedroom))))
+      (CC and)
+      (VP (VB stop)))
+    (. .)))
+
+root(ROOT-0, go-1)
+advmod(go-1, straight-2)
+case(door-6, through-3)
+det(door-6, the-4)
+compound(door-6, glass-5)
+nmod:through(go-1, door-6)
+cc(go-1, and-7)
+conj:and(go-1, step-8)
+case(bedroom-11, into-9)
+det(bedroom-11, the-10)
+nmod:into(step-8, bedroom-11)
+cc(go-1, and-12)
+conj:and(go-1, stop-13)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (NP
+      (NP (NN head) (NN inside))
+      (, ,)
+      (NP (NN turn) (NN right))
+      (, ,))
+    (VP (VBP walk)
+      (ADVP (RB forward))
+      (PP (IN into)
+        (NP (DT the) (NN room)))
+      (, ,)
+      (S
+        (VP (VB stop)
+          (PP (IN in)
+            (NP
+              (NP (NN front))
+              (PP (IN of)
+                (NP (DT the) (NN bed))))))))
+    (. .)))
+
+compound(inside-2, head-1)
+nsubj(walk-7, inside-2)
+compound(right-5, turn-4)
+appos(inside-2, right-5)
+root(ROOT-0, walk-7)
+advmod(walk-7, forward-8)
+case(room-11, into-9)
+det(room-11, the-10)
+nmod:into(walk-7, room-11)
+ccomp(walk-7, stop-13)
+case(bed-18, in-14)
+mwe(in-14, front-15)
+mwe(in-14, of-16)
+det(bed-18, the-17)
+nmod:in_front_of(stop-13, bed-18)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP (VB head)
+      (PP (IN inside)
+        (NP (DT the) (NN building))))
+    (. .)))
+
+root(ROOT-0, head-1)
+case(building-4, inside-2)
+det(building-4, the-3)
+nmod:inside(head-1, building-4)
+
+(ROOT
+  (S
+    (VP (VB turn)
+      (ADVP (RB right))
+      (, ,)
+      (ADVP (RB then))
+      (VP (VB wait)
+        (PP (IN inside)
+          (NP (DT the) (NN bedroom)))))
+    (. .)))
+
+root(ROOT-0, turn-1)
+advmod(turn-1, right-2)
+advmod(turn-1, then-4)
+dep(turn-1, wait-5)
+case(bedroom-8, inside-6)
+det(bedroom-8, the-7)
+nmod:inside(wait-5, bedroom-8)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP (VB turn)
+      (ADJP (JJ right)
+        (S
+          (VP (TO to)
+            (VP (VB exit)
+              (NP (DT the) (NN room)))))))
+    (. .)))
+
+root(ROOT-0, turn-1)
+xcomp(turn-1, right-2)
+mark(exit-4, to-3)
+xcomp(right-2, exit-4)
+det(room-6, the-5)
+dobj(exit-4, room-6)
+
+(ROOT
+  (S
+    (VP (VB turn)
+      (ADJP (JJ right))
+      (SBAR
+        (WHADVP (WRB when))
+        (S
+          (NP (PRP you))
+          (VP (VBP get)
+            (PP (TO to)
+              (NP
+                (NP (DT the) (NN end))
+                (PP (IN of)
+                  (NP (DT the) (NN hallway)))))))))
+    (. .)))
+
+root(ROOT-0, turn-1)
+xcomp(turn-1, right-2)
+advmod(get-5, when-3)
+nsubj(get-5, you-4)
+advcl(turn-1, get-5)
+case(end-8, to-6)
+det(end-8, the-7)
+nmod:to(get-5, end-8)
+case(hallway-11, of-9)
+det(hallway-11, the-10)
+nmod:of(end-8, hallway-11)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB walk)
+        (PP (IN toward)
+          (NP (DT the) (NNS couches))))
+      (CC and)
+      (VP (VB stop)
+        (ADVP (RB there))
+        (PP (IN by)
+          (NP (DT the) (NNS couches)))))
+    (. .)))
+
+root(ROOT-0, walk-1)
+case(couches-4, toward-2)
+det(couches-4, the-3)
+nmod:toward(walk-1, couches-4)
+cc(walk-1, and-5)
+conj:and(walk-1, stop-6)
+advmod(stop-6, there-7)
+case(couches-10, by-8)
+det(couches-10, the-9)
+nmod:by(stop-6, couches-10)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB go)
+        (PP (IN through)
+          (NP (DT the) (NN door)))
+        (PP (TO to)
+          (NP (DT the) (NN right))))
+      (CC and)
+      (VP
+        (ADVP (RB then))
+        (VB go)
+        (ADVP (RB straight))
+        (PP (TO to)
+          (NP (DT the) (NNS stairs)))))
+    (. .)))
+
+root(ROOT-0, go-1)
+case(door-4, through-2)
+det(door-4, the-3)
+nmod:through(go-1, door-4)
+case(right-7, to-5)
+det(right-7, the-6)
+nmod:to(go-1, right-7)
+cc(go-1, and-8)
+advmod(go-10, then-9)
+conj:and(go-1, go-10)
+advmod(go-10, straight-11)
+case(stairs-14, to-12)
+det(stairs-14, the-13)
+nmod:to(go-10, stairs-14)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB pass)
+        (NP (DT the) (NNS stairs)))
+      (CC and)
+      (VP (VB go)
+        (PP (TO to)
+          (NP
+            (NP (DT the) (NN back))
+            (PP (IN of)
+              (NP (DT the) (NN couch)))))))
+    (. .)))
+
+root(ROOT-0, pass-1)
+det(stairs-3, the-2)
+dobj(pass-1, stairs-3)
+cc(pass-1, and-4)
+conj:and(pass-1, go-5)
+case(back-8, to-6)
+det(back-8, the-7)
+nmod:to(go-5, back-8)
+case(couch-11, of-9)
+det(couch-11, the-10)
+nmod:of(back-8, couch-11)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB turn)
+        (ADVP (RB right)))
+      (CC and)
+      (VP (VB exit)
+        (NP (DT the) (NN bedroom))))
+    (. .)))
+
+root(ROOT-0, turn-1)
+advmod(turn-1, right-2)
+cc(turn-1, and-3)
+conj:and(turn-1, exit-4)
+det(bedroom-6, the-5)
+dobj(exit-4, bedroom-6)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB take)
+        (NP (DT another) (NN right)))
+      (CC and)
+      (VP (VB wait)
+        (PP (IN at)
+          (NP
+            (NP (DT the) (VBG sitting) (NN area))
+            (PP (IN with)
+              (NP
+                (NP (DT the) (NNS couches))
+                (CC and)
+                (NP (NN fireplace))))))))
+    (. .)))
+
+root(ROOT-0, take-1)
+det(right-3, another-2)
+dobj(take-1, right-3)
+cc(take-1, and-4)
+conj:and(take-1, wait-5)
+case(area-9, at-6)
+det(area-9, the-7)
+amod(area-9, sitting-8)
+nmod:at(wait-5, area-9)
+case(couches-12, with-10)
+det(couches-12, the-11)
+nmod:with(area-9, couches-12)
+cc(couches-12, and-13)
+nmod:with(area-9, fireplace-14)
+conj:and(couches-12, fireplace-14)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB go)
+        (PRT (RP up))
+        (NP (DT the) (NNS stairs)))
+      (, ,)
+      (CC and)
+      (VP (VB go)
+        (ADVP (RB right))))
+    (. .)))
+
+root(ROOT-0, go-1)
+compound:prt(go-1, up-2)
+det(stairs-4, the-3)
+dobj(go-1, stairs-4)
+cc(go-1, and-6)
+conj:and(go-1, go-7)
+advmod(go-7, right-8)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB veer)
+        (ADVP (RB right)))
+      (, ,)
+      (CC and)
+      (VP (VB enter)
+        (NP (DT the) (NN suite))
+        (PP (IN on)
+          (NP (DT the) (NN right)))))
+    (. .)))
+
+root(ROOT-0, veer-1)
+advmod(veer-1, right-2)
+cc(veer-1, and-4)
+conj:and(veer-1, enter-5)
+det(suite-7, the-6)
+dobj(enter-5, suite-7)
+case(right-10, on-8)
+det(right-10, the-9)
+nmod:on(enter-5, right-10)
+
+(ROOT
+  (S
+    (VP (VB stop)
+      (SBAR (IN once)
+        (S
+          (NP (PRP you))
+          (VP (VBP are)
+            (PP (IN in)
+              (NP (DT the) (NN doorway)))))))
+    (. .)))
+
+root(ROOT-0, stop-1)
+mark(doorway-7, once-2)
+nsubj(doorway-7, you-3)
+cop(doorway-7, are-4)
+case(doorway-7, in-5)
+det(doorway-7, the-6)
+advcl(stop-1, doorway-7)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB walk)
+        (PRT (RP up))
+        (NP (DT the) (NNS stairs)))
+      (CC and)
+      (VP (VB take)
+        (NP (DT a) (NN right))))
+    (. .)))
+
+root(ROOT-0, walk-1)
+compound:prt(walk-1, up-2)
+det(stairs-4, the-3)
+dobj(walk-1, stairs-4)
+cc(walk-1, and-5)
+conj:and(walk-1, take-6)
+det(right-8, a-7)
+dobj(take-6, right-8)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB wait)
+        (PP (IN in)
+          (NP (DT the) (NN entrance)))
+        (PP (IN if)
+          (NP (DT the) (NN kitchen))))
+      (CC and)
+      (VP (VB wait)
+        (ADVP (RB there))))
+    (. .)))
+
+root(ROOT-0, wait-1)
+case(entrance-4, in-2)
+det(entrance-4, the-3)
+nmod:in(wait-1, entrance-4)
+case(kitchen-7, if-5)
+det(kitchen-7, the-6)
+nmod:if(wait-1, kitchen-7)
+cc(wait-1, and-8)
+conj:and(wait-1, wait-9)
+advmod(wait-9, there-10)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB continue)
+        (UCP
+          (S
+            (VP (TO to)
+              (VP (VB climb)
+                (NP (DT the) (NNS stairs)))))
+          (CC and)
+          (PP (IN at)
+            (NP (DT the) (NN top)))))
+      (, ,)
+      (VP (VB turn)
+        (ADVP (RB right)))
+      (CC and)
+      (VP (VB exit)
+        (NP (DT the) (NN room))
+        (ADVP (IN though)
+          (NP (DT the) (NN opening))
+          (PP (TO to)
+            (NP
+              (NP (DT the) (NN right))
+              (PP (IN of)
+                (NP (DT the) (NN fireplace))))))))
+    (. .)))
+
+root(ROOT-0, continue-1)
+mark(climb-3, to-2)
+dep(continue-1, climb-3)
+det(stairs-5, the-4)
+dobj(climb-3, stairs-5)
+cc(climb-3, and-6)
+case(top-9, at-7)
+det(top-9, the-8)
+dep(continue-1, top-9)
+conj:and(climb-3, top-9)
+conj:and(continue-1, turn-11)
+advmod(turn-11, right-12)
+cc(continue-1, and-13)
+conj:and(continue-1, exit-14)
+det(room-16, the-15)
+dobj(exit-14, room-16)
+case(opening-19, though-17)
+det(opening-19, the-18)
+advmod(exit-14, opening-19)
+case(right-22, to-20)
+det(right-22, the-21)
+nmod:to(opening-19, right-22)
+case(fireplace-25, of-23)
+det(fireplace-25, the-24)
+nmod:of(right-22, fireplace-25)
+
+(ROOT
+  (S
+    (VP (VB go)
+      (PP (IN through)
+        (NP (DT the) (NN door) (NN opening)))
+      (PP (TO to)
+        (NP (PRP$ your) (NN right)))
+      (PP (IN with)
+        (NP
+          (NP (DT the) (NN sign) (`` ``) (NN abe) (NN lincoln) ('' ''))
+          (PP (IN above)
+            (NP (PRP it))))))
+    (. .)))
+
+root(ROOT-0, go-1)
+case(opening-5, through-2)
+det(opening-5, the-3)
+compound(opening-5, door-4)
+nmod:through(go-1, opening-5)
+case(right-8, to-6)
+nmod:poss(right-8, your-7)
+nmod:to(go-1, right-8)
+case(lincoln-14, with-9)
+det(lincoln-14, the-10)
+compound(lincoln-14, sign-11)
+compound(lincoln-14, abe-13)
+nmod:with(go-1, lincoln-14)
+case(it-17, above-16)
+nmod:above(lincoln-14, it-17)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP (VB turn)
+      (PRT (RP around))
+      (SBAR (IN until)
+        (S
+          (NP (PRP you))
+          (VP (VBP 're)
+            (VP (VBG facing)
+              (NP
+                (NP (DT the) (NN middle))
+                (PP (IN of)
+                  (NP (CD three) (NNS arches))))
+              (PP (IN with)
+                (NP
+                  (NP (DT a) (NN table))
+                  (VP (VBN surrounded)
+                    (PP (IN by)
+                      (NP
+                        (NP (CD six) (NNS chairs))
+                        (PP (IN behind)
+                          (NP (PRP you)))))))))))))
+    (. .)))
+
+root(ROOT-0, turn-1)
+compound:prt(turn-1, around-2)
+mark(facing-6, until-3)
+nsubj(facing-6, you-4)
+aux(facing-6, 're-5)
+advcl(turn-1, facing-6)
+det(middle-8, the-7)
+dobj(facing-6, middle-8)
+case(arches-11, of-9)
+nummod(arches-11, three-10)
+nmod:of(middle-8, arches-11)
+case(table-14, with-12)
+det(table-14, a-13)
+nmod:with(facing-6, table-14)
+acl(table-14, surrounded-15)
+case(chairs-18, by-16)
+nummod(chairs-18, six-17)
+nmod:by(surrounded-15, chairs-18)
+case(you-20, behind-19)
+nmod:behind(chairs-18, you-20)
+
+(ROOT
+  (S
+    (VP (VB walk)
+      (PP (IN through)
+        (NP (DT the) (JJ middle) (NN arch)))
+      (SBAR (IN until)
+        (S
+          (NP (PRP you))
+          (VP (VBP see)
+            (NP
+              (NP (DT a) (JJ long) (NN table))
+              (PP (IN with)
+                (NP
+                  (NP (CD eight) (NNS chairs))
+                  (PP (IN on)
+                    (NP
+                      (NP (DT each) (NN side))
+                      (CC and)
+                      (NP (DT a) (NN fireplace)))))))
+            (PP
+              (ADVP
+                (ADVP (RBR further))
+                (RB down))
+              (IN in)
+              (NP
+                (NP (DT the) (JJ next) (NN room))
+                (PP (TO to)
+                  (NP (PRP$ your) (NN right)))))))))
+    (. .)))
+
+root(ROOT-0, walk-1)
+case(arch-5, through-2)
+det(arch-5, the-3)
+amod(arch-5, middle-4)
+nmod:through(walk-1, arch-5)
+mark(see-8, until-6)
+nsubj(see-8, you-7)
+advcl(walk-1, see-8)
+det(table-11, a-9)
+amod(table-11, long-10)
+dobj(see-8, table-11)
+case(chairs-14, with-12)
+nummod(chairs-14, eight-13)
+nmod:with(table-11, chairs-14)
+case(side-17, on-15)
+det(side-17, each-16)
+nmod:on(chairs-14, side-17)
+cc(side-17, and-18)
+det(fireplace-20, a-19)
+nmod:on(chairs-14, fireplace-20)
+conj:and(side-17, fireplace-20)
+advmod(down-22, further-21)
+advmod(room-26, down-22)
+case(room-26, in-23)
+det(room-26, the-24)
+amod(room-26, next-25)
+nmod:in(see-8, room-26)
+case(right-29, to-27)
+nmod:poss(right-29, your-28)
+nmod:to(room-26, right-29)
+
+(ROOT
+  (S
+    (NP (EX there))
+    (VP (MD will)
+      (VP (VB be)
+        (NP
+          (NP (DT a) (NN door))
+          (VP (VBG leading)
+            (PP (TO to)
+              (NP
+                (NP (DT the) (NN outside))
+                (PP (IN on)
+                  (NP (PRP$ your) (NN left)))))))))
+    (. .)))
+
+expl(door-5, there-1)
+aux(door-5, will-2)
+cop(door-5, be-3)
+det(door-5, a-4)
+root(ROOT-0, door-5)
+acl(door-5, leading-6)
+case(outside-9, to-7)
+det(outside-9, the-8)
+nmod:to(leading-6, outside-9)
+case(left-12, on-10)
+nmod:poss(left-12, your-11)
+nmod:on(outside-9, left-12)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB turn)
+        (NP (JJ ninety) (NNS degrees))
+        (PP (TO to)
+          (NP (DT the) (NN right))))
+      (CC and)
+      (VP (VB walk)
+        (PP (IN towards)
+          (NP (DT the) (NN fireplace)))
+        (PP (IN with)
+          (NP
+            (NP (DT the) (JJ long) (NN table))
+            (PP (IN towards)
+              (NP (PRP$ your) (NN left)))))
+        (, ,)
+        (S
+          (VP (VBG stopping)
+            (ADVP (RB just))
+            (PP (IN before)
+              (S
+                (VP (VBG reaching)
+                  (NP (DT the) (NN carpet))
+                  (PP (IN in)
+                    (NP
+                      (NP (NN front))
+                      (PP (IN of)
+                        (NP (DT the) (NN fireplace))))))))))))
+    (. .)))
+
+root(ROOT-0, turn-1)
+amod(degrees-3, ninety-2)
+dobj(turn-1, degrees-3)
+case(right-6, to-4)
+det(right-6, the-5)
+nmod:to(turn-1, right-6)
+cc(turn-1, and-7)
+conj:and(turn-1, walk-8)
+case(fireplace-11, towards-9)
+det(fireplace-11, the-10)
+nmod:towards(walk-8, fireplace-11)
+case(table-15, with-12)
+det(table-15, the-13)
+amod(table-15, long-14)
+nmod:with(walk-8, table-15)
+case(left-18, towards-16)
+nmod:poss(left-18, your-17)
+nmod:towards(table-15, left-18)
+xcomp(walk-8, stopping-20)
+advmod(stopping-20, just-21)
+mark(reaching-23, before-22)
+advcl(stopping-20, reaching-23)
+det(carpet-25, the-24)
+dobj(reaching-23, carpet-25)
+case(fireplace-30, in-26)
+mwe(in-26, front-27)
+mwe(in-26, of-28)
+det(fireplace-30, the-29)
+nmod:in_front_of(reaching-23, fireplace-30)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP (VBG facing)
+      (S
+        (NP (DT the) (CD three) (NNS archways))
+        (VP
+          (VP
+            (VP (VB go)
+              (ADVP
+                (ADVP (RB forward))
+                (CC and)
+                (ADVP (RB immediately) (RB right))))
+            (, ,)
+            (VP (VB go)
+              (PP (IN through)
+                (NP (DT the) (JJ rectangular) (NN archway))))
+            (CC and)
+            (VP (VB go)
+              (PP (IN into)
+                (NP
+                  (NP (DT the) (JJ first) (NN room))
+                  (PP (IN on)
+                    (NP (PRP$ your) (NN left)))))))
+          (, ,)
+          (VP (VB go)
+            (PRT (RP along))
+            (NP (DT the) (NN table)))
+          (, ,)
+          (CC and)
+          (VP (VB stop)
+            (PP (IN at)
+              (NP (DT the) (NNS chairs)))))))
+    (. .)))
+
+root(ROOT-0, facing-1)
+det(archways-4, the-2)
+nummod(archways-4, three-3)
+nsubj(go-5, archways-4)
+nsubj(go-11, archways-4)
+nsubj(go-17, archways-4)
+nsubj(go-26, archways-4)
+nsubj(stop-32, archways-4)
+ccomp(facing-1, go-5)
+advmod(and-7, forward-6)
+advmod(go-5, and-7)
+advmod(right-9, immediately-8)
+advmod(and-7, right-9)
+ccomp(facing-1, go-11)
+conj:and(go-5, go-11)
+case(archway-15, through-12)
+det(archway-15, the-13)
+amod(archway-15, rectangular-14)
+nmod:through(go-11, archway-15)
+cc(go-5, and-16)
+ccomp(facing-1, go-17)
+conj:and(go-5, go-17)
+case(room-21, into-18)
+det(room-21, the-19)
+amod(room-21, first-20)
+nmod:into(go-17, room-21)
+case(left-24, on-22)
+nmod:poss(left-24, your-23)
+nmod:on(room-21, left-24)
+ccomp(facing-1, go-26)
+conj:and(go-5, go-26)
+compound:prt(go-26, along-27)
+det(table-29, the-28)
+dobj(go-26, table-29)
+cc(go-5, and-31)
+ccomp(facing-1, stop-32)
+conj:and(go-5, stop-32)
+case(chairs-35, at-33)
+det(chairs-35, the-34)
+nmod:at(stop-32, chairs-35)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP (VB leave)
+      (NP
+        (NP (DT the) (NN office))
+        (VP (VBG heading)
+          (PP (TO to)
+            (NP (DT the) (NN dining) (NN room))))))
+    (. .)))
+
+root(ROOT-0, leave-1)
+det(office-3, the-2)
+dobj(leave-1, office-3)
+acl(office-3, heading-4)
+case(room-8, to-5)
+det(room-8, the-6)
+compound(room-8, dining-7)
+nmod:to(heading-4, room-8)
+
+(ROOT
+  (S
+    (VP (VB walk)
+      (PP
+        (PP (IN through)
+          (NP (DT the) (NN room)))
+        (CC and)
+        (PP (IN into)
+          (NP (DT the) (NN kitchen)))))
+    (. .)))
+
+root(ROOT-0, walk-1)
+conj:and(walk-1, walk-1')
+case(room-4, through-2)
+det(room-4, the-3)
+nmod:through(walk-1, room-4)
+cc(walk-1, and-5)
+case(kitchen-8, into-6)
+det(kitchen-8, the-7)
+nmod:into(walk-1', kitchen-8)
+
+(ROOT
+  (S
+    (VP (VB stop)
+      (PP (IN in)
+        (NP (DT the) (NN doorway)))
+      (PP (TO to)
+        (NP (DT the) (VBG sitting) (NN room))))
+    (. .)))
+
+root(ROOT-0, stop-1)
+case(doorway-4, in-2)
+det(doorway-4, the-3)
+nmod:in(stop-1, doorway-4)
+case(room-8, to-5)
+det(room-8, the-6)
+amod(room-8, sitting-7)
+nmod:to(stop-1, room-8)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP
+      (VP
+        (VP (VB turn)
+          (ADVP (RB right)))
+        (CC and)
+        (VP (VB move)
+          (ADVP (RB forward))
+          (PP (IN around)
+            (NP (DT the) (NN bed)))))
+      (, ,)
+      (VP (VB enter)
+        (NP (DT the) (NN bathroom)))
+      (CC and)
+      (VP (VB wait)
+        (ADVP (RB there))))
+    (. .)))
+
+root(ROOT-0, turn-1)
+advmod(turn-1, right-2)
+cc(turn-1, and-3)
+conj:and(turn-1, move-4)
+advmod(move-4, forward-5)
+case(bed-8, around-6)
+det(bed-8, the-7)
+nmod:around(move-4, bed-8)
+conj:and(turn-1, enter-10)
+det(bathroom-12, the-11)
+dobj(enter-10, bathroom-12)
+cc(turn-1, and-13)
+conj:and(turn-1, wait-14)
+advmod(wait-14, there-15)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB walk)
+        (PP
+          (PP (IN around)
+            (NP (DT the) (NN bed)))
+          (CC and)
+          (PP (IN into)
+            (NP (DT the) (NN bathroom)))))
+      (CC and)
+      (VP (VB stop)))
+    (. .)))
+
+root(ROOT-0, walk-1)
+conj:and(walk-1, walk-1')
+case(bed-4, around-2)
+det(bed-4, the-3)
+nmod:around(walk-1, bed-4)
+cc(walk-1, and-5)
+case(bathroom-8, into-6)
+det(bathroom-8, the-7)
+nmod:into(walk-1', bathroom-8)
+cc(walk-1, and-9)
+conj:and(walk-1, stop-10)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB turn)
+        (PRT (RP around)))
+      (CC and)
+      (VP (VB walk)
+        (PP (TO to)
+          (NP
+            (NP (DT the) (JJ other) (NN side))
+            (PP (IN of)
+              (NP (DT the) (NN bed))))))
+      (CC and)
+      (VP (VB stop)
+        (PP (IN in)
+          (NP (DT the) (NN bathroom) (NN doorway)))))
+    (. .)))
+
+root(ROOT-0, turn-1)
+compound:prt(turn-1, around-2)
+cc(turn-1, and-3)
+conj:and(turn-1, walk-4)
+case(side-8, to-5)
+det(side-8, the-6)
+amod(side-8, other-7)
+nmod:to(walk-4, side-8)
+case(bed-11, of-9)
+det(bed-11, the-10)
+nmod:of(side-8, bed-11)
+cc(turn-1, and-12)
+conj:and(turn-1, stop-13)
+case(doorway-17, in-14)
+det(doorway-17, the-15)
+compound(doorway-17, bathroom-16)
+nmod:in(stop-13, doorway-17)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP (VB exit)
+      (NP (DT the) (NN room)))
+    (. .)))
+
+root(ROOT-0, exit-1)
+det(room-3, the-2)
+dobj(exit-1, room-3)
+
+(ROOT
+  (S
+    (VP (VB walk)
+      (PP (IN across)
+        (NP (DT the) (NN hallway))))
+    (. .)))
+
+root(ROOT-0, walk-1)
+case(hallway-4, across-2)
+det(hallway-4, the-3)
+nmod:across(walk-1, hallway-4)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB turn)
+        (ADVP (RB slightly) (RB right)))
+      (CC and)
+      (VP (VB walk)
+        (PP (IN across)
+          (NP
+            (NP (DT the) (NN kitchen))
+            (PP (IN towards)
+              (NP (DT the) (NNS sofas)))))))
+    (. .)))
+
+root(ROOT-0, turn-1)
+advmod(right-3, slightly-2)
+advmod(turn-1, right-3)
+cc(turn-1, and-4)
+conj:and(turn-1, walk-5)
+case(kitchen-8, across-6)
+det(kitchen-8, the-7)
+nmod:across(walk-5, kitchen-8)
+case(sofas-11, towards-9)
+det(sofas-11, the-10)
+nmod:towards(kitchen-8, sofas-11)
+
+(ROOT
+  (S
+    (NP (NN turn))
+    (VP
+      (VP (VBD left))
+      (CC and)
+      (VP (VBP walkthrough)
+        (NP
+          (NP (NN doorway))
+          (PP (RB just) (RB right) (IN of)
+            (NP
+              (NP (DT the) (NNS portraits))
+              (PP (IN of)
+                (NP (DT a) (NN family))))))))
+    (. .)))
+
+nsubj(left-2, turn-1)
+nsubj(walkthrough-4, turn-1)
+root(ROOT-0, left-2)
+cc(left-2, and-3)
+conj:and(left-2, walkthrough-4)
+dobj(walkthrough-4, doorway-5)
+advmod(portraits-10, just-6)
+advmod(portraits-10, right-7)
+case(portraits-10, of-8)
+det(portraits-10, the-9)
+nmod:of(doorway-5, portraits-10)
+case(family-13, of-11)
+det(family-13, a-12)
+nmod:of(portraits-10, family-13)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP (VB go)
+      (ADVP (RB straight))
+      (PP (IN down)
+        (NP
+          (NP (NN hallway))
+          (VP (VBG turning)
+            (ADVP (RB right) (RB just))
+            (PP (IN after)
+              (NP (DT the) (NN kitchen) (NN table)))))))
+    (. .)))
+
+root(ROOT-0, go-1)
+advmod(go-1, straight-2)
+case(hallway-4, down-3)
+nmod:down(go-1, hallway-4)
+acl(hallway-4, turning-5)
+advmod(just-7, right-6)
+advmod(turning-5, just-7)
+case(table-11, after-8)
+det(table-11, the-9)
+compound(table-11, kitchen-10)
+nmod:after(turning-5, table-11)
+
+(ROOT
+  (S
+    (S
+      (VP (VB follow)
+        (ADVP (RB pathway))
+        (PP (IN on)
+          (NP
+            (NP (DT the) (NN left))
+            (PP (IN between)
+              (NP (NN kitchen) (NN island)))))))
+    (CC and)
+    (S
+      (NP
+        (NP (DT the) (NN back))
+        (PP (IN of)
+          (NP (DT the) (JJ brown) (NN couch))))
+      (VP (VBP make)
+        (NP
+          (NP (DT a) (JJ slight) (NN right))
+          (VP (VBG passing)
+            (PP (IN through)
+              (NP (DT the) (JJ arch) (NN door) (NN way)))))))
+    (. .)))
+
+root(ROOT-0, follow-1)
+advmod(follow-1, pathway-2)
+case(left-5, on-3)
+det(left-5, the-4)
+nmod:on(follow-1, left-5)
+case(island-8, between-6)
+compound(island-8, kitchen-7)
+nmod:between(left-5, island-8)
+cc(follow-1, and-9)
+det(back-11, the-10)
+nsubj(make-16, back-11)
+case(couch-15, of-12)
+det(couch-15, the-13)
+amod(couch-15, brown-14)
+nmod:of(back-11, couch-15)
+conj:and(follow-1, make-16)
+det(right-19, a-17)
+amod(right-19, slight-18)
+dobj(make-16, right-19)
+acl(right-19, passing-20)
+case(way-25, through-21)
+det(way-25, the-22)
+amod(way-25, arch-23)
+compound(way-25, door-24)
+nmod:through(passing-20, way-25)
+
+(ROOT
+  (S
+    (VP (VB continue)
+      (ADVP (RB straight))
+      (S
+        (VP (VBG using)
+          (NP
+            (NP (DT the) (JJ middle) (NN hallway))
+            (VP (VBG stopping)
+              (PP (IN at)
+                (NP
+                  (NP (DT the) (NN picture))
+                  (PP (IN with)
+                    (NP (NN prayer)))))
+              (PP (IN on)
+                (NP (PRP it))))))))
+    (. .)))
+
+root(ROOT-0, continue-1)
+advmod(continue-1, straight-2)
+xcomp(continue-1, using-3)
+det(hallway-6, the-4)
+amod(hallway-6, middle-5)
+dobj(using-3, hallway-6)
+acl(hallway-6, stopping-7)
+case(picture-10, at-8)
+det(picture-10, the-9)
+nmod:at(stopping-7, picture-10)
+case(prayer-12, with-11)
+nmod:with(picture-10, prayer-12)
+case(it-14, on-13)
+nmod:on(stopping-7, it-14)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP (VB walk)
+      (PRT (RP out))
+      (PP
+        (PP (IN of)
+          (NP (DT the) (NN bedroom)))
+        (CC and)
+        (PP (IN into)
+          (NP (DT the) (NN hall)))))
+    (. .)))
+
+root(ROOT-0, walk-1)
+conj:and(walk-1, walk-1')
+compound:prt(walk-1, out-2)
+case(bedroom-5, of-3)
+det(bedroom-5, the-4)
+nmod:of(walk-1, bedroom-5)
+cc(walk-1, and-6)
+case(hall-9, into-7)
+det(hall-9, the-8)
+nmod:into(walk-1', hall-9)
+
+(ROOT
+  (S
+    (VP (VB walk)
+      (NP (JJ past)
+        (UCP
+          (NP (DT the) (NN bench))
+          (CC and)
+          (ADVP (RB then)))
+        (NN right))
+      (PP (IN past)
+        (NP (DT the) (NN island))))
+    (. .)))
+
+root(ROOT-0, walk-1)
+amod(right-7, past-2)
+det(bench-4, the-3)
+compound(right-7, bench-4)
+cc(bench-4, and-5)
+advmod(bench-4, then-6)
+dobj(walk-1, right-7)
+case(island-10, past-8)
+det(island-10, the-9)
+nmod:past(walk-1, island-10)
+
+(ROOT
+  (S
+    (VP (VB walk)
+      (PP
+        (PP (IN through)
+          (NP (DT the) (NN entryway)))
+        (CC and)
+        (PP (IN into)
+          (NP
+            (NP (DT the) (NN hallway))
+            (PP (IN on)
+              (NP (DT the) (NN right)))))))
+    (. .)))
+
+root(ROOT-0, walk-1)
+conj:and(walk-1, walk-1')
+case(entryway-4, through-2)
+det(entryway-4, the-3)
+nmod:through(walk-1, entryway-4)
+cc(walk-1, and-5)
+case(hallway-8, into-6)
+det(hallway-8, the-7)
+nmod:into(walk-1', hallway-8)
+case(right-11, on-9)
+det(right-11, the-10)
+nmod:on(hallway-8, right-11)
+
+(ROOT
+  (S
+    (VP (VB stop)
+      (PP (IN in)
+        (NP
+          (NP (NN front))
+          (PP (IN of)
+            (NP (DT the) (NN vent))))))
+    (. .)))
+
+root(ROOT-0, stop-1)
+case(vent-6, in-2)
+mwe(in-2, front-3)
+mwe(in-2, of-4)
+det(vent-6, the-5)
+nmod:in_front_of(stop-1, vent-6)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB exit)
+        (NP (DT the) (NN room))
+        (PP (IN into)
+          (NP (DT the) (NN corridor))))
+      (, ,)
+      (VP
+        (ADVP (RB then))
+        (VB enter)
+        (NP
+          (NP (DT the) (JJ third) (NN door))
+          (PP (IN on)
+            (NP (DT the) (NN right)))))
+      (CC and)
+      (VP (VB wait)
+        (PP (IN by)
+          (NP (DT the) (NN massage) (NN table)))))
+    (. .)))
+
+root(ROOT-0, exit-1)
+det(room-3, the-2)
+dobj(exit-1, room-3)
+case(corridor-6, into-4)
+det(corridor-6, the-5)
+nmod:into(exit-1, corridor-6)
+advmod(enter-9, then-8)
+conj:and(exit-1, enter-9)
+det(door-12, the-10)
+amod(door-12, third-11)
+dobj(enter-9, door-12)
+case(right-15, on-13)
+det(right-15, the-14)
+nmod:on(door-12, right-15)
+cc(exit-1, and-16)
+conj:and(exit-1, wait-17)
+case(table-21, by-18)
+det(table-21, the-19)
+compound(table-21, massage-20)
+nmod:by(wait-17, table-21)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP (VB walk)
+      (PP (IN through)
+        (NP (DT the) (NN bathroom) (NN door))))
+    (. .)))
+
+root(ROOT-0, walk-1)
+case(door-5, through-2)
+det(door-5, the-3)
+compound(door-5, bathroom-4)
+nmod:through(walk-1, door-5)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB walk)
+        (PP (IN through)
+          (NP (DT the) (NN foyer))))
+      (CC and)
+      (VP (VB go)
+        (PP (IN into)
+          (NP (DT the) (NN room)))
+        (PP (TO to)
+          (NP
+            (NP (DT the) (NN right))
+            (PP (IN of)
+              (NP (DT the) (CD three) (NN panel) (NN artwork)))))))
+    (. .)))
+
+root(ROOT-0, walk-1)
+case(foyer-4, through-2)
+det(foyer-4, the-3)
+nmod:through(walk-1, foyer-4)
+cc(walk-1, and-5)
+conj:and(walk-1, go-6)
+case(room-9, into-7)
+det(room-9, the-8)
+nmod:into(go-6, room-9)
+case(right-12, to-10)
+det(right-12, the-11)
+nmod:to(go-6, right-12)
+case(artwork-17, of-13)
+det(artwork-17, the-14)
+nummod(artwork-17, three-15)
+compound(artwork-17, panel-16)
+nmod:of(right-12, artwork-17)
+
+(ROOT
+  (S
+    (VP (VB step)
+      (PP (IN into)
+        (NP
+          (NP (DT the) (NN room))
+          (PP (IN near)
+            (NP (DT the) (NN massage) (NN chair))))))
+    (. .)))
+
+root(ROOT-0, step-1)
+case(room-4, into-2)
+det(room-4, the-3)
+nmod:into(step-1, room-4)
+case(chair-8, near-5)
+det(chair-8, the-6)
+compound(chair-8, massage-7)
+nmod:near(room-4, chair-8)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB exit)
+        (NP
+          (NP (DT the) (NN room))
+          (SBAR
+            (S
+              (NP (PRP you))
+              (VP (VBP are)
+                (PP (IN in)))))))
+      (CC and)
+      (VP (VB enter)
+        (NP (DT the) (JJR larger) (NN room))
+        (PP (IN with)
+          (NP
+            (NP (DT the) (JJ square) (NN mosaic))
+            (PP (IN on)
+              (NP (DT the) (NN floor)))))))
+    (. .)))
+
+root(ROOT-0, exit-1)
+det(room-3, the-2)
+dobj(exit-1, room-3)
+nsubj(in-6, you-4)
+cop(in-6, are-5)
+acl:relcl(room-3, in-6)
+cc(exit-1, and-7)
+conj:and(exit-1, enter-8)
+det(room-11, the-9)
+amod(room-11, larger-10)
+dobj(enter-8, room-11)
+case(mosaic-15, with-12)
+det(mosaic-15, the-13)
+amod(mosaic-15, square-14)
+nmod:with(enter-8, mosaic-15)
+case(floor-18, on-16)
+det(floor-18, the-17)
+nmod:on(mosaic-15, floor-18)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB face)
+        (NP (DT the) (NN wall))
+        (PP (IN on)
+          (NP (PRP$ your) (NN right))))
+      (CC and)
+      (VP (VB go)
+        (PP (IN through)
+          (NP (DT the) (NN doorway)))
+        (PP (TO to)
+          (NP
+            (NP (DT the) (NN room))
+            (PP (IN on)
+              (NP (DT the) (NN left)))))))
+    (. .)))
+
+root(ROOT-0, face-1)
+det(wall-3, the-2)
+dobj(face-1, wall-3)
+case(right-6, on-4)
+nmod:poss(right-6, your-5)
+nmod:on(face-1, right-6)
+cc(face-1, and-7)
+conj:and(face-1, go-8)
+case(doorway-11, through-9)
+det(doorway-11, the-10)
+nmod:through(go-8, doorway-11)
+case(room-14, to-12)
+det(room-14, the-13)
+nmod:to(go-8, room-14)
+case(left-17, on-15)
+det(left-17, the-16)
+nmod:on(room-14, left-17)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB walk)
+        (PP (TO to)
+          (NP (DT the) (NN bed))))
+      (CC and)
+      (VP (VB stop)
+        (PP (IN near)
+          (NP (DT the) (NN foot)))))
+    (. .)))
+
+root(ROOT-0, walk-1)
+case(bed-4, to-2)
+det(bed-4, the-3)
+nmod:to(walk-1, bed-4)
+cc(walk-1, and-5)
+conj:and(walk-1, stop-6)
+case(foot-9, near-7)
+det(foot-9, the-8)
+nmod:near(stop-6, foot-9)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP (VB walk)
+      (VP (VBN left)
+        (PRT (RP down))
+        (NP (DT the) (NN hall))))
+    (. .)))
+
+root(ROOT-0, walk-1)
+dep(walk-1, left-2)
+compound:prt(left-2, down-3)
+det(hall-5, the-4)
+dobj(left-2, hall-5)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB walk)
+        (PP (TO to)
+          (NP
+            (NP (DT the) (NN end))
+            (PP (IN of)
+              (NP (DT the) (NN hall))))))
+      (CC and)
+      (VP (VB go)
+        (ADVP (RB right))))
+    (. .)))
+
+root(ROOT-0, walk-1)
+case(end-4, to-2)
+det(end-4, the-3)
+nmod:to(walk-1, end-4)
+case(hall-7, of-5)
+det(hall-7, the-6)
+nmod:of(end-4, hall-7)
+cc(walk-1, and-8)
+conj:and(walk-1, go-9)
+advmod(go-9, right-10)
+
+(ROOT
+  (S
+    (VP (VB walk)
+      (PP
+        (PP (IN past)
+          (NP (DT the) (JJ small) (NN refrigerator)))
+        (CC and)
+        (PP (IN in)
+          (NP (DT the) (NN hall)))))
+    (. .)))
+
+root(ROOT-0, walk-1)
+conj:and(walk-1, walk-1')
+case(refrigerator-5, past-2)
+det(refrigerator-5, the-3)
+amod(refrigerator-5, small-4)
+nmod:past(walk-1, refrigerator-5)
+cc(walk-1, and-6)
+case(hall-9, in-7)
+det(hall-9, the-8)
+nmod:in(walk-1', hall-9)
+
+(ROOT
+  (S
+    (VP (VB stop)
+      (ADVP (RB just))
+      (PP (IN outside)
+        (NP (DT the) (NN door))))
+    (. .)))
+
+root(ROOT-0, stop-1)
+advmod(stop-1, just-2)
+case(door-5, outside-3)
+det(door-5, the-4)
+nmod:outside(stop-1, door-5)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP
+      (VP
+        (VP (VB walk)
+          (PP (IN towards)
+            (NP
+              (NP (DT the) (NNS pictures))
+              (PP (IN on)
+                (NP (DT the) (NN wall))))))
+        (CC and)
+        (ADVP (RB then))
+        (VP (VB turn)
+          (ADVP (RB left)))
+        (, ,)
+        (VP (VB go)
+          (ADVP (RB straight))
+          (ADVP (RB down)
+            (NP (DT the) (NN hall))))
+        (CC and)
+        (VP (VB take)
+          (NP (DT the) (JJ slight) (NN right))
+          (ADVP (RBR further) (RB down))))
+      (, ,)
+      (VP (VB take)
+        (NP (DT a) (NN step))
+        (PP (IN into)
+          (NP (DT the) (JJ wooden) (NN doorway))))
+      (CC and)
+      (VP (VB stop)))
+    (. .)))
+
+root(ROOT-0, walk-1)
+case(pictures-4, towards-2)
+det(pictures-4, the-3)
+nmod:towards(walk-1, pictures-4)
+case(wall-7, on-5)
+det(wall-7, the-6)
+nmod:on(pictures-4, wall-7)
+cc(walk-1, and-8)
+advmod(turn-10, then-9)
+conj:and(walk-1, turn-10)
+advmod(turn-10, left-11)
+dep(walk-1, go-13)
+advmod(go-13, straight-14)
+advmod(go-13, down-15)
+det(hall-17, the-16)
+nmod:npmod(down-15, hall-17)
+cc(walk-1, and-18)
+conj:and(walk-1, take-19)
+det(right-22, the-20)
+amod(right-22, slight-21)
+dobj(take-19, right-22)
+advmod(down-24, further-23)
+advmod(take-19, down-24)
+conj:and(walk-1, take-26)
+det(step-28, a-27)
+dobj(take-26, step-28)
+case(doorway-32, into-29)
+det(doorway-32, the-30)
+amod(doorway-32, wooden-31)
+nmod:into(take-26, doorway-32)
+cc(walk-1, and-33)
+conj:and(walk-1, stop-34)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP (VB walk)
+      (PP
+        (PP (IN past)
+          (NP (DT the) (NN dining) (NN room)))
+        (CC and)
+        (PP (IN down)
+          (NP (DT the) (NN hall)))))
+    (. .)))
+
+root(ROOT-0, walk-1)
+conj:and(walk-1, walk-1')
+case(room-5, past-2)
+det(room-5, the-3)
+compound(room-5, dining-4)
+nmod:past(walk-1, room-5)
+cc(walk-1, and-6)
+case(hall-9, down-7)
+det(hall-9, the-8)
+nmod:down(walk-1', hall-9)
+
+(ROOT
+  (S
+    (VP (VB wait)
+      (PP (IN in)
+        (NP (DT the) (NN theater) (NN room)))
+      (, ,)
+      (PP (IN at)
+        (NP
+          (NP (DT the) (NN end))
+          (PP (IN of)
+            (NP (DT the) (NN hall))))))
+    (. .)))
+
+root(ROOT-0, wait-1)
+case(room-5, in-2)
+det(room-5, the-3)
+compound(room-5, theater-4)
+nmod:in(wait-1, room-5)
+case(end-9, at-7)
+det(end-9, the-8)
+nmod:at(wait-1, end-9)
+case(hall-12, of-10)
+det(hall-12, the-11)
+nmod:of(end-9, hall-12)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB exit)
+        (NP (DT the) (NN bedroom)))
+      (CC and)
+      (VP
+        (ADVP (RB then))
+        (VB make)
+        (NP (DT a) (NN left))))
+    (. .)))
+
+root(ROOT-0, exit-1)
+det(bedroom-3, the-2)
+dobj(exit-1, bedroom-3)
+cc(exit-1, and-4)
+advmod(make-6, then-5)
+conj:and(exit-1, make-6)
+det(left-8, a-7)
+dobj(make-6, left-8)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB go)
+        (PP (TO to)
+          (NP
+            (NP (DT the) (NNS stairs))
+            (VP (VBN located)
+              (PP (TO to)
+                (NP
+                  (NP (DT the) (NN left))
+                  (PP (IN of)
+                    (NP (DT the) (NN couch)))))))))
+      (CC and)
+      (VP (VB wait)
+        (PP (IN on)
+          (NP (DT the) (JJ third) (NN step)))))
+    (. .)))
+
+root(ROOT-0, go-1)
+case(stairs-4, to-2)
+det(stairs-4, the-3)
+nmod:to(go-1, stairs-4)
+acl(stairs-4, located-5)
+case(left-8, to-6)
+det(left-8, the-7)
+nmod:to(located-5, left-8)
+case(couch-11, of-9)
+det(couch-11, the-10)
+nmod:of(left-8, couch-11)
+cc(go-1, and-12)
+conj:and(go-1, wait-13)
+case(step-17, on-14)
+det(step-17, the-15)
+amod(step-17, third-16)
+nmod:on(wait-13, step-17)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB exit)
+        (NP (DT the) (NN bedroom)))
+      (CC and)
+      (VP (VB go)
+        (ADVP (RB left))))
+    (. .)))
+
+root(ROOT-0, exit-1)
+det(bedroom-3, the-2)
+dobj(exit-1, bedroom-3)
+cc(exit-1, and-4)
+conj:and(exit-1, go-5)
+advmod(go-5, left-6)
+
+(ROOT
+  (S
+    (VP (VB walk)
+      (PP (TO to)
+        (NP
+          (NP (DT the) (NN bottom))
+          (PP (IN of)
+            (NP (DT the) (NNS stairs))))))
+    (. .)))
+
+root(ROOT-0, walk-1)
+case(bottom-4, to-2)
+det(bottom-4, the-3)
+nmod:to(walk-1, bottom-4)
+case(stairs-7, of-5)
+det(stairs-7, the-6)
+nmod:of(bottom-4, stairs-7)
+
+(ROOT
+  (S
+    (VP (VB go)
+      (PRT (RP up))
+      (NP (CD two) (NNS stairs))
+      (S
+        (VP (TO to)
+          (VP (VB stop)
+            (PP (IN in)
+              (NP
+                (NP (NN front))
+                (PP (IN of)
+                  (NP (DT the) (NN window)))))))))
+    (. .)))
+
+root(ROOT-0, go-1)
+compound:prt(go-1, up-2)
+nummod(stairs-4, two-3)
+dobj(go-1, stairs-4)
+mark(stop-6, to-5)
+advcl(go-1, stop-6)
+case(window-11, in-7)
+mwe(in-7, front-8)
+mwe(in-7, of-9)
+det(window-11, the-10)
+nmod:in_front_of(stop-6, window-11)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (NP (NN exit))
+    (ADVP
+      (NP (DT the) (NN room))
+      (RB then))
+    (VP (VBP turn) (RB left)
+      (ADVP (RB then))
+      (VP (VB go)
+        (PRT (RP up))
+        (NP
+          (NP (DT the) (NNS stairs))
+          (PP (IN on)
+            (NP (DT the) (NN left))))))
+    (. .)))
+
+nsubj(turn-5, exit-1)
+det(room-3, the-2)
+nmod:npmod(then-4, room-3)
+advmod(turn-5, then-4)
+root(ROOT-0, turn-5)
+advmod(turn-5, left-6)
+advmod(turn-5, then-7)
+dep(turn-5, go-8)
+compound:prt(go-8, up-9)
+det(stairs-11, the-10)
+dobj(go-8, stairs-11)
+case(left-14, on-12)
+det(left-14, the-13)
+nmod:on(stairs-11, left-14)
+
+(ROOT
+  (S
+    (VP (VB go)
+      (ADVP (RB up)
+        (NP (CD three) (NNS steps)))
+      (PP (RB then)
+        (ADJP (VB stop))))
+    (. .)))
+
+root(ROOT-0, go-1)
+advmod(go-1, up-2)
+nummod(steps-4, three-3)
+nmod:npmod(up-2, steps-4)
+advmod(stop-6, then-5)
+advcl(go-1, stop-6)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP (VB go)
+      (PP (RB straight) (IN in)
+        (NP (DT the) (NN house)))
+      (SBAR
+        (SBAR
+          (S
+            (NP
+              (NP (PDT all) (DT the) (NN way))
+              (PP (TO to)
+                (NP (DT the) (NN mirror))))
+            (ADVP (RB then))
+            (VP (VB take)
+              (NP (DT a) (NN left)))))
+        (CC and)
+        (SBAR (IN once)
+          (S
+            (NP (PRP you))
+            (VP (VBP come)
+              (PP (TO to)
+                (NP (PRP$ your) (JJ first) (NN door)))
+              (S
+                (VP
+                  (VP (VB take)
+                    (NP (DT a) (NN right)))
+                  (CC and)
+                  (VP (VB stop)
+                    (ADVP (RB right))
+                    (PP (IN in)
+                      (NP
+                        (NP (DT the) (NN middle))
+                        (PP (IN of)
+                          (NP (DT the) (NN doorway)))))))))))))
+    (. .)))
+
+root(ROOT-0, go-1)
+advmod(house-5, straight-2)
+case(house-5, in-3)
+det(house-5, the-4)
+nmod:in(go-1, house-5)
+det:predet(way-8, all-6)
+det(way-8, the-7)
+nsubj(take-13, way-8)
+case(mirror-11, to-9)
+det(mirror-11, the-10)
+nmod:to(way-8, mirror-11)
+advmod(take-13, then-12)
+advcl(go-1, take-13)
+det(left-15, a-14)
+dobj(take-13, left-15)
+cc(take-13, and-16)
+mark(come-19, once-17)
+nsubj(come-19, you-18)
+advcl(go-1, come-19)
+conj:and(take-13, come-19)
+case(door-23, to-20)
+nmod:poss(door-23, your-21)
+amod(door-23, first-22)
+nmod:to(come-19, door-23)
+ccomp(come-19, take-24)
+det(right-26, a-25)
+dobj(take-24, right-26)
+cc(take-24, and-27)
+ccomp(come-19, stop-28)
+conj:and(take-24, stop-28)
+advmod(stop-28, right-29)
+case(middle-32, in-30)
+det(middle-32, the-31)
+nmod:in(stop-28, middle-32)
+case(doorway-35, of-33)
+det(doorway-35, the-34)
+nmod:of(middle-32, doorway-35)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB go)
+        (PP (IN into)
+          (NP (DT the) (NN house))))
+      (CC and)
+      (VP (VB take)
+        (NP (DT a) (NN left))
+        (PP (IN at)
+          (NP
+            (NP (DT the) (NN end))
+            (PP (IN of)
+              (NP (DT the) (NN entry) (NN way)))))))
+    (. .)))
+
+root(ROOT-0, go-1)
+case(house-4, into-2)
+det(house-4, the-3)
+nmod:into(go-1, house-4)
+cc(go-1, and-5)
+conj:and(go-1, take-6)
+det(left-8, a-7)
+dobj(take-6, left-8)
+case(end-11, at-9)
+det(end-11, the-10)
+nmod:at(take-6, end-11)
+case(way-15, of-12)
+det(way-15, the-13)
+compound(way-15, entry-14)
+nmod:of(end-11, way-15)
+
+(ROOT
+  (S
+    (VP (VB go)
+      (NP
+        (UCP
+          (ADVP (RB straight))
+          (CC and)
+          (PP (IN into)
+            (NP (DT the) (NN dining))))
+        (NN groom))
+      (PP (IN through)
+        (NP (DT the) (JJ first) (NN wall)))
+      (PP (IN on)
+        (NP (DT the) (NN right))))
+    (. .)))
+
+root(ROOT-0, go-1)
+advmod(and-3, straight-2)
+advmod(groom-7, and-3)
+case(dining-6, into-4)
+det(dining-6, the-5)
+conj(and-3, dining-6)
+dobj(go-1, groom-7)
+case(wall-11, through-8)
+det(wall-11, the-9)
+amod(wall-11, first-10)
+nmod:through(go-1, wall-11)
+case(right-14, on-12)
+det(right-14, the-13)
+nmod:on(go-1, right-14)
+
+(ROOT
+  (S
+    (VP (VB stop)
+      (PP (IN in)
+        (NP (DT the) (NN dining) (NN room) (NN doorway))))
+    (. .)))
+
+root(ROOT-0, stop-1)
+case(doorway-6, in-2)
+det(doorway-6, the-3)
+compound(doorway-6, dining-4)
+compound(doorway-6, room-5)
+nmod:in(stop-1, doorway-6)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP (VB walk)
+      (PP (IN through)
+        (NP (NN foyer))))
+    (. .)))
+
+root(ROOT-0, walk-1)
+case(foyer-3, through-2)
+nmod:through(walk-1, foyer-3)
+
+(ROOT
+  (S
+    (VP (VB make) (RB left)
+      (VP (VB mirror)))
+    (. .)))
+
+root(ROOT-0, make-1)
+advmod(make-1, left-2)
+dep(make-1, mirror-3)
+
+(ROOT
+  (S
+    (VP (VB walk)
+      (NP (JJ past) (NN wall) (NN sconce)))
+    (. .)))
+
+root(ROOT-0, walk-1)
+amod(sconce-4, past-2)
+compound(sconce-4, wall-3)
+dobj(walk-1, sconce-4)
+
+(ROOT
+  (S
+    (VP (VB wait)
+      (PP (IN at)
+        (S
+          (VP (VBG dining)
+            (NP (NN room) (NN door) (NN threshold))))))
+    (. .)))
+
+root(ROOT-0, wait-1)
+mark(dining-3, at-2)
+advcl(wait-1, dining-3)
+compound(threshold-6, room-4)
+compound(threshold-6, door-5)
+dobj(dining-3, threshold-6)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP (VB walk)
+      (PP (IN past)
+        (NP
+          (NP (DT the) (NN dining) (NN room) (NN table))
+          (CC and)
+          (NP (DT the) (NN television)))))
+    (. .)))
+
+root(ROOT-0, walk-1)
+case(table-6, past-2)
+det(table-6, the-3)
+compound(table-6, dining-4)
+compound(table-6, room-5)
+nmod:past(walk-1, table-6)
+cc(table-6, and-7)
+det(television-9, the-8)
+nmod:past(walk-1, television-9)
+conj:and(table-6, television-9)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB make)
+        (NP
+          (NP (DT a) (JJ sharp) (NN turn))
+          (VP (VBN left)
+            (PP (IN through)
+              (NP (DT the) (NN doorway))))))
+      (CC and)
+      (VP (VB stop)
+        (PP (IN at)
+          (NP
+            (NP (DT the) (NN bottom))
+            (PP (IN of)
+              (NP (DT the) (NNS stairs)))))))
+    (. .)))
+
+root(ROOT-0, make-1)
+det(turn-4, a-2)
+amod(turn-4, sharp-3)
+dobj(make-1, turn-4)
+acl(turn-4, left-5)
+case(doorway-8, through-6)
+det(doorway-8, the-7)
+nmod:through(left-5, doorway-8)
+cc(make-1, and-9)
+conj:and(make-1, stop-10)
+case(bottom-13, at-11)
+det(bottom-13, the-12)
+nmod:at(stop-10, bottom-13)
+case(stairs-16, of-14)
+det(stairs-16, the-15)
+nmod:of(bottom-13, stairs-16)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP (VB walk)
+      (PP (IN past)
+        (NP (DT the) (NN dining) (NN room) (NN table)))
+      (PP (IN into)
+        (NP (DT the) (VBG living) (NN room))))
+    (. .)))
+
+root(ROOT-0, walk-1)
+case(table-6, past-2)
+det(table-6, the-3)
+compound(table-6, dining-4)
+compound(table-6, room-5)
+nmod:past(walk-1, table-6)
+case(room-10, into-7)
+det(room-10, the-8)
+amod(room-10, living-9)
+nmod:into(walk-1, room-10)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB take)
+        (NP (DT a) (NN left))
+        (PRT (RP out))
+        (PP (IN of)
+          (NP (DT the) (VBG living) (NN room))))
+      (CC and)
+      (VP (VB stop)
+        (PP (IN at)
+          (NP
+            (NP (DT the) (NN bottom))
+            (PP (IN of)
+              (NP (DT the) (NNS stairs)))))))
+    (. .)))
+
+root(ROOT-0, take-1)
+det(left-3, a-2)
+dobj(take-1, left-3)
+compound:prt(take-1, out-4)
+case(room-8, of-5)
+det(room-8, the-6)
+amod(room-8, living-7)
+nmod:of(take-1, room-8)
+cc(take-1, and-9)
+conj:and(take-1, stop-10)
+case(bottom-13, at-11)
+det(bottom-13, the-12)
+nmod:at(stop-10, bottom-13)
+case(stairs-16, of-14)
+det(stairs-16, the-15)
+nmod:of(bottom-13, stairs-16)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (S
+      (VP (VB walk)
+        (PP (IN through)
+          (NP (DT the) (NN dining) (NN area)))))
+    (VP (VBD passed)
+      (NP (DT the) (NN dining) (NN table))
+      (PP (IN with)
+        (NP (JJ blue) (NNS vases)))
+      (PP (IN on)
+        (NP (NN top))))
+    (. .)))
+
+csubj(passed-6, walk-1)
+case(area-5, through-2)
+det(area-5, the-3)
+compound(area-5, dining-4)
+nmod:through(walk-1, area-5)
+root(ROOT-0, passed-6)
+det(table-9, the-7)
+compound(table-9, dining-8)
+dobj(passed-6, table-9)
+case(vases-12, with-10)
+amod(vases-12, blue-11)
+nmod:with(passed-6, vases-12)
+case(top-14, on-13)
+nmod:on(passed-6, top-14)
+
+(ROOT
+  (S
+    (VP (VB continue)
+      (PP
+        (PP (IN through)
+          (NP
+            (NP (DT the) (JJ next) (NN room))
+            (VP (VBN passed)
+              (NP (DT the) (NN television)))))
+        (CC and)
+        (PP (IN through)
+          (NP
+            (NP (DT the) (JJ open) (NN entryway))
+            (PP (IN on)
+              (NP (DT the) (JJ other) (NN side)))))))
+    (. .)))
+
+root(ROOT-0, continue-1)
+conj:and(continue-1, continue-1')
+case(room-5, through-2)
+det(room-5, the-3)
+amod(room-5, next-4)
+nmod:through(continue-1, room-5)
+acl(room-5, passed-6)
+det(television-8, the-7)
+dobj(passed-6, television-8)
+cc(continue-1, and-9)
+case(entryway-13, through-10)
+det(entryway-13, the-11)
+amod(entryway-13, open-12)
+nmod:through(continue-1', entryway-13)
+case(side-17, on-14)
+det(side-17, the-15)
+amod(side-17, other-16)
+nmod:on(entryway-13, side-17)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB turn)
+        (NP (DT the) (NN corner)))
+      (CC and)
+      (VP (VB begin)
+        (S
+          (VP (TO to)
+            (VP (VB walk)
+              (PRT (RP up))
+              (NP (DT the) (NNS stairs))
+              (PP (IN opposite)
+                (NP
+                  (NP (DT the) (JJ front) (NN door))
+                  (PP (TO to)
+                    (NP (DT the) (NN home))))))))))
+    (. .)))
+
+root(ROOT-0, turn-1)
+det(corner-3, the-2)
+dobj(turn-1, corner-3)
+cc(turn-1, and-4)
+conj:and(turn-1, begin-5)
+mark(walk-7, to-6)
+xcomp(begin-5, walk-7)
+compound:prt(walk-7, up-8)
+det(stairs-10, the-9)
+dobj(walk-7, stairs-10)
+case(door-14, opposite-11)
+det(door-14, the-12)
+amod(door-14, front-13)
+nmod:opposite(walk-7, door-14)
+case(home-17, to-15)
+det(home-17, the-16)
+nmod:to(door-14, home-17)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (SBAR (IN while)
+      (S
+        (VP (VBG facing)
+          (NP (DT the) (NN animal) (NN print) (NN sofa)))))
+    (, ,)
+    (NP (NN turn))
+    (VP
+      (VP (VBD left))
+      (CC and)
+      (VP (VBP keep)
+        (S
+          (VP (VBG walking)
+            (ADVP (RB straight))
+            (PP
+              (PP (IN past)
+                (NP (DT the) (NN spiderman) (NN statue)))
+              (CC and)
+              (PP (IN off)
+                (NP (DT the) (NN carpet))))))))
+    (. .)))
+
+mark(facing-2, while-1)
+advcl(left-9, facing-2)
+det(sofa-6, the-3)
+compound(sofa-6, animal-4)
+compound(sofa-6, print-5)
+dobj(facing-2, sofa-6)
+nsubj(left-9, turn-8)
+nsubj(keep-11, turn-8)
+root(ROOT-0, left-9)
+cc(left-9, and-10)
+conj:and(left-9, keep-11)
+xcomp(keep-11, walking-12)
+xcomp(keep-11, walking-12')
+conj:and(walking-12, walking-12')
+advmod(walking-12, straight-13)
+case(statue-17, past-14)
+det(statue-17, the-15)
+compound(statue-17, spiderman-16)
+nmod:past(walking-12, statue-17)
+cc(walking-12, and-18)
+case(carpet-21, off-19)
+det(carpet-21, the-20)
+nmod:off(walking-12', carpet-21)
+
+(ROOT
+  (S
+    (VP (VB go)
+      (PP (IN through)
+        (NP (DT the) (NN door)))
+      (PP (TO to)
+        (NP
+          (NP (DT the) (NN right))
+          (PP (IN of)
+            (NP (DT the) (NN pulp) (NN fiction) (NN poster))))))
+    (. .)))
+
+root(ROOT-0, go-1)
+case(door-4, through-2)
+det(door-4, the-3)
+nmod:through(go-1, door-4)
+case(right-7, to-5)
+det(right-7, the-6)
+nmod:to(go-1, right-7)
+case(poster-12, of-8)
+det(poster-12, the-9)
+compound(poster-12, pulp-10)
+compound(poster-12, fiction-11)
+nmod:of(right-7, poster-12)
+
+(ROOT
+  (S
+    (VP (VB stop)
+      (SBAR
+        (WHADVP (WRB when))
+        (S
+          (S
+            (NP (EX there))
+            (VP (VBZ is)
+              (NP
+                (NP (DT a) (NN door))
+                (SBAR
+                  (S
+                    (VP (VBZ is)
+                      (PP (IN on)
+                        (NP (PRP$ your) (NN left)))))))))
+          (CC and)
+          (S
+            (NP (DT a) (NN window))
+            (VP (VBZ is)
+              (PP (IN on)
+                (NP (PRP$ your) (NN right))))))))
+    (. .)))
+
+root(ROOT-0, stop-1)
+advmod(is-4, when-2)
+expl(is-4, there-3)
+advcl(stop-1, is-4)
+det(door-6, a-5)
+nsubj(is-4, door-6)
+cop(left-10, is-7)
+case(left-10, on-8)
+nmod:poss(left-10, your-9)
+acl:relcl(door-6, left-10)
+cc(is-4, and-11)
+det(window-13, a-12)
+nsubj(right-17, window-13)
+cop(right-17, is-14)
+case(right-17, on-15)
+nmod:poss(right-17, your-16)
+advcl(stop-1, right-17)
+conj:and(is-4, right-17)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP (VB walk)
+      (PP
+        (PP (IN past)
+          (NP (JJ spider-man) (NN statue)))
+        (CC and)
+        (PP (IN into)
+          (NP (DT the) (NN hallway)))))
+    (. .)))
+
+root(ROOT-0, walk-1)
+conj:and(walk-1, walk-1')
+case(statue-4, past-2)
+amod(statue-4, spider-man-3)
+nmod:past(walk-1, statue-4)
+cc(walk-1, and-5)
+case(hallway-8, into-6)
+det(hallway-8, the-7)
+nmod:into(walk-1', hallway-8)
+
+(ROOT
+  (S
+    (VP (VB continue)
+      (NP
+        (ADJP (JJ straight)
+          (PP (IN past)
+            (NP
+              (NP (DT the) (JJ wooden) (NN table))
+              (CC and)
+              (NP (`` ``) (NN pulp) (NN fiction) ('' '')))))
+        (NN poster)))
+    (. .)))
+
+root(ROOT-0, continue-1)
+amod(poster-12, straight-2)
+case(table-6, past-3)
+det(table-6, the-4)
+amod(table-6, wooden-5)
+nmod:past(straight-2, table-6)
+cc(table-6, and-7)
+compound(fiction-10, pulp-9)
+nmod:past(straight-2, fiction-10)
+conj:and(table-6, fiction-10)
+dobj(continue-1, poster-12)
+
+(ROOT
+  (S
+    (VP (VB walk)
+      (PP (IN through)
+        (NP (DT the) (NN glass) (NN door))))
+    (. .)))
+
+root(ROOT-0, walk-1)
+case(door-5, through-2)
+det(door-5, the-3)
+compound(door-5, glass-4)
+nmod:through(walk-1, door-5)
+
+(ROOT
+  (S
+    (VP (VB wait)
+      (PP (IN by)
+        (NP (DT the) (NN window))))
+    (. .)))
+
+root(ROOT-0, wait-1)
+case(window-4, by-2)
+det(window-4, the-3)
+nmod:by(wait-1, window-4)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB go)
+        (PP (IN through)
+          (NP (DT the) (NN hallway))))
+      (CC and)
+      (VP (VB stop)
+        (SBAR (IN after)
+          (S
+            (NP (PRP you))
+            (VP (VBP have)
+              (VP (VBN passed)
+                (NP (DT the) (NN glass) (NN door))))))))
+    (. .)))
+
+root(ROOT-0, go-1)
+case(hallway-4, through-2)
+det(hallway-4, the-3)
+nmod:through(go-1, hallway-4)
+cc(go-1, and-5)
+conj:and(go-1, stop-6)
+mark(passed-10, after-7)
+nsubj(passed-10, you-8)
+aux(passed-10, have-9)
+advcl(stop-6, passed-10)
+det(door-13, the-11)
+compound(door-13, glass-12)
+dobj(passed-10, door-13)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB turn)
+        (PRT (RP around)))
+      (CC and)
+      (VP (VB go)
+        (NP (JJ past) (DT the) (NN bed))
+        (PP (TO to)
+          (NP (DT the) (NN doorway)))))
+    (. .)))
+
+root(ROOT-0, turn-1)
+compound:prt(turn-1, around-2)
+cc(turn-1, and-3)
+conj:and(turn-1, go-4)
+amod(bed-7, past-5)
+det(bed-7, the-6)
+dobj(go-4, bed-7)
+case(doorway-10, to-8)
+det(doorway-10, the-9)
+nmod:to(go-4, doorway-10)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB go)
+        (PP
+          (PP (IN through)
+            (NP (DT the) (NN doorway)))
+          (CC and)
+          (PP (IN across)
+            (NP (DT the) (NN hall))))
+        (, ,)
+        (PP (IN into)
+          (NP (DT the) (NN kitchen))))
+      (CC and)
+      (VP (VB stop)
+        (ADVP (RB there)))
+      (CC and)
+      (VP (VB wait)))
+    (. .)))
+
+root(ROOT-0, go-1)
+conj:and(go-1, go-1')
+case(doorway-4, through-2)
+det(doorway-4, the-3)
+nmod:through(go-1, doorway-4)
+cc(go-1, and-5)
+case(hall-8, across-6)
+det(hall-8, the-7)
+nmod:across(go-1', hall-8)
+case(kitchen-12, into-10)
+det(kitchen-12, the-11)
+nmod:into(go-1, kitchen-12)
+cc(go-1, and-13)
+conj:and(go-1, stop-14)
+advmod(stop-14, there-15)
+cc(go-1, and-16)
+conj:and(go-1, wait-17)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP (VB leave)
+      (NP (NN bedroom))
+      (PP (TO to)
+        (NP (NN hallway))))
+    (. .)))
+
+root(ROOT-0, leave-1)
+dobj(leave-1, bedroom-2)
+case(hallway-4, to-3)
+nmod:to(leave-1, hallway-4)
+
+(ROOT
+  (S
+    (VP
+      (VP
+        (VP (VB turn)
+          (NP (JJ slight) (NN right)))
+        (CC and)
+        (VP (VB enter)
+          (NP (NN hall) (NN way))))
+      (, ,)
+      (VP (VB turn)
+        (NP (JJ slight) (NN left))
+        (PP (TO to)
+          (NP (NN kitchen))))
+      (, ,)
+      (VP (VB stop)
+        (PP (IN at)
+          (NP (NN counter)))))
+    (. .)))
+
+root(ROOT-0, turn-1)
+amod(right-3, slight-2)
+dobj(turn-1, right-3)
+cc(turn-1, and-4)
+conj:and(turn-1, enter-5)
+compound(way-7, hall-6)
+dobj(enter-5, way-7)
+dep(turn-1, turn-9)
+amod(left-11, slight-10)
+dobj(turn-9, left-11)
+case(kitchen-13, to-12)
+nmod:to(turn-9, kitchen-13)
+dep(turn-1, stop-15)
+case(counter-17, at-16)
+nmod:at(stop-15, counter-17)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB turn)
+        (PRT (RP around)))
+      (CC and)
+      (VP (VB walk)
+        (PP (IN across)
+          (NP (DT the) (NN hallway))))
+      (, ,)
+      (VP (VB stop)
+        (PP (IN at)
+          (NP (DT the) (NN entrance)))
+        (PP (TO to)
+          (NP (DT the) (NN kitchen)))))
+    (. .)))
+
+root(ROOT-0, turn-1)
+compound:prt(turn-1, around-2)
+cc(turn-1, and-3)
+conj:and(turn-1, walk-4)
+case(hallway-7, across-5)
+det(hallway-7, the-6)
+nmod:across(walk-4, hallway-7)
+dep(turn-1, stop-9)
+case(entrance-12, at-10)
+det(entrance-12, the-11)
+nmod:at(stop-9, entrance-12)
+case(kitchen-15, to-13)
+det(kitchen-15, the-14)
+nmod:to(stop-9, kitchen-15)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (NP (NN turn))
+    (VP
+      (VP (VBD left))
+      (CC and)
+      (VP (VBP head)
+        (PP (IN through)
+          (NP (DT the) (NN hallway)))))
+    (. .)))
+
+nsubj(left-2, turn-1)
+nsubj(head-4, turn-1)
+root(ROOT-0, left-2)
+cc(left-2, and-3)
+conj:and(left-2, head-4)
+case(hallway-7, through-5)
+det(hallway-7, the-6)
+nmod:through(head-4, hallway-7)
+
+(ROOT
+  (S
+    (VP (VB walk)
+      (ADVP (RB straight))
+      (PP (IN into)
+        (NP (DT the) (NN room))))
+    (. .)))
+
+root(ROOT-0, walk-1)
+advmod(walk-1, straight-2)
+case(room-5, into-3)
+det(room-5, the-4)
+nmod:into(walk-1, room-5)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB turn)
+        (ADVP (RB right)))
+      (CC and)
+      (VP (VB stop)
+        (PP (IN at)
+          (NP (DT the) (JJ black) (NNS chairs)))))
+    (. .)))
+
+root(ROOT-0, turn-1)
+advmod(turn-1, right-2)
+cc(turn-1, and-3)
+conj:and(turn-1, stop-4)
+case(chairs-8, at-5)
+det(chairs-8, the-6)
+amod(chairs-8, black-7)
+nmod:at(stop-4, chairs-8)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (NP (NN turn))
+    (VP (VBD left)
+      (S
+        (VP (TO to)
+          (VP (VB enter)
+            (NP (DT the) (NN hallway))))))
+    (. .)))
+
+nsubj(left-2, turn-1)
+nsubj:xsubj(enter-4, turn-1)
+root(ROOT-0, left-2)
+mark(enter-4, to-3)
+xcomp(left-2, enter-4)
+det(hallway-6, the-5)
+dobj(enter-4, hallway-6)
+
+(ROOT
+  (S (RB then)
+    (VP
+      (VP (VB take)
+        (NP (PRP$ your) (JJ next) (JJ immediate) (NN left)))
+      (CC and)
+      (VP (VB continue)
+        (PP (TO to)
+          (NP (DT the) (NNS desks)))))
+    (. .)))
+
+advmod(take-2, then-1)
+root(ROOT-0, take-2)
+nmod:poss(left-6, your-3)
+amod(left-6, next-4)
+amod(left-6, immediate-5)
+dobj(take-2, left-6)
+cc(take-2, and-7)
+conj:and(take-2, continue-8)
+case(desks-11, to-9)
+det(desks-11, the-10)
+nmod:to(continue-8, desks-11)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB turn)
+        (ADVP (RB right))
+        (PP (IN by)
+          (NP (DT the) (JJ white) (NNS bookshelves))))
+      (CC and)
+      (VP (VB stop)))
+    (. .)))
+
+root(ROOT-0, turn-1)
+advmod(turn-1, right-2)
+case(bookshelves-6, by-3)
+det(bookshelves-6, the-4)
+amod(bookshelves-6, white-5)
+nmod:by(turn-1, bookshelves-6)
+cc(turn-1, and-7)
+conj:and(turn-1, stop-8)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB walk)
+        (PP (IN towards)
+          (NP (DT the) (JJ large) (JJ green) (NN vase))))
+      (CC and)
+      (VP
+        (ADVP (RB then))
+        (VB turn)
+        (NP (NN left)))
+      (CC and)
+      (VP (VB walk)
+        (PP (IN through)
+          (NP (DT the) (NN rock) (NN hallway)))))
+    (. .)))
+
+root(ROOT-0, walk-1)
+case(vase-6, towards-2)
+det(vase-6, the-3)
+amod(vase-6, large-4)
+amod(vase-6, green-5)
+nmod:towards(walk-1, vase-6)
+cc(walk-1, and-7)
+advmod(turn-9, then-8)
+conj:and(walk-1, turn-9)
+dobj(turn-9, left-10)
+cc(walk-1, and-11)
+conj:and(walk-1, walk-12)
+case(hallway-16, through-13)
+det(hallway-16, the-14)
+compound(hallway-16, rock-15)
+nmod:through(walk-12, hallway-16)
+
+(ROOT
+  (S
+    (VP
+      (VP
+        (PP (IN on)
+          (NP (DT the) (JJ other) (NN side)))
+        (VB turn)
+        (NP (NN right)))
+      (CC and)
+      (VP (VB walk)
+        (ADVP (RB forward)))
+      (CC and)
+      (VP (VB stop)
+        (SBAR
+          (WHADVP (WRB when))
+          (S
+            (NP (PRP you))
+            (VP (VBP reach)
+              (NP (DT the) (JJ long) (NN wood) (NN table)))))))
+    (. .)))
+
+case(side-4, on-1)
+det(side-4, the-2)
+amod(side-4, other-3)
+nmod:on(turn-5, side-4)
+root(ROOT-0, turn-5)
+dobj(turn-5, right-6)
+cc(turn-5, and-7)
+conj:and(turn-5, walk-8)
+advmod(walk-8, forward-9)
+cc(turn-5, and-10)
+conj:and(turn-5, stop-11)
+advmod(reach-14, when-12)
+nsubj(reach-14, you-13)
+advcl(stop-11, reach-14)
+det(table-18, the-15)
+amod(table-18, long-16)
+compound(table-18, wood-17)
+dobj(reach-14, table-18)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (S
+      (VP (VB walk)
+        (PRT (RP out))
+        (PP (IN of)
+          (NP (DT the) (NN doorway)))))
+    (VP (VBP take)
+      (NP (DT a) (JJ hard) (NN left)))
+    (. .)))
+
+csubj(take-6, walk-1)
+compound:prt(walk-1, out-2)
+case(doorway-5, of-3)
+det(doorway-5, the-4)
+nmod:of(walk-1, doorway-5)
+root(ROOT-0, take-6)
+det(left-9, a-7)
+amod(left-9, hard-8)
+dobj(take-6, left-9)
+
+(ROOT
+  (S
+    (SBAR
+      (WHADVP (WRB when))
+      (S
+        (NP (PRP you))
+        (VP (VBP get)
+          (PP (TO to)
+            (NP (DT the) (NN couch))))))
+    (VP (VB take)
+      (NP (DT a) (JJ hard) (NN left)))
+    (. .)))
+
+advmod(get-3, when-1)
+nsubj(get-3, you-2)
+advcl(take-7, get-3)
+case(couch-6, to-4)
+det(couch-6, the-5)
+nmod:to(get-3, couch-6)
+root(ROOT-0, take-7)
+det(left-10, a-8)
+amod(left-10, hard-9)
+dobj(take-7, left-10)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB walk)
+        (PRT (RP down))
+        (NP (DT the) (NN hallway))
+        (PP (TO to)
+          (NP (DT the) (JJ second) (NN pillar))))
+      (CC and)
+      (VP (VB take)
+        (NP (DT a) (NN left))))
+    (. .)))
+
+root(ROOT-0, walk-1)
+compound:prt(walk-1, down-2)
+det(hallway-4, the-3)
+dobj(walk-1, hallway-4)
+case(pillar-8, to-5)
+det(pillar-8, the-6)
+amod(pillar-8, second-7)
+nmod:to(walk-1, pillar-8)
+cc(walk-1, and-9)
+conj:and(walk-1, take-10)
+det(left-12, a-11)
+dobj(take-10, left-12)
+
+(ROOT
+  (S
+    (VP (VB wait)
+      (PP (IN by)
+        (NP (DT the) (NN counter))))
+    (. .)))
+
+root(ROOT-0, wait-1)
+case(counter-4, by-2)
+det(counter-4, the-3)
+nmod:by(wait-1, counter-4)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB walk)
+        (PRT (RP out))
+        (PP (IN of)
+          (NP (DT the) (NN pantry))))
+      (CC and)
+      (VP (VB take)
+        (NP (DT a) (NN left))))
+    (. .)))
+
+root(ROOT-0, walk-1)
+compound:prt(walk-1, out-2)
+case(pantry-5, of-3)
+det(pantry-5, the-4)
+nmod:of(walk-1, pantry-5)
+cc(walk-1, and-6)
+conj:and(walk-1, take-7)
+det(left-9, a-8)
+dobj(take-7, left-9)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB take)
+        (NP (DT a) (NN left))
+        (PP (IN behind)
+          (NP (DT the) (NN couch))))
+      (, ,)
+      (CC and)
+      (VP (VB take)
+        (NP (DT a) (NN left))
+        (PP (IN into)
+          (NP (DT the) (NN kitchen)))))
+    (. .)))
+
+root(ROOT-0, take-1)
+det(left-3, a-2)
+dobj(take-1, left-3)
+case(couch-6, behind-4)
+det(couch-6, the-5)
+nmod:behind(take-1, couch-6)
+cc(take-1, and-8)
+conj:and(take-1, take-9)
+det(left-11, a-10)
+dobj(take-9, left-11)
+case(kitchen-14, into-12)
+det(kitchen-14, the-13)
+nmod:into(take-9, kitchen-14)
+
+(ROOT
+  (S
+    (VP (VB stop)
+      (ADVP (JJ next)
+        (PP (TO to)
+          (NP (DT the) (NN counter))))
+      (PP (IN in)
+        (NP (DT the) (NN kitchen))))
+    (. .)))
+
+root(ROOT-0, stop-1)
+case(counter-5, next-2)
+mwe(next-2, to-3)
+det(counter-5, the-4)
+nmod:next_to(stop-1, counter-5)
+case(kitchen-8, in-6)
+det(kitchen-8, the-7)
+nmod:in(stop-1, kitchen-8)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB go)
+        (ADVP (RB straight)))
+      (CC and)
+      (VP
+        (ADVP (RB then))
+        (VB turn)
+        (NP (NN left))))
+    (. .)))
+
+root(ROOT-0, go-1)
+advmod(go-1, straight-2)
+cc(go-1, and-3)
+advmod(turn-5, then-4)
+conj:and(go-1, turn-5)
+dobj(turn-5, left-6)
+
+(ROOT
+  (S
+    (S
+      (VP (VB enter)
+        (NP (DT the) (NN entryway))))
+    (CC and)
+    (S
+      (ADVP (RB then))
+      (VP (VB turn)
+        (VP (VBN left)
+          (S
+            (VP (TO to)
+              (VP (VB pass)
+                (NP (DT the) (NN couch))
+                (ADVP (RB again))))))))
+    (. .)))
+
+root(ROOT-0, enter-1)
+det(entryway-3, the-2)
+dobj(enter-1, entryway-3)
+cc(enter-1, and-4)
+advmod(turn-6, then-5)
+conj:and(enter-1, turn-6)
+dep(turn-6, left-7)
+mark(pass-9, to-8)
+xcomp(left-7, pass-9)
+det(couch-11, the-10)
+dobj(pass-9, couch-11)
+advmod(pass-9, again-12)
+
+(ROOT
+  (S
+    (S
+      (VP (VBG keeping)
+        (S
+          (VP (VBG going)
+            (ADVP (RB straight))))))
+    (CC and)
+    (S
+      (VP (VB stop)
+        (NP
+          (NP (RB outside))
+          (PP (IN of)
+            (NP (DT the) (NN island))))))
+    (. .)))
+
+root(ROOT-0, keeping-1)
+advcl(keeping-1, going-2)
+advmod(going-2, straight-3)
+cc(keeping-1, and-4)
+conj:and(keeping-1, stop-5)
+case(island-9, outside-6)
+mwe(outside-6, of-7)
+det(island-9, the-8)
+nmod:outside_of(stop-5, island-9)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP (VB go)
+      (ADVP (RB straight))
+      (PP (IN into)
+        (NP
+          (NP (DT the) (NN house))
+          (VP (VBG using)
+            (NP (DT the) (JJ large) (NN glass) (NNS doors))))))
+    (. .)))
+
+root(ROOT-0, go-1)
+advmod(go-1, straight-2)
+case(house-5, into-3)
+det(house-5, the-4)
+nmod:into(go-1, house-5)
+acl(house-5, using-6)
+det(doors-10, the-7)
+amod(doors-10, large-8)
+compound(doors-10, glass-9)
+dobj(using-6, doors-10)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB turn)
+        (ADVP (RB left)))
+      (CC and)
+      (VP (VB wait)
+        (PP (IN near)
+          (NP (DT the) (NN kitchen) (NN area)))))
+    (. .)))
+
+root(ROOT-0, turn-1)
+advmod(turn-1, left-2)
+cc(turn-1, and-3)
+conj:and(turn-1, wait-4)
+case(area-8, near-5)
+det(area-8, the-6)
+compound(area-8, kitchen-7)
+nmod:near(wait-4, area-8)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP (VB walk)
+      (PP (IN from)
+        (NP (DT the) (NN patio)))
+      (PP (IN into)
+        (NP (DT the) (NN house) (VBG living) (NN room))))
+    (. .)))
+
+root(ROOT-0, walk-1)
+case(patio-4, from-2)
+det(patio-4, the-3)
+nmod:from(walk-1, patio-4)
+case(room-9, into-5)
+det(room-9, the-6)
+compound(room-9, house-7)
+amod(room-9, living-8)
+nmod:into(walk-1, room-9)
+
+(ROOT
+  (S
+    (VP (VB walk)
+      (PP (TO to)
+        (NP (NN kitchen) (NN island) (NN table))))
+    (. .)))
+
+root(ROOT-0, walk-1)
+case(table-5, to-2)
+compound(table-5, kitchen-3)
+compound(table-5, island-4)
+nmod:to(walk-1, table-5)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB enter)
+        (NP (DT the) (NN house)))
+      (, ,)
+      (CC and)
+      (VP (VB go)
+        (PP (IN into)
+          (NP (DT the) (NN kitchen)))))
+    (. .)))
+
+root(ROOT-0, enter-1)
+det(house-3, the-2)
+dobj(enter-1, house-3)
+cc(enter-1, and-5)
+conj:and(enter-1, go-6)
+case(kitchen-9, into-7)
+det(kitchen-9, the-8)
+nmod:into(go-6, kitchen-9)
+
+(ROOT
+  (S
+    (VP (VB stop)
+      (ADVP (JJ next)
+        (PP (TO to)
+          (NP (DT the) (JJ first) (NN counter))))
+      (PP (IN on)
+        (NP (PRP$ your) (NN left))))
+    (. .)))
+
+root(ROOT-0, stop-1)
+case(counter-6, next-2)
+mwe(next-2, to-3)
+det(counter-6, the-4)
+amod(counter-6, first-5)
+nmod:next_to(stop-1, counter-6)
+case(left-9, on-7)
+nmod:poss(left-9, your-8)
+nmod:on(stop-1, left-9)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP (VB walk)
+      (PRT (RP out))
+      (PP (IN of)
+        (NP (DT the) (NN bathroom)))
+      (PP (IN into)
+        (NP (DT the) (NN hallway))))
+    (. .)))
+
+root(ROOT-0, walk-1)
+compound:prt(walk-1, out-2)
+case(bathroom-5, of-3)
+det(bathroom-5, the-4)
+nmod:of(walk-1, bathroom-5)
+case(hallway-8, into-6)
+det(hallway-8, the-7)
+nmod:into(walk-1, hallway-8)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB walk)
+        (VP (VBN passed)
+          (NP (DT the) (NN cabinet)
+            (CC and)
+            (NN wall) (NN mirror))))
+      (CC and)
+      (VP (VB continue)
+        (PRT (RP down))
+        (NP (DT the) (NN hall))))
+    (. .)))
+
+root(ROOT-0, walk-1)
+dep(walk-1, passed-2)
+det(mirror-7, the-3)
+compound(mirror-7, cabinet-4)
+cc(cabinet-4, and-5)
+conj:and(cabinet-4, wall-6)
+compound(mirror-7, wall-6)
+dobj(passed-2, mirror-7)
+cc(walk-1, and-8)
+conj:and(walk-1, continue-9)
+compound:prt(continue-9, down-10)
+det(hall-12, the-11)
+dobj(continue-9, hall-12)
+
+(ROOT
+  (S
+    (NP (NN walk))
+    (VP
+      (VP (VBD passed)
+        (NP (DT the) (NN water) (NN cooler)))
+      (CC and)
+      (VP
+        (PP (IN into)
+          (NP (DT the) (JJ next) (NN room)))
+        (ADVP (RB ahead))))
+    (. .)))
+
+nsubj(passed-2, walk-1)
+root(ROOT-0, passed-2)
+det(cooler-5, the-3)
+compound(cooler-5, water-4)
+dobj(passed-2, cooler-5)
+cc(passed-2, and-6)
+case(room-10, into-7)
+det(room-10, the-8)
+amod(room-10, next-9)
+conj:and(passed-2, room-10)
+advmod(room-10, ahead-11)
+
+(ROOT
+  (S
+    (VP (VB walk)
+      (PP (IN towards)
+        (NP
+          (NP (DT the) (JJ large) (JJ circular) (NN desk) (NN area))
+          (PP (IN near)
+            (NP
+              (NP (DT the) (NNS pamphlets))
+              (VP (VBN laid)
+                (PRT (RP out))
+                (PP (IN on)
+                  (NP (DT the) (NN desk)))))))))
+    (. .)))
+
+root(ROOT-0, walk-1)
+case(area-7, towards-2)
+det(area-7, the-3)
+amod(area-7, large-4)
+amod(area-7, circular-5)
+compound(area-7, desk-6)
+nmod:towards(walk-1, area-7)
+case(pamphlets-10, near-8)
+det(pamphlets-10, the-9)
+nmod:near(area-7, pamphlets-10)
+acl(pamphlets-10, laid-11)
+compound:prt(laid-11, out-12)
+case(desk-15, on-13)
+det(desk-15, the-14)
+nmod:on(laid-11, desk-15)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB walk)
+        (PP (IN through)
+          (NP (NN doorway))))
+      (CC and)
+      (VP (VB turn)
+        (ADVP (RB right))))
+    (. .)))
+
+root(ROOT-0, walk-1)
+case(doorway-3, through-2)
+nmod:through(walk-1, doorway-3)
+cc(walk-1, and-4)
+conj:and(walk-1, turn-5)
+advmod(turn-5, right-6)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB walk)
+        (ADVP (RB straight)))
+      (CC and)
+      (VP (VB go)
+        (PP (IN through)
+          (NP (DT the) (JJ next) (NN doorway)))))
+    (. .)))
+
+root(ROOT-0, walk-1)
+advmod(walk-1, straight-2)
+cc(walk-1, and-3)
+conj:and(walk-1, go-4)
+case(doorway-8, through-5)
+det(doorway-8, the-6)
+amod(doorway-8, next-7)
+nmod:through(go-4, doorway-8)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB walk)
+        (ADVP (RB forward)))
+      (CC and)
+      (VP
+        (ADVP (RB then))
+        (VB turn)
+        (NP (NN right))))
+    (. .)))
+
+root(ROOT-0, walk-1)
+advmod(walk-1, forward-2)
+cc(walk-1, and-3)
+advmod(turn-5, then-4)
+conj:and(walk-1, turn-5)
+dobj(turn-5, right-6)
+
+(ROOT
+  (S
+    (VP (VB wait)
+      (PP (IN by)
+        (NP (DT the) (NN reception) (NN desk))))
+    (. .)))
+
+root(ROOT-0, wait-1)
+case(desk-5, by-2)
+det(desk-5, the-3)
+compound(desk-5, reception-4)
+nmod:by(wait-1, desk-5)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB turn)
+        (PRT (RP around)))
+      (CC and)
+      (VP (VB walk)
+        (PRT (RP down))
+        (NP
+          (NP (DT the) (NN part))
+          (PP (IN of)
+            (NP
+              (NP (DT the) (NN floor))
+              (VP
+                (ADVP (JJ next)
+                  (PP (TO to)
+                    (NP (DT the) (JJ large) (NN dark-brown))))
+                (VBN framed)
+                (NP (NN mirror))))))))
+    (. .)))
+
+root(ROOT-0, turn-1)
+compound:prt(turn-1, around-2)
+cc(turn-1, and-3)
+conj:and(turn-1, walk-4)
+compound:prt(walk-4, down-5)
+det(part-7, the-6)
+dobj(walk-4, part-7)
+case(floor-10, of-8)
+det(floor-10, the-9)
+nmod:of(part-7, floor-10)
+case(dark-brown-15, next-11)
+mwe(next-11, to-12)
+det(dark-brown-15, the-13)
+amod(dark-brown-15, large-14)
+nmod:next_to(framed-16, dark-brown-15)
+acl(floor-10, framed-16)
+dobj(framed-16, mirror-17)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB walk)
+        (ADVP (RB straight))
+        (PP (IN out)
+          (NP (DT the) (NN door))))
+      (CC and)
+      (VP (VB make)
+        (NP
+          (NP (DT a) (NN right))
+          (PP (IN towards)
+            (NP (DT the) (NN reception) (NN desk))))))
+    (. .)))
+
+root(ROOT-0, walk-1)
+advmod(walk-1, straight-2)
+case(door-5, out-3)
+det(door-5, the-4)
+nmod:out(walk-1, door-5)
+cc(walk-1, and-6)
+conj:and(walk-1, make-7)
+det(right-9, a-8)
+dobj(make-7, right-9)
+case(desk-13, towards-10)
+det(desk-13, the-11)
+compound(desk-13, reception-12)
+nmod:towards(right-9, desk-13)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB walk)
+        (PP (IN toward)
+          (NP
+            (NP (DT the) (NN table))
+            (CC and)
+            (NP (NNS chairs)))))
+      (, ,)
+      (CC and)
+      (VP (VB turn)
+        (VP (VBN left)
+          (PP (IN through)
+            (NP (DT the) (NN door) (NN way))))))
+    (. .)))
+
+root(ROOT-0, walk-1)
+case(table-4, toward-2)
+det(table-4, the-3)
+nmod:toward(walk-1, table-4)
+cc(table-4, and-5)
+nmod:toward(walk-1, chairs-6)
+conj:and(table-4, chairs-6)
+cc(walk-1, and-8)
+conj:and(walk-1, turn-9)
+dep(turn-9, left-10)
+case(way-14, through-11)
+det(way-14, the-12)
+compound(way-14, door-13)
+nmod:through(left-10, way-14)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB walk)
+        (ADVP (RB straight))
+        (PP (IN through)
+          (NP (DT the) (NN doorway))))
+      (CC and)
+      (VP (VB walk)
+        (PP (IN through)
+          (NP (DT the) (NN massage) (NN room)))))
+    (. .)))
+
+root(ROOT-0, walk-1)
+advmod(walk-1, straight-2)
+case(doorway-5, through-3)
+det(doorway-5, the-4)
+nmod:through(walk-1, doorway-5)
+cc(walk-1, and-6)
+conj:and(walk-1, walk-7)
+case(room-11, through-8)
+det(room-11, the-9)
+compound(room-11, massage-10)
+nmod:through(walk-7, room-11)
+
+(ROOT
+  (S
+    (VP (VB walk)
+      (PP
+        (PP (IN through)
+          (NP
+            (NP (DT the) (NN door))
+            (PP (IN on)
+              (NP (DT the) (NN right)))))
+        (CC and)
+        (PP (IN in)
+          (NP (DT the) (NN doorway)))))
+    (. .)))
+
+root(ROOT-0, walk-1)
+conj:and(walk-1, walk-1')
+case(door-4, through-2)
+det(door-4, the-3)
+nmod:through(walk-1, door-4)
+case(right-7, on-5)
+det(right-7, the-6)
+nmod:on(door-4, right-7)
+cc(walk-1, and-8)
+case(doorway-11, in-9)
+det(doorway-11, the-10)
+nmod:in(walk-1', doorway-11)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP
+      (VP
+        (VP (VB go)
+          (VP (VBN passed)
+            (NP (DT the) (NNS stairs))
+            (PP (TO to)
+              (NP (PRP$ your) (NN left)))))
+        (CC and)
+        (VP (VB go)
+          (PP (IN through)
+            (NP (DT the) (JJ brown) (NN archway))))
+        (, ,)
+        (VP (VB go)
+          (PP (IN into)
+            (NP
+              (NP (DT the) (JJ first) (NN room))
+              (PP (IN on)
+                (NP (PRP$ your) (NN left))))))
+        (, ,)
+        (VP (VB go)
+          (PP (IN through)
+            (NP (DT the) (NN room))))
+        (CC and)
+        (VP (VB go)
+          (PP (IN into)
+            (NP
+              (NP (DT the) (NN room))
+              (PP (IN on)
+                (NP (DT the) (NN right)))))))
+      (CC and)
+      (VP (VB stop)))
+    (. .)))
+
+root(ROOT-0, go-1)
+dep(go-1, passed-2)
+det(stairs-4, the-3)
+dobj(passed-2, stairs-4)
+case(left-7, to-5)
+nmod:poss(left-7, your-6)
+nmod:to(passed-2, left-7)
+cc(go-1, and-8)
+conj:and(go-1, go-9)
+case(archway-13, through-10)
+det(archway-13, the-11)
+amod(archway-13, brown-12)
+nmod:through(go-9, archway-13)
+dep(go-1, go-15)
+case(room-19, into-16)
+det(room-19, the-17)
+amod(room-19, first-18)
+nmod:into(go-15, room-19)
+case(left-22, on-20)
+nmod:poss(left-22, your-21)
+nmod:on(room-19, left-22)
+dep(go-1, go-24)
+case(room-27, through-25)
+det(room-27, the-26)
+nmod:through(go-24, room-27)
+cc(go-1, and-28)
+conj:and(go-1, go-29)
+case(room-32, into-30)
+det(room-32, the-31)
+nmod:into(go-29, room-32)
+case(right-35, on-33)
+det(right-35, the-34)
+nmod:on(room-32, right-35)
+cc(go-1, and-36)
+conj:and(go-1, stop-37)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP (VB walk)
+      (PP
+        (PP (IN past)
+          (NP (DT the) (NNS stairs)))
+        (CC and)
+        (PP (IN into)
+          (NP (DT the) (NN hallway))))
+      (ADVP (RB ahead)))
+    (. .)))
+
+root(ROOT-0, walk-1)
+conj:and(walk-1, walk-1')
+case(stairs-4, past-2)
+det(stairs-4, the-3)
+nmod:past(walk-1, stairs-4)
+cc(walk-1, and-5)
+case(hallway-8, into-6)
+det(hallway-8, the-7)
+nmod:into(walk-1', hallway-8)
+advmod(walk-1, ahead-9)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB enter)
+        (NP (DT the) (JJ first) (NN room))
+        (PP (IN on)
+          (NP (DT the) (NN left))))
+      (CC and)
+      (VP (VB walk)
+        (PP
+          (PP (IN through)
+            (NP (DT the) (NN room)))
+          (, ,)
+          (PP (IN past)
+            (NP (DT the) (NN massage) (NNS tables)))
+          (CC and)
+          (PP (TO to)
+            (NP (DT the) (NN door))))
+        (ADVP (RB ahead))))
+    (. .)))
+
+root(ROOT-0, enter-1)
+det(room-4, the-2)
+amod(room-4, first-3)
+dobj(enter-1, room-4)
+case(left-7, on-5)
+det(left-7, the-6)
+nmod:on(enter-1, left-7)
+cc(enter-1, and-8)
+conj:and(enter-1, walk-9)
+conj:and(enter-1, walk-9')
+conj:and(enter-1, walk-9'')
+conj:and(walk-9, walk-9')
+conj:and(walk-9, walk-9'')
+case(room-12, through-10)
+det(room-12, the-11)
+nmod:through(walk-9, room-12)
+case(tables-17, past-14)
+det(tables-17, the-15)
+compound(tables-17, massage-16)
+nmod:past(walk-9', tables-17)
+cc(walk-9, and-18)
+case(door-21, to-19)
+det(door-21, the-20)
+nmod:to(walk-9'', door-21)
+advmod(walk-9, ahead-22)
+
+(ROOT
+  (S
+    (VP (VB wait)
+      (ADVP (RB just))
+      (PP (IN inside)
+        (NP (DT the) (NN doorway))))
+    (. .)))
+
+root(ROOT-0, wait-1)
+advmod(wait-1, just-2)
+case(doorway-5, inside-3)
+det(doorway-5, the-4)
+nmod:inside(wait-1, doorway-5)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB turn)
+        (ADJP (RB slightly) (JJ left)))
+      (CC and)
+      (VP (VB exit)
+        (NP (DT the) (NN room))))
+    (. .)))
+
+root(ROOT-0, turn-1)
+advmod(left-3, slightly-2)
+xcomp(turn-1, left-3)
+cc(turn-1, and-4)
+conj:and(turn-1, exit-5)
+det(room-7, the-6)
+dobj(exit-5, room-7)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB turn)
+        (ADVP (RB right)))
+      (CC and)
+      (VP (VB walk)
+        (PP (IN towards)
+          (NP (DT the) (NNS stairs)))))
+    (. .)))
+
+root(ROOT-0, turn-1)
+advmod(turn-1, right-2)
+cc(turn-1, and-3)
+conj:and(turn-1, walk-4)
+case(stairs-7, towards-5)
+det(stairs-7, the-6)
+nmod:towards(walk-4, stairs-7)
+
+(ROOT
+  (S
+    (VP (VB wait)
+      (PP (IN by)
+        (NP (DT the) (JJ small) (NN chair))))
+    (. .)))
+
+root(ROOT-0, wait-1)
+case(chair-5, by-2)
+det(chair-5, the-3)
+amod(chair-5, small-4)
+nmod:by(wait-1, chair-5)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP (VB exit)
+      (NP (DT the) (NN bathroom)))
+    (. .)))
+
+root(ROOT-0, exit-1)
+det(bathroom-3, the-2)
+dobj(exit-1, bathroom-3)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB go)
+        (PP (IN through)
+          (NP (DT the) (JJ double-doors) (JJ next)))
+        (PP (TO to)
+          (NP (DT the) (NNS plants))))
+      (CC and)
+      (VP (VB stop)))
+    (. .)))
+
+root(ROOT-0, go-1)
+case(next-5, through-2)
+det(next-5, the-3)
+amod(next-5, double-doors-4)
+nmod:through(go-1, next-5)
+case(plants-8, to-6)
+det(plants-8, the-7)
+nmod:to(go-1, plants-8)
+cc(go-1, and-9)
+conj:and(go-1, stop-10)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP (VB walk)
+      (PP
+        (PP (IN around)
+          (NP (DT the) (NNS screens)))
+        (CC and)
+        (PP (IN outside)
+          (NP (DT the) (NN room)))))
+    (. .)))
+
+root(ROOT-0, walk-1)
+conj:and(walk-1, walk-1')
+case(screens-4, around-2)
+det(screens-4, the-3)
+nmod:around(walk-1, screens-4)
+cc(walk-1, and-5)
+case(room-8, outside-6)
+det(room-8, the-7)
+nmod:outside(walk-1', room-8)
+
+(ROOT
+  (S
+    (ADVP (RB once) (RB outside))
+    (, ,)
+    (VP (VB go)
+      (PP (TO to)
+        (NP (DT the) (NN room)))
+      (PP (TO to)
+        (NP
+          (NP (DT the) (NN left))
+          (PP (IN of)
+            (NP (DT the) (JJ large) (NNS plants))))))
+    (. .)))
+
+advmod(outside-2, once-1)
+advmod(go-4, outside-2)
+root(ROOT-0, go-4)
+case(room-7, to-5)
+det(room-7, the-6)
+nmod:to(go-4, room-7)
+case(left-10, to-8)
+det(left-10, the-9)
+nmod:to(go-4, left-10)
+case(plants-14, of-11)
+det(plants-14, the-12)
+amod(plants-14, large-13)
+nmod:of(left-10, plants-14)
+
+(ROOT
+  (S
+    (VP (VB stop)
+      (PP (IN after)
+        (S
+          (VP (VBG stepping)
+            (PP (IN into)
+              (NP (DT this) (NN room)))))))
+    (. .)))
+
+root(ROOT-0, stop-1)
+mark(stepping-3, after-2)
+advcl(stop-1, stepping-3)
+case(room-6, into-4)
+det(room-6, this-5)
+nmod:into(stepping-3, room-6)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (S
+      (VP (VB go)
+        (PP (IN through)
+          (NP (JJ wooden) (NN door)))
+        (PP (RB next)
+          (PP (TO to)
+            (NP (NNS windows)))
+          (, ,)
+          (CC and)
+          (PP (RB straight)
+            (ADVP (RB ahead))))))
+    (, ,)
+    (NP (NN turn))
+    (VP (VBD left)
+      (PP (IN into)
+        (NP (NN bathroom)))
+      (PP (IN at)
+        (NP
+          (NP (NN end))
+          (PP (IN of)
+            (NP (NN hall))))))
+    (. .)))
+
+ccomp(left-14, go-1)
+case(door-4, through-2)
+amod(door-4, wooden-3)
+nmod:through(go-1, door-4)
+case(windows-7, next-5)
+mwe(next-5, to-6)
+nmod:next_to(go-1, windows-7)
+cc(windows-7, and-9)
+advmod(ahead-11, straight-10)
+nmod:next_to(go-1, ahead-11)
+conj:and(windows-7, ahead-11)
+nsubj(left-14, turn-13)
+root(ROOT-0, left-14)
+case(bathroom-16, into-15)
+nmod:into(left-14, bathroom-16)
+case(end-18, at-17)
+nmod:at(left-14, end-18)
+case(hall-20, of-19)
+nmod:of(end-18, hall-20)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP (VB walk)
+      (PP (IN through)
+        (NP (DT the) (NN doorway)))
+      (PP (TO to)
+        (NP
+          (NP (DT the) (NN left))
+          (PP (IN of)
+            (NP
+              (NP (DT the) (VBN lighted) (NNS sculptures))
+              (PP (IN on)
+                (NP (DT the) (NN ground))))))))
+    (. .)))
+
+root(ROOT-0, walk-1)
+case(doorway-4, through-2)
+det(doorway-4, the-3)
+nmod:through(walk-1, doorway-4)
+case(left-7, to-5)
+det(left-7, the-6)
+nmod:to(walk-1, left-7)
+case(sculptures-11, of-8)
+det(sculptures-11, the-9)
+amod(sculptures-11, lighted-10)
+nmod:of(left-7, sculptures-11)
+case(ground-14, on-12)
+det(ground-14, the-13)
+nmod:on(sculptures-11, ground-14)
+
+(ROOT
+  (S
+    (VP (VB continue)
+      (ADVP (RB straight))
+      (SBAR (IN until)
+        (S
+          (NP (PRP you))
+          (VP (VBP pass)
+            (NP
+              (NP (DT a) (JJ long) (JJ horizontal) (NN mirror))
+              (PP (IN on)
+                (NP (PRP$ your) (NN right))))))))
+    (. .)))
+
+root(ROOT-0, continue-1)
+advmod(continue-1, straight-2)
+mark(pass-5, until-3)
+nsubj(pass-5, you-4)
+advcl(continue-1, pass-5)
+det(mirror-9, a-6)
+amod(mirror-9, long-7)
+amod(mirror-9, horizontal-8)
+dobj(pass-5, mirror-9)
+case(right-12, on-10)
+nmod:poss(right-12, your-11)
+nmod:on(mirror-9, right-12)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB turn)
+        (ADVP (RB right)))
+      (CC and)
+      (VP (VB walk)
+        (PP (IN towards)
+          (NP (DT the) (JJ first) (NN toilet)))))
+    (. .)))
+
+root(ROOT-0, turn-1)
+advmod(turn-1, right-2)
+cc(turn-1, and-3)
+conj:and(turn-1, walk-4)
+case(toilet-8, towards-5)
+det(toilet-8, the-6)
+amod(toilet-8, first-7)
+nmod:towards(walk-4, toilet-8)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP (VB walk)
+      (PP (IN through)
+        (NP (DT the) (NN door)))
+      (PP (TO to)
+        (NP
+          (NP (DT the) (NN left))
+          (PP (IN of)
+            (NP (DT the) (JJ glowing) (NNS circles))))))
+    (. .)))
+
+root(ROOT-0, walk-1)
+case(door-4, through-2)
+det(door-4, the-3)
+nmod:through(walk-1, door-4)
+case(left-7, to-5)
+det(left-7, the-6)
+nmod:to(walk-1, left-7)
+case(circles-11, of-8)
+det(circles-11, the-9)
+amod(circles-11, glowing-10)
+nmod:of(left-7, circles-11)
+
+(ROOT
+  (S
+    (VP (VB continue)
+      (NP (JJ past) (DT the) (NN mirror))
+      (PP (TO to)
+        (NP
+          (NP (DT the) (JJ large) (NN standing) (NN cabinet))
+          (PP (IN on)
+            (NP (DT the) (NN right))))))
+    (. .)))
+
+root(ROOT-0, continue-1)
+amod(mirror-4, past-2)
+det(mirror-4, the-3)
+dobj(continue-1, mirror-4)
+case(cabinet-9, to-5)
+det(cabinet-9, the-6)
+amod(cabinet-9, large-7)
+compound(cabinet-9, standing-8)
+nmod:to(continue-1, cabinet-9)
+case(right-12, on-10)
+det(right-12, the-11)
+nmod:on(cabinet-9, right-12)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB turn)
+        (ADVP (RB left)))
+      (CC and)
+      (VP (VB stop)
+        (PP (IN in)
+          (NP (DT the) (NN doorway)))))
+    (. .)))
+
+root(ROOT-0, turn-1)
+advmod(turn-1, left-2)
+cc(turn-1, and-3)
+conj:and(turn-1, stop-4)
+case(doorway-7, in-5)
+det(doorway-7, the-6)
+nmod:in(stop-4, doorway-7)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB walk)
+        (PRT (RP down))
+        (NP (DT the) (NNS stairs)))
+      (CC and)
+      (VP (VB walk)
+        (PP (IN towards)
+          (NP (DT the) (JJ red) (NN sofa)))))
+    (. .)))
+
+root(ROOT-0, walk-1)
+compound:prt(walk-1, down-2)
+det(stairs-4, the-3)
+dobj(walk-1, stairs-4)
+cc(walk-1, and-5)
+conj:and(walk-1, walk-6)
+case(sofa-10, towards-7)
+det(sofa-10, the-8)
+amod(sofa-10, red-9)
+nmod:towards(walk-6, sofa-10)
+
+(ROOT
+  (S
+    (NP (NN turn))
+    (VP
+      (VP (VBD left))
+      (CC and)
+      (VP (VBP enter)
+        (NP (DT the) (NN bathroom))))
+    (. .)))
+
+nsubj(left-2, turn-1)
+nsubj(enter-4, turn-1)
+root(ROOT-0, left-2)
+cc(left-2, and-3)
+conj:and(left-2, enter-4)
+det(bathroom-6, the-5)
+dobj(enter-4, bathroom-6)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP (VB walk)
+      (PRT (RP down))
+      (NP
+        (NP
+          (NP (DT the) (NNS stairs))
+          (NP (PDT all) (DT the) (NN way)))
+        (CC and)
+        (NP (JJ past) (DT the) (JJ christmas) (NN tree))))
+    (. .)))
+
+root(ROOT-0, walk-1)
+compound:prt(walk-1, down-2)
+det(stairs-4, the-3)
+dobj(walk-1, stairs-4)
+det:predet(way-7, all-5)
+det(way-7, the-6)
+dep(stairs-4, way-7)
+cc(stairs-4, and-8)
+amod(tree-12, past-9)
+det(tree-12, the-10)
+amod(tree-12, christmas-11)
+dobj(walk-1, tree-12)
+conj:and(stairs-4, tree-12)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB make)
+        (NP (DT a) (JJ right) (NN turn)))
+      (CC and)
+      (VP (VB walk)
+        (PP (IN past)
+          (NP (DT the) (JJ blue) (NN chair)))
+        (PP (IN into)
+          (NP
+            (NP (DT the) (NN room))
+            (PP (IN with)
+              (NP (DT the) (JJ white) (NN sink)))))))
+    (. .)))
+
+root(ROOT-0, make-1)
+det(turn-4, a-2)
+amod(turn-4, right-3)
+dobj(make-1, turn-4)
+cc(make-1, and-5)
+conj:and(make-1, walk-6)
+case(chair-10, past-7)
+det(chair-10, the-8)
+amod(chair-10, blue-9)
+nmod:past(walk-6, chair-10)
+case(room-13, into-11)
+det(room-13, the-12)
+nmod:into(walk-6, room-13)
+case(sink-17, with-14)
+det(sink-17, the-15)
+amod(sink-17, white-16)
+nmod:with(room-13, sink-17)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB walk)
+        (PRT (RP down))
+        (NP (DT the) (NNS stairs)))
+      (, ,)
+      (VP
+        (VP (VB walk)
+          (PP (IN into)
+            (NP
+              (NP (DT the) (NN room))
+              (PP (IN with)
+                (NP (DT the) (NN fireplace))))))
+        (, ,)
+        (VP (VB walk)
+          (PRT (RP around))
+          (NP (DT the) (NNS chairs)))
+        (CC and)
+        (VP (VB turn)
+          (VP (VBN left)
+            (PP (IN into)
+              (NP (DT the) (NN bathroom))))))
+      (, ,)
+      (VP (VB stop)
+        (PP (IN in)
+          (NP
+            (NP (NN front))
+            (PP (IN of)
+              (NP (DT the) (NN sink)))))))
+    (. .)))
+
+root(ROOT-0, walk-1)
+compound:prt(walk-1, down-2)
+det(stairs-4, the-3)
+dobj(walk-1, stairs-4)
+dep(walk-1, walk-6)
+case(room-9, into-7)
+det(room-9, the-8)
+nmod:into(walk-6, room-9)
+case(fireplace-12, with-10)
+det(fireplace-12, the-11)
+nmod:with(room-9, fireplace-12)
+dep(walk-1, walk-14)
+conj:and(walk-6, walk-14)
+compound:prt(walk-14, around-15)
+det(chairs-17, the-16)
+dobj(walk-14, chairs-17)
+cc(walk-6, and-18)
+dep(walk-1, turn-19)
+conj:and(walk-6, turn-19)
+dep(turn-19, left-20)
+case(bathroom-23, into-21)
+det(bathroom-23, the-22)
+nmod:into(left-20, bathroom-23)
+dep(walk-1, stop-25)
+case(sink-30, in-26)
+mwe(in-26, front-27)
+mwe(in-26, of-28)
+det(sink-30, the-29)
+nmod:in_front_of(stop-25, sink-30)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP (VB walk)
+      (PP (IN across)
+        (S
+          (VP (VBG living)
+            (NP (NN room))
+            (PP (TO to)
+              (NP (NN tile) (NN floor)))))))
+    (. .)))
+
+root(ROOT-0, walk-1)
+mark(living-3, across-2)
+advcl(walk-1, living-3)
+dobj(living-3, room-4)
+case(floor-7, to-5)
+compound(floor-7, tile-6)
+nmod:to(living-3, floor-7)
+
+(ROOT
+  (S
+    (VP (VB stop)
+      (ADJP (JJ next)
+        (PP (TO to)
+          (NP
+            (NP (DT the) (JJ far) (NN side))
+            (PP (IN of)
+              (NP (DT the) (NN bar)))))))
+    (. .)))
+
+root(ROOT-0, stop-1)
+case(side-6, next-2)
+mwe(next-2, to-3)
+det(side-6, the-4)
+amod(side-6, far-5)
+nmod:next_to(stop-1, side-6)
+case(bar-9, of-7)
+det(bar-9, the-8)
+nmod:of(side-6, bar-9)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP (VB go)
+      (PP (IN past)
+        (NP
+          (NP (DT the) (NN bed))
+          (, ,)
+          (NP (DT the) (NN tv))
+          (, ,)
+          (CC and)
+          (NP (DT the) (NN desk)))))
+    (. .)))
+
+root(ROOT-0, go-1)
+case(bed-4, past-2)
+det(bed-4, the-3)
+nmod:past(go-1, bed-4)
+det(tv-7, the-6)
+nmod:past(go-1, tv-7)
+conj:and(bed-4, tv-7)
+cc(bed-4, and-9)
+det(desk-11, the-10)
+nmod:past(go-1, desk-11)
+conj:and(bed-4, desk-11)
+
+(ROOT
+  (S
+    (VP (VB stop)
+      (PP (IN at)
+        (NP (NN mirror)))
+      (PP (IN by)
+        (NP (DT the) (NN entrance) (NN door))))
+    (. .)))
+
+root(ROOT-0, stop-1)
+case(mirror-3, at-2)
+nmod:at(stop-1, mirror-3)
+case(door-7, by-4)
+det(door-7, the-5)
+compound(door-7, entrance-6)
+nmod:by(stop-1, door-7)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB walk)
+        (PP (IN past)
+          (NP (DT the) (NN tv))))
+      (CC and)
+      (VP (VB continue)
+        (PP (IN toward)
+          (NP (DT the) (NN bathroom)))))
+    (. .)))
+
+root(ROOT-0, walk-1)
+case(tv-4, past-2)
+det(tv-4, the-3)
+nmod:past(walk-1, tv-4)
+cc(walk-1, and-5)
+conj:and(walk-1, continue-6)
+case(bathroom-9, toward-7)
+det(bathroom-9, the-8)
+nmod:toward(continue-6, bathroom-9)
+
+(ROOT
+  (S
+    (VP (VB stop)
+      (PP (IN before)
+        (S
+          (VP (VBG walking)
+            (PP (IN through)
+              (NP (DT the) (NN bathroom) (NN door)))))))
+    (. .)))
+
+root(ROOT-0, stop-1)
+mark(walking-3, before-2)
+advcl(stop-1, walking-3)
+case(door-7, through-4)
+det(door-7, the-5)
+compound(door-7, bathroom-6)
+nmod:through(walking-3, door-7)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB turn)
+        (PRT (RP around))
+        (, ,)
+        (PP (TO to)
+          (NP (DT the) (NN left))))
+      (CC and)
+      (VP (VB walk)
+        (PRT (RP down))
+        (NP (DT the) (NN hallway))))
+    (. .)))
+
+root(ROOT-0, turn-1)
+compound:prt(turn-1, around-2)
+case(left-6, to-4)
+det(left-6, the-5)
+nmod:to(turn-1, left-6)
+cc(turn-1, and-7)
+conj:and(turn-1, walk-8)
+compound:prt(walk-8, down-9)
+det(hallway-11, the-10)
+dobj(walk-8, hallway-11)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB turn)
+        (ADVP (RB right)))
+      (CC and)
+      (VP (VB walk)
+        (PRT (RP down))
+        (NP
+          (NP (DT the) (NNS stairs))
+          (PP (IN toward)
+            (NP (DT the) (NN kitchen))))))
+    (. .)))
+
+root(ROOT-0, turn-1)
+advmod(turn-1, right-2)
+cc(turn-1, and-3)
+conj:and(turn-1, walk-4)
+compound:prt(walk-4, down-5)
+det(stairs-7, the-6)
+dobj(walk-4, stairs-7)
+case(kitchen-10, toward-8)
+det(kitchen-10, the-9)
+nmod:toward(stairs-7, kitchen-10)
+
+(ROOT
+  (S
+    (VP (VB stop)
+      (PP (IN at)
+        (NP (DT the) (NN stair) (NN landing))))
+    (. .)))
+
+root(ROOT-0, stop-1)
+case(landing-5, at-2)
+det(landing-5, the-3)
+compound(landing-5, stair-4)
+nmod:at(stop-1, landing-5)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP (VB walk)
+      (PP
+        (PP (IN down)
+          (NP (DT the) (NN hall)))
+        (CC and)
+        (PP (TO to)
+          (NP (DT the) (NN right)))))
+    (. .)))
+
+root(ROOT-0, walk-1)
+conj:and(walk-1, walk-1')
+case(hall-4, down-2)
+det(hall-4, the-3)
+nmod:down(walk-1, hall-4)
+cc(walk-1, and-5)
+case(right-8, to-6)
+det(right-8, the-7)
+nmod:to(walk-1', right-8)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB walk)
+        (PRT (RP down))
+        (NP (DT the) (NNS stairs)))
+      (CC and)
+      (VP (VB turn)
+        (ADVP (RB right))))
+    (. .)))
+
+root(ROOT-0, walk-1)
+compound:prt(walk-1, down-2)
+det(stairs-4, the-3)
+dobj(walk-1, stairs-4)
+cc(walk-1, and-5)
+conj:and(walk-1, turn-6)
+advmod(turn-6, right-7)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB walk)
+        (PRT (RP down))
+        (NP (DT the) (NNS stairs)))
+      (CC and)
+      (VP (VB stop)
+        (PP (IN at)
+          (NP
+            (NP (DT the) (NN bottom))
+            (PP (IN of)
+              (NP (DT the) (NNS stairs)))))))
+    (. .)))
+
+root(ROOT-0, walk-1)
+compound:prt(walk-1, down-2)
+det(stairs-4, the-3)
+dobj(walk-1, stairs-4)
+cc(walk-1, and-5)
+conj:and(walk-1, stop-6)
+case(bottom-9, at-7)
+det(bottom-9, the-8)
+nmod:at(stop-6, bottom-9)
+case(stairs-12, of-10)
+det(stairs-12, the-11)
+nmod:of(bottom-9, stairs-12)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (S
+      (VP (VBG facing)
+        (S
+          (NP (DT the) (NN laundry) (NN room))
+          (VP (VB go)
+            (ADVP (RB left))))))
+    (, ,)
+    (CC and)
+    (ADVP (RB then))
+    (S
+      (VP
+        (VP (VB make)
+          (NP (DT the) (NN right)))
+        (, ,)
+        (VP (VB go)
+          (PRT (RP down))
+          (NP (DT the) (NNS stairs))
+          (PP (TO to)
+            (NP (DT the) (NN level))))
+        (CC and)
+        (VP
+          (VP (VB turn)
+            (ADVP (RB right)))
+          (, ,)
+          (VP (VB go)
+            (PRT (RP down))
+            (NP
+              (NP (DT the) (NN rest))
+              (PP (IN of)
+                (NP (DT the) (NNS stairs)))))
+          (CC and)
+          (VP (VB stop)
+            (PP (IN at)
+              (NP
+                (NP (DT the) (NN bottom))
+                (PP (IN of)
+                  (NP (DT the) (NNS stairs)))))))))
+    (. .)))
+
+root(ROOT-0, facing-1)
+det(room-4, the-2)
+compound(room-4, laundry-3)
+nsubj(go-5, room-4)
+ccomp(facing-1, go-5)
+advmod(go-5, left-6)
+cc(facing-1, and-8)
+advmod(make-10, then-9)
+conj:and(facing-1, make-10)
+det(right-12, the-11)
+dobj(make-10, right-12)
+conj:and(facing-1, go-14)
+conj:and(make-10, go-14)
+compound:prt(go-14, down-15)
+det(stairs-17, the-16)
+dobj(go-14, stairs-17)
+case(level-20, to-18)
+det(level-20, the-19)
+nmod:to(go-14, level-20)
+cc(make-10, and-21)
+conj:and(facing-1, turn-22)
+conj:and(make-10, turn-22)
+advmod(turn-22, right-23)
+conj:and(make-10, go-25)
+conj:and(turn-22, go-25)
+compound:prt(go-25, down-26)
+det(rest-28, the-27)
+dobj(go-25, rest-28)
+case(stairs-31, of-29)
+det(stairs-31, the-30)
+nmod:of(rest-28, stairs-31)
+cc(turn-22, and-32)
+conj:and(make-10, stop-33)
+conj:and(turn-22, stop-33)
+case(bottom-36, at-34)
+det(bottom-36, the-35)
+nmod:at(stop-33, bottom-36)
+case(stairs-39, of-37)
+det(stairs-39, the-38)
+nmod:of(bottom-36, stairs-39)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB turn)
+        (PRT (RP around)))
+      (CC and)
+      (VP
+        (ADVP (RB then))
+        (VB walk)
+        (ADVP (RB straight)))
+      (, ,)
+      (VP (VB stop)
+        (SBAR (IN once)
+          (S
+            (NP (PRP you))
+            (VP (VBP 're)
+              (ADVP (RB inside))
+              (PP (IN of)
+                (NP (DT the) (NN house)))
+              (PP (IN through)
+                (NP (DT the) (NNS doors))))))))
+    (. .)))
+
+root(ROOT-0, turn-1)
+compound:prt(turn-1, around-2)
+cc(turn-1, and-3)
+advmod(walk-5, then-4)
+conj:and(turn-1, walk-5)
+advmod(walk-5, straight-6)
+dep(turn-1, stop-8)
+mark(house-15, once-9)
+nsubj(house-15, you-10)
+cop(house-15, 're-11)
+case(house-15, inside-12)
+mwe(inside-12, of-13)
+det(house-15, the-14)
+advcl(stop-8, house-15)
+case(doors-18, through-16)
+det(doors-18, the-17)
+nmod:through(house-15, doors-18)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB turn)
+        (PRT (RP around)))
+      (CC and)
+      (VP (VB head)
+        (ADVP (RB indoors))
+        (PP (IN through)
+          (NP (DT the) (JJ double) (NN glass) (NNS doors)))))
+    (. .)))
+
+root(ROOT-0, turn-1)
+compound:prt(turn-1, around-2)
+cc(turn-1, and-3)
+conj:and(turn-1, head-4)
+advmod(head-4, indoors-5)
+case(doors-10, through-6)
+det(doors-10, the-7)
+amod(doors-10, double-8)
+compound(doors-10, glass-9)
+nmod:through(head-4, doors-10)
+
+(ROOT
+  (S
+    (VP (VB stop)
+      (PP (IN at)
+        (NP (DT the) (NN partition))))
+    (. .)))
+
+root(ROOT-0, stop-1)
+case(partition-4, at-2)
+det(partition-4, the-3)
+nmod:at(stop-1, partition-4)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP (VB enter)
+      (NP (DT the) (NN house))
+      (PP (IN by)
+        (NP
+          (NP (DT the) (JJR larger) (NN doorway))
+          (PP (IN with)
+            (NP (DT the) (CD two) (NN glass) (NNS doors))))))
+    (. .)))
+
+root(ROOT-0, enter-1)
+det(house-3, the-2)
+dobj(enter-1, house-3)
+case(doorway-7, by-4)
+det(doorway-7, the-5)
+amod(doorway-7, larger-6)
+nmod:by(enter-1, doorway-7)
+case(doors-12, with-8)
+det(doors-12, the-9)
+nummod(doors-12, two-10)
+compound(doors-12, glass-11)
+nmod:with(doorway-7, doors-12)
+
+(ROOT
+  (S
+    (VP (VB stop)
+      (PP (IN by)
+        (NP
+          (NP (DT the) (NN latticework))
+          (PP (IN inside)
+            (NP (DT the) (NN house)))))
+      (PP
+        (ADVP (RB directly))
+        (IN in)
+        (NP
+          (NP (NN front))
+          (PP (IN of)
+            (NP (DT the) (NN door))))))
+    (. .)))
+
+root(ROOT-0, stop-1)
+case(latticework-4, by-2)
+det(latticework-4, the-3)
+nmod:by(stop-1, latticework-4)
+case(house-7, inside-5)
+det(house-7, the-6)
+nmod:inside(latticework-4, house-7)
+advmod(door-13, directly-8)
+case(door-13, in-9)
+mwe(in-9, front-10)
+mwe(in-9, of-11)
+det(door-13, the-12)
+nmod:in_front_of(stop-1, door-13)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (NP (PRP you))
+    (VP (MD 'll)
+      (VP (VB see)
+        (NP (DT a) (NN hallway))))
+    (. .)))
+
+nsubj(see-3, you-1)
+aux(see-3, 'll-2)
+root(ROOT-0, see-3)
+det(hallway-5, a-4)
+dobj(see-3, hallway-5)
+
+(ROOT
+  (S
+    (S
+      (SBAR
+        (WHADVP (WRB when))
+        (S
+          (NP (PRP you))
+          (VP (VBP get)
+            (PP (IN past)
+              (NP (DT the) (JJ double) (NNS doors))))))
+      (, ,)
+      (NP (EX there))
+      (VP (MD will)
+        (VP (VB be)
+          (ADJP
+            (NP (DT a) (NN door))
+            (JJ open)))))
+    (CC and)
+    (S
+      (NP (PRP you))
+      (VP (MD 'll)
+        (VP (VB enter)
+          (NP (DT that) (NN room)))))
+    (. .)))
+
+advmod(get-3, when-1)
+nsubj(get-3, you-2)
+advcl(open-14, get-3)
+case(doors-7, past-4)
+det(doors-7, the-5)
+amod(doors-7, double-6)
+nmod:past(get-3, doors-7)
+expl(open-14, there-9)
+aux(open-14, will-10)
+cop(open-14, be-11)
+det(door-13, a-12)
+nmod:npmod(open-14, door-13)
+root(ROOT-0, open-14)
+cc(open-14, and-15)
+nsubj(enter-18, you-16)
+aux(enter-18, 'll-17)
+conj:and(open-14, enter-18)
+det(room-20, that-19)
+dobj(enter-18, room-20)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB turn)
+        (ADVP (RB right)))
+      (CC and)
+      (VP (VB go)
+        (PP (IN in)
+          (NP (RB there)))))
+    (. .)))
+
+root(ROOT-0, turn-1)
+advmod(turn-1, right-2)
+cc(turn-1, and-3)
+conj:and(turn-1, go-4)
+case(there-6, in-5)
+nmod:in(go-4, there-6)
+
+(ROOT
+  (S
+    (VP (VB walk)
+      (PP (IN past)
+        (NP
+          (NP (DT the) (NN base))
+          (PP (IN of)
+            (NP (DT the) (NNS beds))))))
+    (. .)))
+
+root(ROOT-0, walk-1)
+case(base-4, past-2)
+det(base-4, the-3)
+nmod:past(walk-1, base-4)
+case(beds-7, of-5)
+det(beds-7, the-6)
+nmod:of(base-4, beds-7)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB walk)
+        (NP (DT a) (JJ few) (JJR more) (NNS feet)))
+      (CC and)
+      (VP
+        (ADVP (RB then))
+        (VB stop)
+        (PP (IN at)
+          (NP (DT the) (NN entrance)))
+        (PP (TO to)
+          (NP (DT the) (NN bathroom)))))
+    (. .)))
+
+root(ROOT-0, walk-1)
+det(feet-5, a-2)
+amod(feet-5, few-3)
+amod(feet-5, more-4)
+dobj(walk-1, feet-5)
+cc(walk-1, and-6)
+advmod(stop-8, then-7)
+conj:and(walk-1, stop-8)
+case(entrance-11, at-9)
+det(entrance-11, the-10)
+nmod:at(stop-8, entrance-11)
+case(bathroom-14, to-12)
+det(bathroom-14, the-13)
+nmod:to(stop-8, bathroom-14)
+
+(ROOT
+  (S
+    (VP (VB wait)
+      (PP (IN by)
+        (NP (DT the) (JJ first) (NN sink))))
+    (. .)))
+
+root(ROOT-0, wait-1)
+case(sink-5, by-2)
+det(sink-5, the-3)
+amod(sink-5, first-4)
+nmod:by(wait-1, sink-5)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP (VB go)
+      (PP
+        (PP (IN down)
+          (NP (DT the) (NN hall)))
+        (CC and)
+        (PP (IN through)
+          (NP
+            (NP (DT the) (JJ second) (NN door))
+            (PP (IN on)
+              (NP (DT the) (NN right)))))))
+    (. .)))
+
+root(ROOT-0, go-1)
+conj:and(go-1, go-1')
+case(hall-4, down-2)
+det(hall-4, the-3)
+nmod:down(go-1, hall-4)
+cc(go-1, and-5)
+case(door-9, through-6)
+det(door-9, the-7)
+amod(door-9, second-8)
+nmod:through(go-1', door-9)
+case(right-12, on-10)
+det(right-12, the-11)
+nmod:on(door-9, right-12)
+
+(ROOT
+  (S
+    (VP (VB wait)
+      (PP (IN on)
+        (NP
+          (NP (DT the) (JJ other) (NN side))
+          (PP (IN of)
+            (NP
+              (NP (DT the) (NN bedroom))
+              (PP (IN in)
+                (NP (DT the) (NN bathroom) (NN doorway))))))))
+    (. .)))
+
+root(ROOT-0, wait-1)
+case(side-5, on-2)
+det(side-5, the-3)
+amod(side-5, other-4)
+nmod:on(wait-1, side-5)
+case(bedroom-8, of-6)
+det(bedroom-8, the-7)
+nmod:of(side-5, bedroom-8)
+case(doorway-12, in-9)
+det(doorway-12, the-10)
+compound(doorway-12, bathroom-11)
+nmod:in(bedroom-8, doorway-12)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB go)
+        (ADVP (RB straight))
+        (PP (IN down)
+          (NP (NN hallway))))
+      (, ,)
+      (VP (VB turn)
+        (ADVP (RB right))
+        (PP (IN into)
+          (NP (DT the) (JJ open) (NN door))))
+      (, ,)
+      (VP
+        (VP (VB turn)
+          (ADVP (RB left)))
+        (, ,)
+        (VP (VB walk)
+          (VP (VBN passed)
+            (NP (DT the) (NNS beds))
+            (PP (IN into)
+              (NP (DT the) (NN bathroom)))))
+        (CC and)
+        (VP (VB stop)
+          (PP (IN in)
+            (NP (DT the) (NN doorway))))))
+    (. .)))
+
+root(ROOT-0, go-1)
+advmod(go-1, straight-2)
+case(hallway-4, down-3)
+nmod:down(go-1, hallway-4)
+dep(go-1, turn-6)
+advmod(turn-6, right-7)
+case(door-11, into-8)
+det(door-11, the-9)
+amod(door-11, open-10)
+nmod:into(turn-6, door-11)
+dep(go-1, turn-13)
+advmod(turn-13, left-14)
+dep(go-1, walk-16)
+conj:and(turn-13, walk-16)
+dep(walk-16, passed-17)
+det(beds-19, the-18)
+dobj(passed-17, beds-19)
+case(bathroom-22, into-20)
+det(bathroom-22, the-21)
+nmod:into(passed-17, bathroom-22)
+cc(turn-13, and-23)
+dep(go-1, stop-24)
+conj:and(turn-13, stop-24)
+case(doorway-27, in-25)
+det(doorway-27, the-26)
+nmod:in(stop-24, doorway-27)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP (VB walk)
+      (PP (IN past)
+        (NP
+          (NP (DT the) (NN island))
+          (CC and)
+          (NP (DT the) (NN chair)))))
+    (. .)))
+
+root(ROOT-0, walk-1)
+case(island-4, past-2)
+det(island-4, the-3)
+nmod:past(walk-1, island-4)
+cc(island-4, and-5)
+det(chair-7, the-6)
+nmod:past(walk-1, chair-7)
+conj:and(island-4, chair-7)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB walk)
+        (PRT (RP up))
+        (NP (DT the) (NNS stairs)))
+      (CC and)
+      (VP (VB turn)
+        (ADVP (RB left))))
+    (. .)))
+
+root(ROOT-0, walk-1)
+compound:prt(walk-1, up-2)
+det(stairs-4, the-3)
+dobj(walk-1, stairs-4)
+cc(walk-1, and-5)
+conj:and(walk-1, turn-6)
+advmod(turn-6, left-7)
+
+(ROOT
+  (S
+    (VP (VB stop)
+      (PP (IN inside)
+        (NP (DT the) (NN doorway))))
+    (. .)))
+
+root(ROOT-0, stop-1)
+case(doorway-4, inside-2)
+det(doorway-4, the-3)
+nmod:inside(stop-1, doorway-4)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB walk)
+        (PP (IN past)
+          (NP (DT the) (NN bar))))
+      (CC and)
+      (VP (VB go)
+        (VP (VBN left)
+          (PRT (RP up))
+          (NP (DT the) (NN staircase)))))
+    (. .)))
+
+root(ROOT-0, walk-1)
+case(bar-4, past-2)
+det(bar-4, the-3)
+nmod:past(walk-1, bar-4)
+cc(walk-1, and-5)
+conj:and(walk-1, go-6)
+dep(go-6, left-7)
+compound:prt(left-7, up-8)
+det(staircase-10, the-9)
+dobj(left-7, staircase-10)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB turn)
+        (ADVP (RB left)))
+      (CC and)
+      (VP (VB stop)
+        (PP (IN by)
+          (NP
+            (NP (DT the) (JJ green) (NN vase))
+            (PP (IN with)
+              (NP (JJ white) (NNS flowers)))))))
+    (. .)))
+
+root(ROOT-0, turn-1)
+advmod(turn-1, left-2)
+cc(turn-1, and-3)
+conj:and(turn-1, stop-4)
+case(vase-8, by-5)
+det(vase-8, the-6)
+amod(vase-8, green-7)
+nmod:by(stop-4, vase-8)
+case(flowers-11, with-9)
+amod(flowers-11, white-10)
+nmod:with(vase-8, flowers-11)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (NP (NN turn))
+    (VP
+      (VP (VBD left))
+      (CC and)
+      (VP (VBP follow)
+        (PRT (RP along))
+        (NP (DT the) (NN glass) (NN railing))))
+    (. .)))
+
+nsubj(left-2, turn-1)
+nsubj(follow-4, turn-1)
+root(ROOT-0, left-2)
+cc(left-2, and-3)
+conj:and(left-2, follow-4)
+compound:prt(follow-4, along-5)
+det(railing-8, the-6)
+compound(railing-8, glass-7)
+dobj(follow-4, railing-8)
+
+(ROOT
+  (S
+    (NP
+      (NP (RB once))
+      (PP (IN at)
+        (NP (DT the) (NN end) (NN turn))))
+    (VP
+      (VP (VBD left))
+      (CC and)
+      (VP (VBP go)
+        (PRT (RP up))
+        (NP (DT the) (JJ black) (NNS stairs))))
+    (. .)))
+
+nsubj(left-6, once-1)
+nsubj(go-8, once-1)
+case(turn-5, at-2)
+det(turn-5, the-3)
+compound(turn-5, end-4)
+nmod:at(once-1, turn-5)
+root(ROOT-0, left-6)
+cc(left-6, and-7)
+conj:and(left-6, go-8)
+compound:prt(go-8, up-9)
+det(stairs-12, the-10)
+amod(stairs-12, black-11)
+dobj(go-8, stairs-12)
+
+(ROOT
+  (SINV
+    (PP (IN at)
+      (NP
+        (NP (DT the) (NN top))
+        (PP (IN of)
+          (NP (DT the) (NNS stairs)))))
+    (VP (VBP walk)
+      (ADVP (RB forward)
+        (CC and)
+        (RB then)))
+    (NP
+      (NP (NN turn))
+      (VP (VBN left)
+        (S
+          (VP (TO to)
+            (VP
+              (VP (VB enter)
+                (NP (DT a) (JJ small) (NN room)))
+              (CC and)
+              (VP (VB stop)))))))
+    (. .)))
+
+case(top-3, at-1)
+det(top-3, the-2)
+nmod:at(walk-7, top-3)
+case(stairs-6, of-4)
+det(stairs-6, the-5)
+nmod:of(top-3, stairs-6)
+root(ROOT-0, walk-7)
+advmod(walk-7, forward-8)
+cc(forward-8, and-9)
+advmod(walk-7, then-10)
+conj:and(forward-8, then-10)
+nsubj(walk-7, turn-11)
+acl(turn-11, left-12)
+mark(enter-14, to-13)
+xcomp(left-12, enter-14)
+det(room-17, a-15)
+amod(room-17, small-16)
+dobj(enter-14, room-17)
+cc(enter-14, and-18)
+xcomp(left-12, stop-19)
+conj:and(enter-14, stop-19)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB turn)
+        (PRT (RP around)))
+      (CC and)
+      (VP (VB walk)
+        (PRT (RP out))
+        (PP (IN of)
+          (NP (DT the) (NN office)))
+        (PP (IN into)
+          (NP (DT the) (JJ great) (NN room)))))
+    (. .)))
+
+root(ROOT-0, turn-1)
+compound:prt(turn-1, around-2)
+cc(turn-1, and-3)
+conj:and(turn-1, walk-4)
+compound:prt(walk-4, out-5)
+case(office-8, of-6)
+det(office-8, the-7)
+nmod:of(walk-4, office-8)
+case(room-12, into-9)
+det(room-12, the-10)
+amod(room-12, great-11)
+nmod:into(walk-4, room-12)
+
+(ROOT
+  (S
+    (VP (VB keep)
+      (S
+        (VP (VBG walking)
+          (ADVP (RB forward))
+          (, ,)
+          (PP (IN past)
+            (NP
+              (NP
+                (NP (DT the) (NN staircase))
+                (PP (IN on)
+                  (NP (PRP$ your) (NN right))))
+              (CC and)
+              (NP
+                (NP (DT the) (NN dining) (NN table))
+                (PP (IN on)
+                  (NP (PRP$ your) (NN left))))))))
+      (, ,)
+      (PP (IN toward)
+        (NP (DT the) (NN kitchen))))
+    (. .)))
+
+root(ROOT-0, keep-1)
+xcomp(keep-1, walking-2)
+advmod(walking-2, forward-3)
+case(staircase-7, past-5)
+det(staircase-7, the-6)
+nmod:past(walking-2, staircase-7)
+case(right-10, on-8)
+nmod:poss(right-10, your-9)
+nmod:on(staircase-7, right-10)
+cc(staircase-7, and-11)
+det(table-14, the-12)
+compound(table-14, dining-13)
+nmod:past(walking-2, table-14)
+conj:and(staircase-7, table-14)
+case(left-17, on-15)
+nmod:poss(left-17, your-16)
+nmod:on(table-14, left-17)
+case(kitchen-21, toward-19)
+det(kitchen-21, the-20)
+nmod:toward(keep-1, kitchen-21)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB go)
+        (PP (IN through)
+          (NP
+            (NP (DT the) (NN doorway))
+            (PP (IN with)
+              (NP (DT the) (NN kitchen) (NN counter)))))
+        (PP (IN on)
+          (NP (PRP$ your) (NN left))))
+      (CC and)
+      (VP (VB walk)
+        (PP (IN towards)
+          (NP (DT the) (NN island)))))
+    (. .)))
+
+root(ROOT-0, go-1)
+case(doorway-4, through-2)
+det(doorway-4, the-3)
+nmod:through(go-1, doorway-4)
+case(counter-8, with-5)
+det(counter-8, the-6)
+compound(counter-8, kitchen-7)
+nmod:with(doorway-4, counter-8)
+case(left-11, on-9)
+nmod:poss(left-11, your-10)
+nmod:on(go-1, left-11)
+cc(go-1, and-12)
+conj:and(go-1, walk-13)
+case(island-16, towards-14)
+det(island-16, the-15)
+nmod:towards(walk-13, island-16)
+
+(ROOT
+  (S
+    (PP (IN at)
+      (NP (DT the) (NN island)))
+    (NP (NN turn))
+    (VP
+      (VP (VBD left))
+      (CC and)
+      (VP (NN walk)
+        (PP (IN through)
+          (NP
+            (NP (DT the) (NN kitchen))
+            (PP (IN towards)
+              (NP (DT the) (NN kitchen) (NN table)))))))
+    (. .)))
+
+case(island-3, at-1)
+det(island-3, the-2)
+nmod:at(left-5, island-3)
+nsubj(left-5, turn-4)
+root(ROOT-0, left-5)
+cc(left-5, and-6)
+conj:and(left-5, walk-7)
+case(kitchen-10, through-8)
+det(kitchen-10, the-9)
+nmod:through(walk-7, kitchen-10)
+case(table-14, towards-11)
+det(table-14, the-12)
+compound(table-14, kitchen-13)
+nmod:towards(kitchen-10, table-14)
+
+(ROOT
+  (S
+    (VP (VB stop)
+      (SBAR
+        (WHADVP (WRB when))
+        (S
+          (NP (PRP you))
+          (VP (VBP enter)
+            (NP
+              (NP (DT that) (NN part))
+              (PP (IN of)
+                (NP (DT the) (NN room))))
+            (, ,)
+            (SBAR (IN before)
+              (S
+                (NP (PRP you))
+                (VP (VBP get)
+                  (PP (TO to)
+                    (NP (DT the) (NN kitchen) (NN table))))))))))
+    (. .)))
+
+root(ROOT-0, stop-1)
+advmod(enter-4, when-2)
+nsubj(enter-4, you-3)
+advcl(stop-1, enter-4)
+det(part-6, that-5)
+dobj(enter-4, part-6)
+case(room-9, of-7)
+det(room-9, the-8)
+nmod:of(part-6, room-9)
+mark(get-13, before-11)
+nsubj(get-13, you-12)
+advcl(enter-4, get-13)
+case(table-17, to-14)
+det(table-17, the-15)
+compound(table-17, kitchen-16)
+nmod:to(get-13, table-17)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB turn)
+        (PRT (RP around)))
+      (CC and)
+      (VP (VB walk)
+        (PRT (RP out))
+        (PP (IN of)
+          (NP (DT the) (NN office)))))
+    (. .)))
+
+root(ROOT-0, turn-1)
+compound:prt(turn-1, around-2)
+cc(turn-1, and-3)
+conj:and(turn-1, walk-4)
+compound:prt(walk-4, out-5)
+case(office-8, of-6)
+det(office-8, the-7)
+nmod:of(walk-4, office-8)
+
+(ROOT
+  (S
+    (VP (VB walk)
+      (UCP
+        (ADJP (RB straight))
+        (CC and)
+        (PP (IN through)
+          (NP
+            (NP (DT the) (NN doorway))
+            (SBAR
+              (WHNP (WDT that))
+              (S
+                (VP (VBZ leads)
+                  (PP (TO to)
+                    (NP (DT the) (NN kitchen))))))))))
+    (. .)))
+
+root(ROOT-0, walk-1)
+xcomp(walk-1, straight-2)
+cc(straight-2, and-3)
+case(doorway-6, through-4)
+det(doorway-6, the-5)
+xcomp(walk-1, doorway-6)
+conj:and(straight-2, doorway-6)
+nsubj(leads-8, doorway-6)
+ref(doorway-6, that-7)
+acl:relcl(doorway-6, leads-8)
+case(kitchen-11, to-9)
+det(kitchen-11, the-10)
+nmod:to(leads-8, kitchen-11)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB take)
+        (NP (DT a) (NN left))
+        (PP (IN at)
+          (NP (DT the) (NN kitchen) (NN island))))
+      (CC and)
+      (VP (VB wait)
+        (PP (IN on)
+          (NP (DT the) (NN rug)))
+        (ADVP (RB just) (RB ahead))))
+    (. .)))
+
+root(ROOT-0, take-1)
+det(left-3, a-2)
+dobj(take-1, left-3)
+case(island-7, at-4)
+det(island-7, the-5)
+compound(island-7, kitchen-6)
+nmod:at(take-1, island-7)
+cc(take-1, and-8)
+conj:and(take-1, wait-9)
+case(rug-12, on-10)
+det(rug-12, the-11)
+nmod:on(wait-9, rug-12)
+advmod(ahead-14, just-13)
+advmod(wait-9, ahead-14)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP
+      (VP
+        (VP (VB exit)
+          (NP (NN office)))
+        (, ,)
+        (VP (VB go)
+          (VP (VBN passed)
+            (NP (DT the) (JJ black) (NN table))
+            (PP (IN on)
+              (NP (DT the) (NN left)))))
+        (, ,)
+        (VP (VB go)
+          (PP (IN into)
+            (NP (DT the) (NN kitchen) (NN area))))
+        (, ,)
+        (VP (VB turn)
+          (ADVP (RB left)))
+        (CC and)
+        (VP (VB go)
+          (PP (IN into)
+            (NP (DT the) (NN dining) (NN room)))))
+      (, ,) (RB then)
+      (VP (VB stop)
+        (ADVP (JJ next))
+        (PP (TO to)
+          (NP (DT the) (NN television)))))
+    (. .)))
+
+root(ROOT-0, exit-1)
+dobj(exit-1, office-2)
+conj:and(exit-1, go-4)
+dep(go-4, passed-5)
+det(table-8, the-6)
+amod(table-8, black-7)
+dobj(passed-5, table-8)
+case(left-11, on-9)
+det(left-11, the-10)
+nmod:on(passed-5, left-11)
+conj:and(exit-1, go-13)
+case(area-17, into-14)
+det(area-17, the-15)
+compound(area-17, kitchen-16)
+nmod:into(go-13, area-17)
+conj:and(exit-1, turn-19)
+advmod(turn-19, left-20)
+cc(exit-1, and-21)
+conj:and(exit-1, go-22)
+case(room-26, into-23)
+det(room-26, the-24)
+compound(room-26, dining-25)
+nmod:into(go-22, room-26)
+advmod(stop-29, then-28)
+dep(exit-1, stop-29)
+advmod(stop-29, next-30)
+case(television-33, to-31)
+det(television-33, the-32)
+nmod:to(stop-29, television-33)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP (VB walk)
+      (PRT (RP out))
+      (PP (IN of)
+        (NP (DT the) (NN bedroom)
+          (CC and)
+          (NN turn) (NN left))))
+    (. .)))
+
+root(ROOT-0, walk-1)
+compound:prt(walk-1, out-2)
+case(left-8, of-3)
+det(left-8, the-4)
+compound(left-8, bedroom-5)
+cc(bedroom-5, and-6)
+conj:and(bedroom-5, turn-7)
+compound(left-8, turn-7)
+nmod:of(walk-1, left-8)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB walk)
+        (PP (TO to)
+          (NP
+            (NP (DT the) (NN right))
+            (PP (IN of)
+              (NP (DT the) (NN bathroom))))))
+      (CC and)
+      (VP (VB stop)
+        (ADVP (RB just))
+        (PP (IN inside)
+          (NP (DT the) (NN bedroom)))))
+    (. .)))
+
+root(ROOT-0, walk-1)
+case(right-4, to-2)
+det(right-4, the-3)
+nmod:to(walk-1, right-4)
+case(bathroom-7, of-5)
+det(bathroom-7, the-6)
+nmod:of(right-4, bathroom-7)
+cc(walk-1, and-8)
+conj:and(walk-1, stop-9)
+advmod(stop-9, just-10)
+case(bedroom-13, inside-11)
+det(bedroom-13, the-12)
+nmod:inside(stop-9, bedroom-13)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB turn)
+        (ADVP (RB right)))
+      (CC and)
+      (VP (VB go)
+        (PP (IN through)
+          (NP (DT the) (NN door)))))
+    (. .)))
+
+root(ROOT-0, turn-1)
+advmod(turn-1, right-2)
+cc(turn-1, and-3)
+conj:and(turn-1, go-4)
+case(door-7, through-5)
+det(door-7, the-6)
+nmod:through(go-4, door-7)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB turn)
+        (VP (VBN left)
+          (PRT (RP down))
+          (NP (DT the) (NN hallway))))
+      (, ,)
+      (VP (VB turn)
+        (ADVP (RB left) (RB again)))
+      (, ,)
+      (CC and)
+      (VP (VB go)
+        (PRT (RP in))
+        (PP (IN through)
+          (NP (DT the) (NN door)))
+        (PP (TO to)
+          (NP
+            (NP (DT the) (NN right))
+            (PP (IN of)
+              (NP (DT the) (NN bathroom)))))))
+    (. .)))
+
+root(ROOT-0, turn-1)
+dep(turn-1, left-2)
+compound:prt(left-2, down-3)
+det(hallway-5, the-4)
+dobj(left-2, hallway-5)
+conj:and(turn-1, turn-7)
+advmod(again-9, left-8)
+advmod(turn-7, again-9)
+cc(turn-1, and-11)
+conj:and(turn-1, go-12)
+compound:prt(go-12, in-13)
+case(door-16, through-14)
+det(door-16, the-15)
+nmod:through(go-12, door-16)
+case(right-19, to-17)
+det(right-19, the-18)
+nmod:to(go-12, right-19)
+case(bathroom-22, of-20)
+det(bathroom-22, the-21)
+nmod:of(right-19, bathroom-22)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB exit)
+        (NP (DT the) (NN room))
+        (PP (IN through)
+          (NP (DT the) (NN door))))
+      (CC and)
+      (VP (VB turn)
+        (ADVP (RB left))))
+    (. .)))
+
+root(ROOT-0, exit-1)
+det(room-3, the-2)
+dobj(exit-1, room-3)
+case(door-6, through-4)
+det(door-6, the-5)
+nmod:through(exit-1, door-6)
+cc(exit-1, and-7)
+conj:and(exit-1, turn-8)
+advmod(turn-8, left-9)
+
+(ROOT
+  (S
+    (S
+      (VP (VB take)
+        (NP (DT the) (JJ first) (NN left))))
+    (, ,)
+    (NP (RB then) (DT a) (JJ quick) (NN right))
+    (VP (VBP turn)
+      (PP (IN into)
+        (NP (DT the) (NN bedroom))))
+    (. .)))
+
+ccomp(turn-10, take-1)
+det(left-4, the-2)
+amod(left-4, first-3)
+dobj(take-1, left-4)
+advmod(right-9, then-6)
+det(right-9, a-7)
+amod(right-9, quick-8)
+nsubj(turn-10, right-9)
+root(ROOT-0, turn-10)
+case(bedroom-13, into-11)
+det(bedroom-13, the-12)
+nmod:into(turn-10, bedroom-13)
+
+(ROOT
+  (S
+    (VP (VB wait)
+      (PP (IN by)
+        (NP (NN door))))
+    (. .)))
+
+root(ROOT-0, wait-1)
+case(door-3, by-2)
+nmod:by(wait-1, door-3)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB go)
+        (PP (TO to)
+          (NP
+            (NP (DT the) (NN bottom))
+            (PP (IN of)
+              (NP (DT the) (NNS stairs))))))
+      (CC and)
+      (VP (VB turn)
+        (ADVP (RB left))))
+    (. .)))
+
+root(ROOT-0, go-1)
+case(bottom-4, to-2)
+det(bottom-4, the-3)
+nmod:to(go-1, bottom-4)
+case(stairs-7, of-5)
+det(stairs-7, the-6)
+nmod:of(bottom-4, stairs-7)
+cc(go-1, and-8)
+conj:and(go-1, turn-9)
+advmod(turn-9, left-10)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB walk)
+        (PP (IN along)
+          (NP (DT the) (JJ orange) (NN wall)))
+        (, ,)
+        (PP (IN past)
+          (NP (DT the) (NN stone) (NN statue))))
+      (, ,)
+      (CC and)
+      (VP (VB go)
+        (PP (IN through)
+          (NP (DT the) (NN doorway)))))
+    (. .)))
+
+root(ROOT-0, walk-1)
+case(wall-5, along-2)
+det(wall-5, the-3)
+amod(wall-5, orange-4)
+nmod:along(walk-1, wall-5)
+case(statue-10, past-7)
+det(statue-10, the-8)
+compound(statue-10, stone-9)
+nmod:past(walk-1, statue-10)
+cc(walk-1, and-12)
+conj:and(walk-1, go-13)
+case(doorway-16, through-14)
+det(doorway-16, the-15)
+nmod:through(go-13, doorway-16)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB turn)
+        (ADVP (RB left)))
+      (CC and)
+      (VP (VB stop)
+        (PP (IN at)
+          (NP
+            (NP (DT the) (NN top))
+            (PP (IN of)
+              (NP
+                (NP (DT the) (NNS steps))
+                (VP (VBG leading)
+                  (PRT (RP down)))))))))
+    (. .)))
+
+root(ROOT-0, turn-1)
+advmod(turn-1, left-2)
+cc(turn-1, and-3)
+conj:and(turn-1, stop-4)
+case(top-7, at-5)
+det(top-7, the-6)
+nmod:at(stop-4, top-7)
+case(steps-10, of-8)
+det(steps-10, the-9)
+nmod:of(top-7, steps-10)
+acl(steps-10, leading-11)
+compound:prt(leading-11, down-12)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB go)
+        (PRT (RP down))
+        (NP (DT the) (NNS stairs)))
+      (, ,)
+      (CC and)
+      (VP (VB take)
+        (NP (DT a) (NN left))))
+    (. .)))
+
+root(ROOT-0, go-1)
+compound:prt(go-1, down-2)
+det(stairs-4, the-3)
+dobj(go-1, stairs-4)
+cc(go-1, and-6)
+conj:and(go-1, take-7)
+det(left-9, a-8)
+dobj(take-7, left-9)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB go)
+        (PP (IN around)
+          (NP (DT the) (NN dining) (NN table))))
+      (CC and)
+      (VP (VB exit)
+        (PP (IN through)
+          (NP
+            (NP (DT the) (NN door))
+            (PP (IN on)
+              (NP (DT the) (NN left)))))))
+    (. .)))
+
+root(ROOT-0, go-1)
+case(table-5, around-2)
+det(table-5, the-3)
+compound(table-5, dining-4)
+nmod:around(go-1, table-5)
+cc(go-1, and-6)
+conj:and(go-1, exit-7)
+case(door-10, through-8)
+det(door-10, the-9)
+nmod:through(exit-7, door-10)
+case(left-13, on-11)
+det(left-13, the-12)
+nmod:on(door-10, left-13)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB go)
+        (PRT (RP down))
+        (NP (DT the) (CD three) (NNS stairs)))
+      (CC and)
+      (VP (VB stop)
+        (PP (IN at)
+          (NP
+            (NP (DT the) (NN bottom))
+            (PP (IN of)
+              (NP (DT the) (NNS stairs)))))))
+    (. .)))
+
+root(ROOT-0, go-1)
+compound:prt(go-1, down-2)
+det(stairs-5, the-3)
+nummod(stairs-5, three-4)
+dobj(go-1, stairs-5)
+cc(go-1, and-6)
+conj:and(go-1, stop-7)
+case(bottom-10, at-8)
+det(bottom-10, the-9)
+nmod:at(stop-7, bottom-10)
+case(stairs-13, of-11)
+det(stairs-13, the-12)
+nmod:of(bottom-10, stairs-13)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP (VB go)
+      (NP (NNS downstairs)))
+    (. .)))
+
+root(ROOT-0, go-1)
+dobj(go-1, downstairs-2)
+
+(ROOT
+  (S
+    (NP (NN u) (NN turn))
+    (VP (VBD left))
+    (. .)))
+
+compound(turn-2, u-1)
+nsubj(left-3, turn-2)
+root(ROOT-0, left-3)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB go)
+        (ADVP (RB straight)))
+      (CC and)
+      (VP
+        (ADVP (RB then))
+        (VB turn)
+        (NP (NN left))))
+    (. .)))
+
+root(ROOT-0, go-1)
+advmod(go-1, straight-2)
+cc(go-1, and-3)
+advmod(turn-5, then-4)
+conj:and(go-1, turn-5)
+dobj(turn-5, left-6)
+
+(ROOT
+  (S
+    (VP (VB wait)
+      (PP (IN near)
+        (NP (DT the) (JJ double) (JJ white) (NNS doors))))
+    (. .)))
+
+root(ROOT-0, wait-1)
+case(doors-6, near-2)
+det(doors-6, the-3)
+amod(doors-6, double-4)
+amod(doors-6, white-5)
+nmod:near(wait-1, doors-6)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB turn)
+        (PRT (RP around)))
+      (CC and)
+      (VP (VB enter)
+        (NP (DT the) (NN house))))
+    (. .)))
+
+root(ROOT-0, turn-1)
+compound:prt(turn-1, around-2)
+cc(turn-1, and-3)
+conj:and(turn-1, enter-4)
+det(house-6, the-5)
+dobj(enter-4, house-6)
+
+(ROOT
+  (S
+    (VP (VB take)
+      (NP (DT a) (NN left)))
+    (. .)))
+
+root(ROOT-0, take-1)
+det(left-3, a-2)
+dobj(take-1, left-3)
+
+(ROOT
+  (S
+    (VP (VB enter)
+      (NP (DT the) (NN bedroom))
+      (PP (IN on)
+        (NP (DT the) (NN left))))
+    (. .)))
+
+root(ROOT-0, enter-1)
+det(bedroom-3, the-2)
+dobj(enter-1, bedroom-3)
+case(left-6, on-4)
+det(left-6, the-5)
+nmod:on(enter-1, left-6)
+
+(ROOT
+  (S
+    (VP (VB wait)
+      (PRT (RP in))
+      (PP (IN between)
+        (NP (DT the) (CD two) (NNS beds))))
+    (. .)))
+
+root(ROOT-0, wait-1)
+compound:prt(wait-1, in-2)
+case(beds-6, between-3)
+det(beds-6, the-4)
+nummod(beds-6, two-5)
+nmod:between(wait-1, beds-6)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+
+(ROOT
+  (S
+    (VP (VB enter)
+      (NP (DT the) (NN building))
+      (PP (IN through)
+        (NP
+          (NP (DT the) (JJ double) (NN glass) (NNS doors))
+          (PP (IN on)
+            (NP (DT the) (NN left))))))
+    (. .)))
+
+root(ROOT-0, enter-1)
+det(building-3, the-2)
+dobj(enter-1, building-3)
+case(doors-8, through-4)
+det(doors-8, the-5)
+amod(doors-8, double-6)
+compound(doors-8, glass-7)
+nmod:through(enter-1, doors-8)
+case(left-11, on-9)
+det(left-11, the-10)
+nmod:on(doors-8, left-11)
+
+(ROOT
+  (S
+    (NP (NN turn))
+    (VP
+      (VP (VBD left))
+      (CC and)
+      (VP (VBP walk)
+        (PRT (RP down))
+        (NP
+          (NP (DT the) (NN hallway))
+          (PP (TO to)
+            (NP (DT the) (NN bedroom))))))
+    (. .)))
+
+nsubj(left-2, turn-1)
+nsubj(walk-4, turn-1)
+root(ROOT-0, left-2)
+cc(left-2, and-3)
+conj:and(left-2, walk-4)
+compound:prt(walk-4, down-5)
+det(hallway-7, the-6)
+dobj(walk-4, hallway-7)
+case(bedroom-10, to-8)
+det(bedroom-10, the-9)
+nmod:to(hallway-7, bedroom-10)
+
+(ROOT
+  (S
+    (VP (VB wait)
+      (PP (IN between)
+        (NP (DT the) (NNS benches))))
+    (. .)))
+
+root(ROOT-0, wait-1)
+case(benches-4, between-2)
+det(benches-4, the-3)
+nmod:between(wait-1, benches-4)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ wcf)))
+    (. .)))
+
+nsubj(wcf-3, I-1)
+cop(wcf-3, am-2)
+root(ROOT-0, wcf-3)
+

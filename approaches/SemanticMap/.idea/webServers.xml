@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="e1d1dd7f-89f9-4866-98f9-4d5fcd988ea8" name="SemanticMap" url="http://qiyuand@matrix.ml.cmu.edu">
+        <fileTransfer host="qiyuand@matrix.ml.cmu.edu" port="22" rootFolder="/home/qiyuand/SemanticMap" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="77f51814-7cc0-4234-8724-75410170cc14" name="chufanwSemantic" url="http://chufanw@matrix.ml.cmu.edu">
+        <fileTransfer host="chufanw@matrix.ml.cmu.edu" port="22" rootFolder="/home/chufanw/qiyuand" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="61db26c0-814b-4f05-ab84-7104c11a77fe" name="gcloudSemantic" url="http://dqy20323395@35.203.159.219">
+        <fileTransfer host="dqy20323395@35.203.159.219" port="22" privateKey="$USER_HOME$/.ssh/semantic_key" rootFolder="/home/dqy20323395/SemanticMap" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

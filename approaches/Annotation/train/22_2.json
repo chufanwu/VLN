@@ -1,0 +1,119 @@
+[
+    {
+        "scan_id": "5LpN3gDmAk7", 
+        "instruction": "Walk toward the red painting", 
+        "type": "title", 
+        "instructionID": 22
+    }, 
+    {
+        "neibors": [
+            {
+                "rel_elevation": 0.0, 
+                "rel_heading": 0.0, 
+                "viewpointId": "5f5b895c833b41afb1db0ba29afce147", 
+                "rel_distance": 0.0, 
+                "point": [
+                    4.221680164337158, 
+                    -7.486420154571533, 
+                    4.497550010681152
+                ]
+            }, 
+            {
+                "rel_elevation": 0.0011637621622495905, 
+                "rel_heading": 0.061878261995197185, 
+                "viewpointId": "ccabfad5dfcd47cd821e57a15a58d55c", 
+                "rel_distance": 3.265199899673462, 
+                "point": [
+                    2.7670700550079346, 
+                    -4.563129901885986, 
+                    4.501349925994873
+                ]
+            }, 
+            {
+                "rel_elevation": 0.006836005798985941, 
+                "rel_heading": 0.4454825365572581, 
+                "viewpointId": "49888a3fad204e94a546db3b697a364b", 
+                "rel_distance": 0.8309133052825928, 
+                "point": [
+                    4.156839847564697, 
+                    -6.658060073852539, 
+                    4.503230094909668
+                ]
+            }
+        ], 
+        "elevation": 0.0, 
+        "point": [
+            4.221680164337158, 
+            -7.486420154571533, 
+            4.497550010681152
+        ], 
+        "imageId": "5f5b895c833b41afb1db0ba29afce147_23", 
+        "location": "5f5b895c833b41afb1db0ba29afce147", 
+        "type": "state", 
+        "heading": 5.759586531581287
+    }, 
+    {
+        "elevation": 0, 
+        "type": "action", 
+        "location": 1, 
+        "heading": 0
+    }, 
+    {
+        "neibors": [
+            {
+                "rel_elevation": 0.0, 
+                "rel_heading": 0.0, 
+                "viewpointId": "ccabfad5dfcd47cd821e57a15a58d55c", 
+                "rel_distance": 0.0, 
+                "point": [
+                    2.7670700550079346, 
+                    -4.563129901885986, 
+                    4.501349925994873
+                ]
+            }, 
+            {
+                "rel_elevation": -0.002422252438808559, 
+                "rel_heading": 0.059867951360636225, 
+                "viewpointId": "f106c5744f8e444d931ed9bdd12ee3aa", 
+                "rel_distance": 2.6339480876922607, 
+                "point": [
+                    1.5889400243759155, 
+                    -2.207360029220581, 
+                    4.494969844818115
+                ]
+            }, 
+            {
+                "rel_elevation": -0.0033185969140840476, 
+                "rel_heading": -0.08260149835330727, 
+                "viewpointId": "20216703be7341b89b57ea2165e6a9bb", 
+                "rel_distance": 1.928562045097351, 
+                "point": [
+                    1.668280005455017, 
+                    -2.978209972381592, 
+                    4.494949817657471
+                ]
+            }, 
+            {
+                "rel_elevation": -0.005776880543290647, 
+                "rel_heading": -0.41616282130761567, 
+                "viewpointId": "85b4d3014af0457e9bb0827ea6e18925", 
+                "rel_distance": 1.3311675786972046, 
+                "point": [
+                    1.6922800540924072, 
+                    -3.777780055999756, 
+                    4.493659973144531
+                ]
+            }
+        ], 
+        "elevation": 0.0, 
+        "point": [
+            2.7670700550079346, 
+            -4.563129901885986, 
+            4.501349925994873
+        ], 
+        "imageId": "ccabfad5dfcd47cd821e57a15a58d55c_23", 
+        "location": "ccabfad5dfcd47cd821e57a15a58d55c", 
+        "type": "state", 
+        "heading": 5.759586531581287
+    }
+]

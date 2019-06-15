@@ -1,0 +1,100 @@
+[
+    {
+        "scan_id": "b8cTxDM8gDG", 
+        "instruction": " into the open door", 
+        "type": "title", 
+        "instructionID": 14, 
+        "nouns": [
+            "door"
+        ]
+    }, 
+    {
+        "neibors": [
+            {
+                "rel_elevation": 0.0, 
+                "rel_heading": 0.0, 
+                "viewpointId": "78485dd696e24574a37f81dea58c5f4f", 
+                "rel_distance": 0.0, 
+                "point": [
+                    2.290570020675659, 
+                    -3.5191900730133057, 
+                    1.5494799613952637
+                ]
+            }, 
+            {
+                "rel_elevation": -0.007679825679053114, 
+                "rel_heading": -0.022330561380169766, 
+                "viewpointId": "16613734e8cc457d913368b1e19ae6d1", 
+                "rel_distance": 2.839927911758423, 
+                "point": [
+                    2.2271599769592285, 
+                    -0.6800540089607239, 
+                    1.5276700258255005
+                ]
+            }, 
+            {
+                "rel_elevation": -0.004847864163640588, 
+                "rel_heading": -0.11392524366672961, 
+                "viewpointId": "ddc9afa8e031453abd45c783fbfeb4aa", 
+                "rel_distance": 1.010753870010376, 
+                "point": [
+                    2.1756699085235596, 
+                    -2.515000104904175, 
+                    1.5445799827575684
+                ]
+            }, 
+            {
+                "rel_elevation": -0.0022783439056069258, 
+                "rel_heading": -0.6806926677425046, 
+                "viewpointId": "184a9b92b85840d88bf5793da9aa9cba", 
+                "rel_distance": 3.770278215408325, 
+                "point": [
+                    -0.08217869699001312, 
+                    -0.5891749858856201, 
+                    1.5408899784088135
+                ]
+            }
+        ], 
+        "elevation": 0.0, 
+        "point": [
+            2.290570020675659, 
+            -3.5191900730133057, 
+            1.5494799613952637
+        ], 
+        "imageId": "78485dd696e24574a37f81dea58c5f4f_12", 
+        "location": "78485dd696e24574a37f81dea58c5f4f", 
+        "type": "state", 
+        "heading": 0.0
+    }, 
+    {
+        "type": "action", 
+        "elevation": 0, 
+        "location": 1, 
+        "heading": 0
+    }, 
+    {
+        "neibors": [
+            {
+                "rel_elevation": 0.0, 
+                "rel_heading": 0.0, 
+                "viewpointId": "16613734e8cc457d913368b1e19ae6d1", 
+                "rel_distance": 0.0, 
+                "point": [
+                    2.2271599769592285, 
+                    -0.6800540089607239, 
+                    1.5276700258255005
+                ]
+            }
+        ], 
+        "elevation": 0.0, 
+        "point": [
+            2.2271599769592285, 
+            -0.6800540089607239, 
+            1.5276700258255005
+        ], 
+        "imageId": "16613734e8cc457d913368b1e19ae6d1_12", 
+        "location": "16613734e8cc457d913368b1e19ae6d1", 
+        "type": "state", 
+        "heading": 0.0
+    }
+]

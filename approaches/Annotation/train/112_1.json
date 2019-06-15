@@ -1,0 +1,128 @@
+[
+    {
+        "scan_id": "759xd9YjKW5", 
+        "instruction": "Walk away from the bookshelf", 
+        "type": "title", 
+        "instructionID": 112
+    }, 
+    {
+        "neibors": [
+            {
+                "rel_elevation": 0.0, 
+                "rel_heading": 0.0, 
+                "viewpointId": "5764e704c4574c34b7a579260f191e7c", 
+                "rel_distance": 0.0, 
+                "point": [
+                    -11.40310001373291, 
+                    -12.860199928283691, 
+                    1.6201000213623047
+                ]
+            }, 
+            {
+                "rel_elevation": -0.00634519900189152, 
+                "rel_heading": 0.2601064714813407, 
+                "viewpointId": "fc30206582bb494190095c4439e2da29", 
+                "rel_distance": 2.6792213916778564, 
+                "point": [
+                    -12.100899696350098, 
+                    -10.273500442504883, 
+                    1.6030999422073364
+                ]
+            }
+        ], 
+        "elevation": 0.0, 
+        "point": [
+            -11.40310001373291, 
+            -12.860199928283691, 
+            1.6201000213623047
+        ], 
+        "imageId": "5764e704c4574c34b7a579260f191e7c_23", 
+        "location": "5764e704c4574c34b7a579260f191e7c", 
+        "type": "state", 
+        "heading": 5.759586531581287
+    }, 
+    {
+        "elevation": 0, 
+        "type": "action", 
+        "location": 1, 
+        "heading": 0
+    }, 
+    {
+        "neibors": [
+            {
+                "rel_elevation": 0.0, 
+                "rel_heading": 0.0, 
+                "viewpointId": "fc30206582bb494190095c4439e2da29", 
+                "rel_distance": 0.0, 
+                "point": [
+                    -12.100899696350098, 
+                    -10.273500442504883, 
+                    1.6030999422073364
+                ]
+            }, 
+            {
+                "rel_elevation": -0.0014454516561721886, 
+                "rel_heading": 0.6611383813527579, 
+                "viewpointId": "bbbe225834074bb0a3fb31a3e1e80685", 
+                "rel_distance": 2.324474334716797, 
+                "point": [
+                    -11.78219985961914, 
+                    -7.970980167388916, 
+                    1.5997400283813477
+                ]
+            }
+        ], 
+        "elevation": 0.0, 
+        "point": [
+            -12.100899696350098, 
+            -10.273500442504883, 
+            1.6030999422073364
+        ], 
+        "imageId": "fc30206582bb494190095c4439e2da29_23", 
+        "location": "fc30206582bb494190095c4439e2da29", 
+        "type": "state", 
+        "heading": 5.759586531581287
+    }, 
+    {
+        "elevation": 0, 
+        "type": "action", 
+        "location": 0, 
+        "heading": 0.5235987755982988
+    }, 
+    {
+        "neibors": [
+            {
+                "rel_elevation": 0.0, 
+                "rel_heading": 0.0, 
+                "viewpointId": "fc30206582bb494190095c4439e2da29", 
+                "rel_distance": 0.0, 
+                "point": [
+                    -12.100899696350098, 
+                    -10.273500442504883, 
+                    1.6030999422073364
+                ]
+            }, 
+            {
+                "rel_elevation": -0.0014454516561721886, 
+                "rel_heading": 0.1375395786081546, 
+                "viewpointId": "bbbe225834074bb0a3fb31a3e1e80685", 
+                "rel_distance": 2.324474334716797, 
+                "point": [
+                    -11.78219985961914, 
+                    -7.970980167388916, 
+                    1.5997400283813477
+                ]
+            }
+        ], 
+        "elevation": 0.0, 
+        "point": [
+            -12.100899696350098, 
+            -10.273500442504883, 
+            1.6030999422073364
+        ], 
+        "imageId": "fc30206582bb494190095c4439e2da29_12", 
+        "location": "fc30206582bb494190095c4439e2da29", 
+        "type": "state", 
+        "heading": 0.0
+    }
+]

@@ -1,0 +1,131 @@
+[
+    {
+        "scan_id": "7y3sRwLe3Va", 
+        "instruction": "go into the house. ", 
+        "type": "title", 
+        "instructionID": 139, 
+        "nouns": [
+            "house"
+        ]
+    }, 
+    {
+        "neibors": [
+            {
+                "rel_elevation": 0.0, 
+                "rel_heading": 0.0, 
+                "viewpointId": "d053428c481b44dfbc96564b7efd1f61", 
+                "rel_distance": 0.0, 
+                "point": [
+                    -7.358910083770752, 
+                    -0.4394949972629547, 
+                    1.471310019493103
+                ]
+            }, 
+            {
+                "rel_elevation": 0.058531645824925614, 
+                "rel_heading": -0.08657180663509355, 
+                "viewpointId": "d4c7bbd42a9f482c9940cb0074dd5cb0", 
+                "rel_distance": 1.355595350265503, 
+                "point": [
+                    -7.931680202484131, 
+                    -1.6655800342559814, 
+                    1.5506099462509155
+                ]
+            }
+        ], 
+        "elevation": 0.0, 
+        "point": [
+            -7.358910083770752, 
+            -0.4394949972629547, 
+            1.471310019493103
+        ], 
+        "imageId": "d053428c481b44dfbc96564b7efd1f61_18", 
+        "location": "d053428c481b44dfbc96564b7efd1f61", 
+        "type": "state", 
+        "heading": 3.665191429188092
+    }, 
+    {
+        "type": "action", 
+        "elevation": 0, 
+        "location": 1, 
+        "heading": 0
+    }, 
+    {
+        "neibors": [
+            {
+                "rel_elevation": 0.0, 
+                "rel_heading": 0.0, 
+                "viewpointId": "d4c7bbd42a9f482c9940cb0074dd5cb0", 
+                "rel_distance": 0.0, 
+                "point": [
+                    -7.931680202484131, 
+                    -1.6655800342559814, 
+                    1.5506099462509155
+                ]
+            }, 
+            {
+                "rel_elevation": 0.00277460996869885, 
+                "rel_heading": 0.3304443724006859, 
+                "viewpointId": "46aef22029c84fc491a34cd12b8c9d0e", 
+                "rel_distance": 1.8417118787765503, 
+                "point": [
+                    -9.320219993591309, 
+                    -2.875469923019409, 
+                    1.5557199716567993
+                ]
+            }
+        ], 
+        "elevation": 0.0, 
+        "point": [
+            -7.931680202484131, 
+            -1.6655800342559814, 
+            1.5506099462509155
+        ], 
+        "imageId": "d4c7bbd42a9f482c9940cb0074dd5cb0_18", 
+        "location": "d4c7bbd42a9f482c9940cb0074dd5cb0", 
+        "type": "state", 
+        "heading": 3.665191429188092
+    }, 
+    {
+        "type": "action", 
+        "elevation": 0, 
+        "location": 0, 
+        "heading": 0.5235987755982988
+    }, 
+    {
+        "neibors": [
+            {
+                "rel_elevation": 0.0, 
+                "rel_heading": 0.0, 
+                "viewpointId": "d4c7bbd42a9f482c9940cb0074dd5cb0", 
+                "rel_distance": 0.0, 
+                "point": [
+                    -7.931680202484131, 
+                    -1.6655800342559814, 
+                    1.5506099462509155
+                ]
+            }, 
+            {
+                "rel_elevation": 0.00277460996869885, 
+                "rel_heading": -0.19315440818217702, 
+                "viewpointId": "46aef22029c84fc491a34cd12b8c9d0e", 
+                "rel_distance": 1.8417118787765503, 
+                "point": [
+                    -9.320219993591309, 
+                    -2.875469923019409, 
+                    1.5557199716567993
+                ]
+            }
+        ], 
+        "elevation": 0.0, 
+        "point": [
+            -7.931680202484131, 
+            -1.6655800342559814, 
+            1.5506099462509155
+        ], 
+        "imageId": "d4c7bbd42a9f482c9940cb0074dd5cb0_20", 
+        "location": "d4c7bbd42a9f482c9940cb0074dd5cb0", 
+        "type": "state", 
+        "heading": 4.1887902047863905
+    }
+]

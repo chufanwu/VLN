@@ -1,0 +1,86 @@
+[
+    {
+        "scan_id": "759xd9YjKW5", 
+        "instruction": "Walk to the foot of the bed.", 
+        "type": "title", 
+        "instructionID": 57
+    }, 
+    {
+        "neibors": [
+            {
+                "rel_elevation": 0.0, 
+                "rel_heading": 0.0, 
+                "viewpointId": "2ebc2682287645efabf7f2319682aab1", 
+                "rel_distance": 0.0, 
+                "point": [
+                    -7.792029857635498, 
+                    -16.88960075378418, 
+                    1.6285200119018555
+                ]
+            }, 
+            {
+                "rel_elevation": -0.005257976585623669, 
+                "rel_heading": -0.24645159757313723, 
+                "viewpointId": "8aab1e4ed6e845328b9d8ab7e2c009ac", 
+                "rel_distance": 4.38953971862793, 
+                "point": [
+                    -4.736199855804443, 
+                    -20.040700912475586, 
+                    1.6054400205612183
+                ]
+            }, 
+            {
+                "rel_elevation": -0.01370934847905966, 
+                "rel_heading": -0.6812515319333885, 
+                "viewpointId": "abfdb9e245524fac9a1f70419788b6bf", 
+                "rel_distance": 2.3546690940856934, 
+                "point": [
+                    -5.593480110168457, 
+                    -17.732099533081055, 
+                    1.5962400436401367
+                ]
+            }
+        ], 
+        "elevation": 0.0, 
+        "point": [
+            -7.792029857635498, 
+            -16.88960075378418, 
+            1.6285200119018555
+        ], 
+        "imageId": "2ebc2682287645efabf7f2319682aab1_17", 
+        "location": "2ebc2682287645efabf7f2319682aab1", 
+        "type": "state", 
+        "heading": 2.617993877991494
+    }, 
+    {
+        "elevation": 0, 
+        "type": "action", 
+        "location": 1, 
+        "heading": 0
+    }, 
+    {
+        "neibors": [
+            {
+                "rel_elevation": 0.0, 
+                "rel_heading": 0.0, 
+                "viewpointId": "8aab1e4ed6e845328b9d8ab7e2c009ac", 
+                "rel_distance": 0.0, 
+                "point": [
+                    -4.736199855804443, 
+                    -20.040700912475586, 
+                    1.6054400205612183
+                ]
+            }
+        ], 
+        "elevation": 0.0, 
+        "point": [
+            -4.736199855804443, 
+            -20.040700912475586, 
+            1.6054400205612183
+        ], 
+        "imageId": "8aab1e4ed6e845328b9d8ab7e2c009ac_17", 
+        "location": "8aab1e4ed6e845328b9d8ab7e2c009ac", 
+        "type": "state", 
+        "heading": 2.617993877991494
+    }
+]

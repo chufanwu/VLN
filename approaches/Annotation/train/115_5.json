@@ -1,0 +1,86 @@
+[
+    {
+        "scan_id": "jh4fc5c5qoQ", 
+        "instruction": "stop on top of the place mat. ", 
+        "type": "title", 
+        "instructionID": 115
+    }, 
+    {
+        "neibors": [
+            {
+                "rel_elevation": 0.0, 
+                "rel_heading": 0.0, 
+                "viewpointId": "39791f422b0244aa84b3d41d9b218f7e", 
+                "rel_distance": 0.0, 
+                "point": [
+                    11.724499702453613, 
+                    -1.9464099407196045, 
+                    1.5626699924468994
+                ]
+            }, 
+            {
+                "rel_elevation": -0.006087611728758063, 
+                "rel_heading": 0.029611886190607804, 
+                "viewpointId": "c91341f14a4f499e8b45d128091ed087", 
+                "rel_distance": 0.6620025038719177, 
+                "point": [
+                    11.704899787902832, 
+                    -2.608109951019287, 
+                    1.5586400032043457
+                ]
+            }, 
+            {
+                "rel_elevation": -0.007115760015361386, 
+                "rel_heading": -0.7540261766138141, 
+                "viewpointId": "800eb666021c4fd2a603dc9d89b8a50d", 
+                "rel_distance": 2.595675468444824, 
+                "point": [
+                    13.501399993896484, 
+                    -3.8384499549865723, 
+                    1.5441999435424805
+                ]
+            }
+        ], 
+        "elevation": 0.0, 
+        "point": [
+            11.724499702453613, 
+            -1.9464099407196045, 
+            1.5626699924468994
+        ], 
+        "imageId": "39791f422b0244aa84b3d41d9b218f7e_18", 
+        "location": "39791f422b0244aa84b3d41d9b218f7e", 
+        "type": "state", 
+        "heading": 3.141592653589793
+    }, 
+    {
+        "elevation": 0, 
+        "type": "action", 
+        "location": 1, 
+        "heading": 0
+    }, 
+    {
+        "neibors": [
+            {
+                "rel_elevation": 0.0, 
+                "rel_heading": 0.0, 
+                "viewpointId": "c91341f14a4f499e8b45d128091ed087", 
+                "rel_distance": 0.0, 
+                "point": [
+                    11.704899787902832, 
+                    -2.608109951019287, 
+                    1.5586400032043457
+                ]
+            }
+        ], 
+        "elevation": 0.0, 
+        "point": [
+            11.704899787902832, 
+            -2.608109951019287, 
+            1.5586400032043457
+        ], 
+        "imageId": "c91341f14a4f499e8b45d128091ed087_18", 
+        "location": "c91341f14a4f499e8b45d128091ed087", 
+        "type": "state", 
+        "heading": 3.141592653589793
+    }
+]

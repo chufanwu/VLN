@@ -1,0 +1,14 @@
+walk/go/head/move/continue
+out,up,down,between,to/over to/toward/towards,in front of,forward/forward into,into/inside,across/pass/past/passed,through,along/by,around,right,left,straight,behind
+turn
+left,right,around,into/towards/toward
+stand/stop/wait
+in/inside,in front of/before,at/by/beside/right by/next to,on,near,between,behind,about,after,outside
+enter
+no/inside/in/into
+exit
+no,through
+take/make
+no,a sharp turn right,a sharp turn left,a right turn/a slight right turn/a right,a left turn/a slight left turn/a left
+leave
+no

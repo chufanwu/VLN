@@ -1,0 +1,89 @@
+[
+    {
+        "scan_id": "EDJbREhghzL", 
+        "instruction": "Go to the stairs\r", 
+        "type": "title", 
+        "instructionID": 152, 
+        "nouns": [
+            "stair"
+        ]
+    }, 
+    {
+        "neibors": [
+            {
+                "rel_elevation": 0.0, 
+                "rel_heading": 0.0, 
+                "viewpointId": "feb3e37459f942f98d53eb78d66375f5", 
+                "rel_distance": 0.0, 
+                "point": [
+                    -4.635990142822266, 
+                    -3.5635299682617188, 
+                    1.4063899517059326
+                ]
+            }, 
+            {
+                "rel_elevation": 0.0007526682569619665, 
+                "rel_heading": 0.09163640000222727, 
+                "viewpointId": "118169c7cc3f488e88a237f10cad437b", 
+                "rel_distance": 1.5811301469802856, 
+                "point": [
+                    -3.3447799682617188, 
+                    -4.476079940795898, 
+                    1.407580018043518
+                ]
+            }, 
+            {
+                "rel_elevation": 0.09509619460060753, 
+                "rel_heading": 0.3506602165101101, 
+                "viewpointId": "e94cd6b986b5456990723fa8d9612759", 
+                "rel_distance": 2.03048038482666, 
+                "point": [
+                    -3.3391900062561035, 
+                    -5.114009857177734, 
+                    1.5991899967193604
+                ]
+            }
+        ], 
+        "elevation": 0.0, 
+        "point": [
+            -4.635990142822266, 
+            -3.5635299682617188, 
+            1.4063899517059326
+        ], 
+        "imageId": "feb3e37459f942f98d53eb78d66375f5_16", 
+        "location": "feb3e37459f942f98d53eb78d66375f5", 
+        "type": "state", 
+        "heading": 2.0943951023931953
+    }, 
+    {
+        "type": "action", 
+        "elevation": 0, 
+        "location": 1, 
+        "heading": 0
+    }, 
+    {
+        "neibors": [
+            {
+                "rel_elevation": 0.0, 
+                "rel_heading": 0.0, 
+                "viewpointId": "118169c7cc3f488e88a237f10cad437b", 
+                "rel_distance": 0.0, 
+                "point": [
+                    -3.3447799682617188, 
+                    -4.476079940795898, 
+                    1.407580018043518
+                ]
+            }
+        ], 
+        "elevation": 0.0, 
+        "point": [
+            -3.3447799682617188, 
+            -4.476079940795898, 
+            1.407580018043518
+        ], 
+        "imageId": "118169c7cc3f488e88a237f10cad437b_16", 
+        "location": "118169c7cc3f488e88a237f10cad437b", 
+        "type": "state", 
+        "heading": 2.0943951023931953
+    }
+]

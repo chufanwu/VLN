@@ -1,3 +1,8 @@
+# Visual-Language Navigation
+This is the project of Visual-Language Navigation. We aim to build a system guiding the rebot to find the desired location given natural language instructions.
+Please follow the [user guide](user_guide.md) for environment installation and simulator setup.
+We have tried multiple approaches to fulfill this task. Please check the folder[approaches](approaches/) for detail.
+
 # Matterport3D Simulator
 AI Research Platform for Reinforcement Learning from Real Panoramic Images.
 
